@@ -1,0 +1,212 @@
+[
+  {
+    "name": "2010 Rust Rewrite Mashup",
+    "guest": [
+      "Skate 3",
+      "Minecraft"
+    ],
+    "host": "Call of Duty: Modern Warfare 2 via IW4L",
+    "creator": "chasmlol",
+    "status": [
+      "released",
+      "source-available"
+    ],
+    "first_seen": "2026-09-28",
+    "source": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
+    "release": "https://github.com/chasmlol/2010-rust-rewrite-mashup/releases",
+    "license": "Apache-2.0",
+    "category": "core",
+    "notes": "From-scratch Rust MW2 runtime with Skate 3 mode and a generated Minecraft world with blocks, mobs, inventory, mining and placement."
+  },
+  {
+    "name": "SkyCraft",
+    "guest": [
+      "Minecraft: Java Edition"
+    ],
+    "host": "The Elder Scrolls V: Skyrim Special Edition",
+    "creator": "chasmlol",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-09-30",
+    "source": "https://github.com/chasmlol/SkyCraft",
+    "release": "https://github.com/chasmlol/SkyCraft/releases",
+    "license": "MIT",
+    "category": "core",
+    "notes": "SKSE plugin and Fabric mod communicate through shared memory; Minecraft runs game logic while Skyrim renders the world."
+  },
+  {
+    "name": "HytaleDoom",
+    "guest": [
+      "DOOM"
+    ],
+    "host": "Hytale",
+    "creator": "tr7zw",
+    "status": [
+      "source-available",
+      "tech-demo"
+    ],
+    "first_seen": "2026-01",
+    "source": "https://github.com/tr7zw/HytaleDoom",
+    "media": "https://www.youtube.com/watch?v=RxVj6_NKRDY",
+    "license": null,
+    "category": "core",
+    "notes": "Java DOOM implementation rendered as raw pixel data inside a Hytale mod."
+  },
+  {
+    "name": "Halocraft",
+    "guest": [
+      "Minecraft"
+    ],
+    "host": "Halo 3 / Halo: The Master Chief Collection",
+    "creator": "InfernoPlus",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2022-10-29",
+    "release": "https://steamcommunity.com/sharedfiles/filedetails/?id=2899362333",
+    "project_page": "https://www.patreon.com/infernoplus/posts/halocraft-73930239",
+    "license": null,
+    "category": "core",
+    "notes": "Four destructible Minecraft-style multiplayer maps implemented in Halo 3."
+  },
+  {
+    "name": "Dark Souls: Remastest / Remastester",
+    "guest": [
+      "Halo"
+    ],
+    "host": "Dark Souls: Prepare to Die Edition",
+    "creator": "InfernoPlus and collaborators",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2021",
+    "release": "https://www.patreon.com/infernoplus/posts/dark-souls-90413873",
+    "media": "https://www.youtube.com/watch?v=qRBTMhG2_00",
+    "license": null,
+    "category": "core",
+    "notes": "Large multiplayer overhaul with Halo maps, weapons and other cross-game systems."
+  },
+  {
+    "name": "Ocarina of Time in Minecraft",
+    "guest": [
+      "The Legend of Zelda: Ocarina of Time"
+    ],
+    "host": "Minecraft",
+    "creator": "Rivero",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2020-11-28",
+    "release": "https://rivero7462.itch.io/ocarina-of-time-in-minecraft",
+    "media": "https://www.youtube.com/watch?v=HSGioTZ_rf4",
+    "license": null,
+    "category": "core",
+    "notes": "Seven-year solo recreation intended to be playable from start to finish, including bosses, quests, items and story."
+  },
+  {
+    "name": "Minecraft voxel engine inside Super Mario 64",
+    "guest": [
+      "Minecraft-style voxel/world systems"
+    ],
+    "host": "Super Mario 64 / Nintendo 64",
+    "creator": "Arthurtilly",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2025-05-19",
+    "media": "https://www.youtube.com/watch?v=Fo1_-UalrmY",
+    "creator_post": "https://x.com/arthurtilly413/status/1924566904498487662",
+    "license": null,
+    "category": "core",
+    "notes": "Custom voxel engine developed inside the SM64 engine; demonstrated running on original N64 hardware."
+  },
+  {
+    "name": "Morrowind in Elden Ring",
+    "guest": [
+      "The Elder Scrolls III: Morrowind"
+    ],
+    "host": "Elden Ring",
+    "creator": "InfernoPlus and collaborators",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2025-08-30",
+    "media": "https://www.youtube.com/watch?v=n89NFtIUWDI",
+    "license": null,
+    "category": "core",
+    "notes": "Large-scale WIP conversion/recreation of Morrowind's world in Elden Ring."
+  },
+  {
+    "name": "Minecraft in Elden Ring",
+    "guest": [
+      "Minecraft"
+    ],
+    "host": "Elden Ring",
+    "creator": "TobynJacobs",
+    "status": [
+      "video-only",
+      "unverified"
+    ],
+    "first_seen": "2026-09-29",
+    "creator_post": "https://x.com/TobynJacobs/status/2104884843297599594",
+    "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
+    "license": null,
+    "category": "watchlist",
+    "notes": "Original creator footage exists, but no public repository/download was located and implementation claims are not externally reproducible."
+  },
+  {
+    "name": "Minecraft in GTA V",
+    "guest": [
+      "Minecraft"
+    ],
+    "host": "Grand Theft Auto V",
+    "creator": null,
+    "status": [
+      "unverified"
+    ],
+    "first_seen": "2026-10-01",
+    "discussion": "https://www.reddit.com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/",
+    "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
+    "license": null,
+    "category": "watchlist",
+    "notes": "Viral footage/discussion; no matching public source or release verified."
+  },
+  {
+    "name": "Minecraft in Cyberpunk 2077",
+    "guest": [
+      "Minecraft"
+    ],
+    "host": "Cyberpunk 2077",
+    "creator": null,
+    "status": [
+      "unverified"
+    ],
+    "first_seen": "2026-09",
+    "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
+    "license": null,
+    "category": "watchlist",
+    "notes": "No matching public source/release verified as of 2026-10-01."
+  },
+  {
+    "name": "Portal Zombies",
+    "guest": [
+      "Portal"
+    ],
+    "host": "Call of Duty: Black Ops III Zombies",
+    "creator": "xdferpc",
+    "status": [
+      "released",
+      "adjacent"
+    ],
+    "first_seen": "2017-02-04",
+    "release": "https://steamcommunity.com/sharedfiles/filedetails/?id=856630622",
+    "license": null,
+    "category": "adjacent",
+    "notes": "Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation."
+  }
+]
