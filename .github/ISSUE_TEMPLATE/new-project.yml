@@ -1,6 +1,5 @@
 name: Add a game mashup
 description: Suggest a new project or move a watchlist entry to verified
-labels: ["new-project", "verification-needed"]
 body:
   - type: markdown
     attributes:
