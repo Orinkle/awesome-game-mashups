@@ -1,0 +1,13 @@
+{
+  "labels": {
+    "new-project": "created",
+    "verification-needed": "created",
+    "verified": "created",
+    "watchlist": "created",
+    "correction": "created",
+    "broken-link": "created",
+    "duplicate": "updated"
+  },
+  "topics": "failed: Resource not accessible by integration",
+  "settings": "failed: Resource not accessible by integration"
+}
