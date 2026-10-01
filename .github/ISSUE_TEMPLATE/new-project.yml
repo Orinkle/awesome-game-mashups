@@ -1,0 +1,72 @@
+name: Add a game mashup
+about: Suggest a new project or move a watchlist entry to verified
+labels: ["new-project", "verification-needed"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Primary sources are strongly preferred.
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: guest
+    attributes:
+      label: Guest/source game
+      placeholder: Minecraft
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Host game/runtime
+      placeholder: Skyrim Special Edition
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator
+  - type: input
+    id: primary
+    attributes:
+      label: Primary source URL
+      description: Official repo, release page, creator post/video, or project page.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source-code URL
+  - type: input
+    id: download
+    attributes:
+      label: Download/release URL
+  - type: dropdown
+    id: status
+    attributes:
+      label: Best-supported status
+      options:
+        - Released
+        - Source available
+        - Verified WIP
+        - Video only
+        - Unverified
+        - Adjacent / borderline
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: What is actually implemented?
+      description: Explain mechanics/systems/runtime/world integration. Avoid marketing claims.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification notes
+      description: What did you check, and what remains uncertain?
