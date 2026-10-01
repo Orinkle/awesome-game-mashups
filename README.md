@@ -4,10 +4,13 @@
 
 ![Curated](https://img.shields.io/badge/status-curated-success)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Links](https://github.com/bailo167/awesome-game-mashups/actions/workflows/links.yml/badge.svg)
 ![Last verified](https://img.shields.io/badge/verified-2026--10--01-blue)
 ![License: CC0](https://img.shields.io/badge/list%20license-CC0--1.0-lightgrey)
 
 **Last verified:** 1 October 2026.
+
+[**➕ Submit a game mashup**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Browse structured data](data/projects.json) · [Contribution guide](CONTRIBUTING.md)
 
 This list focuses on substantial cross-game work: one game's gameplay, systems, world, runtime, or mechanics being recreated or embedded in another. A themed skin pack or asset swap alone does not qualify.
 
@@ -251,7 +254,7 @@ Usually **not** included in the core list:
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md), or [open the project submission form](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml).
 
 The short version: **primary sources first**. If the only evidence is a viral repost, submit it to the watchlist instead of presenting it as verified.
 
