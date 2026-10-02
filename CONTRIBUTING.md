@@ -59,6 +59,14 @@ When adding, renaming, reclassifying or updating a project, synchronize its over
 
 Keep badges, structured data and contributor-oriented material below the browsing experience. Do not move the full details into collapsed sections or replace them with only the summary table.
 
+## Link verification
+
+The README intentionally has no **Check links / Links** workflow badge. Do not restore it during maintenance.
+
+Check primary-source and download URLs, project jump links and back links during review, regardless of whether automated checking runs. An HTTP 403 alone does not prove a link is dead; document access limitations and use other primary evidence where possible.
+
+If automated link checking has been disabled, leave it disabled unless the maintainer explicitly requests otherwise. Do not recreate a replacement workflow or treat an intentionally disabled check as a failed or passed check. Report automated results only for runs that actually occurred; a workflow file or missing run alone does not establish its current enabled/disabled setting.
+
 ## Editing `data/projects.json`
 
 Keep entries factual and compact. URLs should point as close to the original project as possible.
