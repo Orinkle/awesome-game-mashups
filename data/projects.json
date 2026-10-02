@@ -16,7 +16,9 @@
     "release": "https://github.com/chasmlol/2010-rust-rewrite-mashup/releases",
     "license": "Apache-2.0",
     "category": "core",
-    "notes": "From-scratch Rust MW2 runtime with Skate 3 mode and a generated Minecraft world with blocks, mobs, inventory, mining and placement."
+    "notes": "From-scratch Rust MW2 runtime with Skate 3 mode and a generated Minecraft world with blocks, mobs, inventory, mining and placement. v0.4.0 improved Minecraft-world frame pacing, made block edges grindable while skating, and fixed several gameplay/stability issues.",
+    "latest_release": "v0.4.0 (2026-10-02)",
+    "last_activity": "2026-10-02"
   },
   {
     "name": "SkyCraft",
@@ -35,7 +37,26 @@
     "release": "https://github.com/chasmlol/SkyCraft/releases",
     "license": "MIT",
     "category": "core",
-    "notes": "SKSE plugin and Fabric mod communicate through shared memory; Minecraft runs game logic while Skyrim renders the world."
+    "notes": "SKSE plugin and Fabric mod communicate through shared memory; Minecraft runs game logic while Skyrim renders the world.",
+    "latest_release": "v0.1.2 (2026-10-01)",
+    "last_activity": "2026-10-01"
+  },
+  {
+    "name": "Minecraft Crossover Bridge",
+    "guest": [
+      "Minecraft: Java Edition 1.21.1"
+    ],
+    "host": "Monster Hunter: World / Elden Ring via CrossOver on Apple Silicon macOS",
+    "creator": "justbustin",
+    "status": [
+      "source-available",
+      "verified-wip"
+    ],
+    "first_seen": "2026-10-01",
+    "source": "https://github.com/justbustin/minecraft-crossover-bridge",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Bridges native macOS Minecraft into Windows games running under CrossOver via shared memory. Minecraft blocks, mobs and the player hand are composited into the host frame with depth/lighting; host terrain becomes Minecraft collision and damage is bridged both ways."
   },
   {
     "name": "HytaleDoom",
@@ -54,6 +75,153 @@
     "license": null,
     "category": "core",
     "notes": "Java DOOM implementation rendered as raw pixel data inside a Hytale mod."
+  },
+  {
+    "name": "DoomMaps",
+    "guest": [
+      "DOOM"
+    ],
+    "host": "Hytale",
+    "creator": "ssquadteam (Sadat Sahib / iamcxv7)",
+    "status": [
+      "source-available",
+      "tech-demo"
+    ],
+    "first_seen": "2026-01-17",
+    "source": "https://github.com/ssquadteam/DoomMaps",
+    "license": "GPL-3.0",
+    "category": "core",
+    "notes": "Hytale plugin that renders DOOM frames to an in-game world-map display and maps player position/input into DOOM. Requires a user-supplied DOOM shareware WAD."
+  },
+  {
+    "name": "HyCraft",
+    "guest": [
+      "Minecraft: Java Edition 1.21.11"
+    ],
+    "host": "Hytale server",
+    "creator": "EdwardBelt",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-02-27",
+    "source": "https://github.com/EdwardBelt/HyCraft",
+    "release": "https://github.com/EdwardBelt/HyCraft/releases/tag/v1.1.4",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Protocol bridge that lets unmodified Minecraft Java clients join Hytale servers, translating packets and synchronising chunks, entities, interactions/combat and inventory."
+  },
+  {
+    "name": "UltraDoom / UltrakillDoom",
+    "guest": [
+      "DOOM (1993)"
+    ],
+    "host": "ULTRAKILL",
+    "creator": "Squaresweets",
+    "status": [
+      "released",
+      "source-available"
+    ],
+    "first_seen": "2026-01-10",
+    "source": "https://github.com/Squaresweets/UltrakillDoom",
+    "license": null,
+    "category": "core",
+    "notes": "BepInEx plugin that runs playable DOOM on ULTRAKILL shop terminals. Uses a user-supplied legitimate/shareware DOOM WAD and builds on DoomInUnityInspector/Managed Doom lineage."
+  },
+  {
+    "name": "HellGate: Doom Portal",
+    "guest": [
+      "DOOM II"
+    ],
+    "host": "Minecraft: Java Edition 1.20.4",
+    "creator": "fate_worshipper",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2026-01-14",
+    "release": "https://www.curseforge.com/minecraft/mc-mods/hellgate-doom-portal",
+    "license": "All Rights Reserved",
+    "category": "core",
+    "notes": "Fabric mod that opens a playable DOOM II experience through an in-world portal/altar, with DOOM progress persisted between sessions."
+  },
+  {
+    "name": "NucleDoom",
+    "guest": [
+      "DOOM (1993)",
+      "Freedoom"
+    ],
+    "host": "Minecraft: Java Edition",
+    "creator": "Patbox",
+    "status": [
+      "released",
+      "source-available"
+    ],
+    "first_seen": "2025-03-29",
+    "source": "https://github.com/Patbox/nucledoom",
+    "release": "https://modrinth.com/mod/nucledoom",
+    "license": null,
+    "category": "core",
+    "notes": "Server-side Fabric mod that runs DOOM inside Minecraft with sound support; shareware DOOM and Freedoom are supported by the project."
+  },
+  {
+    "name": "Wasmcraft game demos",
+    "guest": [
+      "DOOM (1993)",
+      "Celeste Classic",
+      "Minecraft 4k",
+      "Super Mario Bros.",
+      "Pong"
+    ],
+    "host": "Minecraft: Java Edition",
+    "creator": "SuperTails",
+    "status": [
+      "source-available",
+      "tech-demo"
+    ],
+    "first_seen": "2022-03-09",
+    "source": "https://github.com/SuperTails/wasmcraft2",
+    "license": "Apache-2.0",
+    "category": "core",
+    "notes": "WebAssembly-to-Minecraft datapack compiler demonstrated running multiple games and emulators inside vanilla Minecraft, including DOOM, Celeste Classic and an NES emulator running Super Mario Bros."
+  },
+  {
+    "name": "Dead by Daylight Add-On (Zero Squad)",
+    "guest": [
+      "Dead by Daylight"
+    ],
+    "host": "Minecraft: Bedrock Edition",
+    "creator": "Zero Squad / MidoriyaMC",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2026-08",
+    "release": "https://www.curseforge.com/minecraft-bedrock/addons/dead-by-daylight",
+    "license": "All Rights Reserved",
+    "category": "core",
+    "notes": "Bedrock add-on recreating Dead by Daylight systems including generators and skill checks, pallets/vaulting, health states, hooks, lockers, Trapper bear traps, terror radius, carrying/wiggle mechanics and custom UI using Minecraft Script API."
+  },
+  {
+    "name": "Arcade Mod Reloaded",
+    "guest": [
+      "Tetris",
+      "Pac-Man",
+      "Pong",
+      "Snake",
+      "Space Invaders",
+      "Donkey Kong"
+    ],
+    "host": "Minecraft: Java Edition 1.20.1",
+    "creator": "Bay4lly; original mod by SuperHB",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2026-05-25",
+    "release": "https://www.curseforge.com/minecraft/mc-mods/arcade-mod-reloaded",
+    "project_page": "https://modrinth.com/mod/arcade-mod-reloaded",
+    "license": "GPL-3.0",
+    "category": "core",
+    "notes": "Forge port/continuation of the older Arcade Mod with six playable arcade-game recreations inside Minecraft."
   },
   {
     "name": "Halocraft",
@@ -107,6 +275,22 @@
     "notes": "Seven-year solo recreation intended to be playable from start to finish, including bosses, quests, items and story."
   },
   {
+    "name": "Pokémon Red in Minecraft",
+    "guest": [
+      "Pokémon Red"
+    ],
+    "host": "Minecraft: Java Edition 1.11.2",
+    "creator": "MrSquishyYT / Mr. Squishy",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2017-03-11",
+    "release": "https://www.curseforge.com/minecraft/worlds/pokemon-red",
+    "license": "All Rights Reserved",
+    "category": "core",
+    "notes": "Complete playable recreation of Pokémon Red in vanilla Minecraft using command blocks and a resource pack, including the original progression and many game systems."
+  },
+  {
     "name": "Minecraft voxel engine inside Super Mario 64",
     "guest": [
       "Minecraft-style voxel/world systems"
@@ -139,7 +323,27 @@
     "media": "https://www.youtube.com/watch?v=n89NFtIUWDI",
     "license": null,
     "category": "core",
-    "notes": "Large-scale WIP conversion/recreation of Morrowind's world in Elden Ring."
+    "notes": "Large-scale WIP recreation of Morrowind in Elden Ring. A May 2026 creator update showed functional combat, spells and gear and described the project as fairly playable, but no public build has been located.",
+    "last_activity": "2026-05-07",
+    "latest_update": "https://www.pcgamer.com/games/rpg/morrowind-in-elden-ring-mod-makes-mindblowing-progress-in-video-dedicated-to-that-one-guy-that-commented-this-project-was-not-going-to-come-out/"
+  },
+  {
+    "name": "Minecraft Classic 0.30 inside Hytale",
+    "guest": [
+      "Minecraft Classic 0.30"
+    ],
+    "host": "Hytale",
+    "creator": "Sadat Sahib / iamcxv7 / SSquadTeam",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-01-17",
+    "creator_post": "https://x.com/iamcxv711/status/2012610249174536397",
+    "verification": "https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-itself-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/",
+    "license": null,
+    "category": "core",
+    "notes": "Primary creator footage shows Minecraft Classic rendered through Hytale's world-map display using pixel-data manipulation/software rendering. No public build located."
   },
   {
     "name": "Minecraft in Elden Ring",
@@ -149,15 +353,14 @@
     "host": "Elden Ring",
     "creator": "TobynJacobs",
     "status": [
-      "video-only",
-      "unverified"
+      "video-only"
     ],
     "first_seen": "2026-09-29",
     "creator_post": "https://x.com/TobynJacobs/status/2104884843297599594",
     "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
     "license": null,
     "category": "watchlist",
-    "notes": "Original creator footage exists, but no public repository/download was located and implementation claims are not externally reproducible."
+    "notes": "Primary creator footage exists, but no public repository/download was located; broader implementation claims remain externally unreproducible."
   },
   {
     "name": "Minecraft in GTA V",
@@ -191,6 +394,22 @@
     "license": null,
     "category": "watchlist",
     "notes": "No matching public source/release verified as of 2026-10-01."
+  },
+  {
+    "name": "Earlier viral Minecraft in Skyrim footage",
+    "guest": [
+      "Minecraft"
+    ],
+    "host": "The Elder Scrolls V: Skyrim",
+    "creator": null,
+    "status": [
+      "unverified"
+    ],
+    "first_seen": "2026-09",
+    "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
+    "license": null,
+    "category": "watchlist",
+    "notes": "Earlier viral Minecraft-in-Skyrim footage was not independently sourced. Do not conflate it with SkyCraft, which is a separate public project."
   },
   {
     "name": "Portal Zombies",
