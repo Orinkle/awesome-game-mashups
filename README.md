@@ -582,7 +582,6 @@ The curation/metadata in this repository is dedicated to the public domain under
 
 ![Curated](https://img.shields.io/badge/status-curated-success)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Links](https://github.com/bailo167/awesome-game-mashups/actions/workflows/links.yml/badge.svg)
 ![Last verified](https://img.shields.io/badge/verified-2026--10--02-blue)
 ![License: CC0](https://img.shields.io/badge/list%20license-CC0--1.0-lightgrey)
 
