@@ -45,6 +45,20 @@ Never turn “I saw a clip” into “this mod exists and is downloadable.”
 - AI-assistance claim only when stated by the creator or a reliable source
 - Notes explaining any uncertainty
 
+## Keeping the README easy to browse
+
+The README has two layers: a simple project list at the top and the full project details below. Preserve both.
+
+- Add each project once to the appropriate overview table and once to the detailed catalogue. Keep the overview to **Project | What it is | Status**, with one plain-language sentence explaining the experience, not the engineering.
+- Link the overview title to the detailed entry's stable `#project-...` anchor. Keep existing anchors working when renaming a project, and include a **Back to project list** link after its details.
+- Use readable statuses without strengthening the evidence. **Released**, **Early release** and **Playable** require a public playable version; **Code available** means public source, not necessarily a ready-to-play download. Keep demo-only and video-only projects clearly labelled.
+- Keep unconfirmed sightings and related/borderline projects in their separate overview sections. Do not mix them into the playable list.
+- Preserve the detailed descriptions, limitations, attribution and evidence links. Clearly label downloads, installation instructions, videos and source code; never label a source-only repository as a download.
+
+When adding, renaming, reclassifying or updating a project, synchronize its overview row, detailed entry and `data/projects.json` record in the same change. Check for missing/duplicate entries, conflicting statuses and broken jump/back links. Names may use a documented alias, but must identify the same project unambiguously.
+
+Keep badges, structured data and contributor-oriented material below the browsing experience. Do not move the full details into collapsed sections or replace them with only the summary table.
+
 ## Editing `data/projects.json`
 
 Keep entries factual and compact. URLs should point as close to the original project as possible.

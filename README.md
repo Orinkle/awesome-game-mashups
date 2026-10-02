@@ -1,43 +1,76 @@
 # Awesome Game Mashups
 
-> A curated list of games rebuilt **inside other games**: cross-game mechanics, engine/runtime mashups, full-system recreations, playable ports, and technically interesting “this game has no business running in that game” projects.
+> Games rebuilt **inside other games**.
 
-![Curated](https://img.shields.io/badge/status-curated-success)
-![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Links](https://github.com/bailo167/awesome-game-mashups/actions/workflows/links.yml/badge.svg)
-![Last verified](https://img.shields.io/badge/verified-2026--10--02-blue)
-![License: CC0](https://img.shields.io/badge/list%20license-CC0--1.0-lightgrey)
+Click a project name for the full details, videos and download links where available.
+
+[**Suggest a project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Unconfirmed sightings](#unconfirmed-sightings) · [Related projects](#related-projects) · [About this list](#what-belongs-here)
 
 **Last verified:** 2 October 2026.
 
-[**➕ Submit a game mashup**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Browse structured data](data/projects.json) · [Contribution guide](CONTRIBUTING.md)
+## Browse projects
 
-This list focuses on substantial cross-game work: one game's gameplay, systems, world, runtime, or mechanics being recreated or embedded in another. A themed skin pack or asset swap alone does not qualify.
+### Available to play
 
-## Contents
+Public playable versions exist. Some are experimental, and installation, platform and game-ownership requirements vary — check the project details before downloading.
 
-- [Legend](#legend)
-- [Playable / source available](#playable--source-available)
-- [Verified demos and works in progress](#verified-demos-and-works-in-progress)
-- [Unverified viral watchlist](#unverified-viral-watchlist)
-- [Adjacent / borderline](#adjacent--borderline)
-- [Creator clusters](#creator-clusters)
-- [What belongs here?](#what-belongs-here)
-- [Contributing](#contributing)
+| Project | What it is | Status |
+|---|---|---|
+| [2010 Rust Rewrite Mashup](#project-rust-rewrite-mashup) | Combines Modern Warfare 2 multiplayer, Skate-style skating and a Minecraft world. | Released |
+| [SkyCraft](#project-skycraft) | Brings Minecraft building, exploration and gameplay into Skyrim. | Early release |
+| [HyCraft](#project-hycraft) | Lets Minecraft players join Hytale servers and interact with their worlds. | Early release |
+| [UltraDoom / UltrakillDoom](#project-ultradoom) | Lets you play DOOM on the shop terminals inside ULTRAKILL. | Playable |
+| [HellGate: Doom Portal](#project-hellgate-doom-portal) | Opens a portal from Minecraft into a playable DOOM II experience. | Released beta |
+| [NucleDoom](#project-nucledoom) | Runs DOOM inside Minecraft with controls and sound. | Released |
+| [Dead by Daylight Add-On (Zero Squad)](#project-dead-by-daylight) | Recreates Dead by Daylight’s generators, chases, traps and survivor systems in Minecraft Bedrock. | Released |
+| [Arcade Mod Reloaded](#project-arcade-mod-reloaded) | Adds six playable arcade games, including Tetris, Pac-Man and Donkey Kong, to Minecraft. | Released |
+| [Pokémon Red in Minecraft](#project-pokemon-red) | Rebuilds the Pokémon Red adventure as a playable game inside vanilla Minecraft. | Released |
+| [Halocraft](#project-halocraft) | Adds destructible Minecraft-style blocks and maps to Halo 3 multiplayer. | Released |
+| [Dark Souls: Remastest / Remastester](#project-remastest) | Mixes Halo maps and weapons with a major Dark Souls multiplayer and combat overhaul. | Released |
+| [Ocarina of Time in Minecraft](#project-ocarina-of-time) | Recreates Zelda: Ocarina of Time in Minecraft, with its story, bosses, quests and items. | Released |
 
-## Legend
+### Code, demos and projects in development
 
-| Marker | Meaning |
-|---|---|
-| 🟢 | Publicly playable/downloadable |
-| 🟣 | Public source available |
-| 🟡 | Verified demo/WIP, but no public playable release |
-| 🔴 | Viral claim or footage not independently verifiable yet |
-| ⚪ | Adjacent/borderline — interesting, but not a full systems mashup |
+**Code available** means the source is public, not necessarily a ready-to-play download. **Demo only** and **Video only** mean there is footage, but no public playable build is listed.
 
-## Playable / source available
+| Project | What it is | Status |
+|---|---|---|
+| [HytaleDoom](#project-hytale-doom) | Lets you control DOOM from inside Hytale. | Code available · Demo |
+| [Minecraft Crossover Bridge](#project-minecraft-crossover-bridge) | Brings Minecraft blocks, mobs and combat into Monster Hunter: World or Elden Ring on Apple Silicon Macs. | Code available · In development |
+| [DoomMaps](#project-doom-maps) | Runs DOOM on Hytale’s in-game world-map screen. | Code available · Demo |
+| [Wasmcraft game demos](#project-wasmcraft) | Runs games including DOOM, Celeste Classic and Super Mario Bros. inside vanilla Minecraft. | Code available · Demos |
+| [Minecraft voxel engine inside Super Mario 64](#project-minecraft-sm64) | Adds Minecraft-style terrain, blocks and lighting to Super Mario 64. | Demo only |
+| [Morrowind in Elden Ring](#project-morrowind-elden-ring) | Recreates Morrowind’s world and gameplay inside Elden Ring. | In development · Video only |
+| [Minecraft Classic 0.30 inside Hytale](#project-minecraft-classic-hytale) | Shows Minecraft Classic running on Hytale’s in-game world-map screen. | Demo only |
 
-### 2010 Rust Rewrite Mashup — *MW2 + Skate 3 + Minecraft*
+## Unconfirmed sightings
+
+These are **not confirmed downloads**. Creator footage can exist without enough evidence to verify the wider implementation claims. Keep these separate from the projects above.
+
+| Project | What it is | Status |
+|---|---|---|
+| [Minecraft in Elden Ring](#project-minecraft-elden-ring-tobynjacobs) | TobynJacobs’ footage shows Minecraft-style gameplay in Elden Ring; wider claims remain unconfirmed. | Video only |
+| [Minecraft in GTA V](#project-minecraft-gta-v) | Viral footage claims to combine Minecraft gameplay with GTA V. | Unverified |
+| [Minecraft in Cyberpunk 2077](#project-minecraft-cyberpunk) | A viral claim puts Minecraft gameplay inside Cyberpunk 2077. | Unverified |
+| [Earlier viral Minecraft in Skyrim footage](#project-minecraft-skyrim-earlier-footage) | Earlier Minecraft-in-Skyrim footage remains unsourced; it is not the verified SkyCraft project. | Unverified |
+
+## Related projects
+
+Interesting crossovers that do not recreate enough of another game's gameplay or systems to qualify for the main list.
+
+| Project | What it is | Status |
+|---|---|---|
+| [Portal Zombies](#project-portal-zombies) | Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. | Released · Related |
+
+## Project details
+
+Download and video links are listed where available. **Source code** is for inspecting or building a project; it is not always a ready-to-install game.
+
+### Playable / source available
+
+<a name="project-rust-rewrite-mashup"></a>
+
+#### 2010 Rust Rewrite Mashup — *MW2 + Skate 3 + Minecraft*
 
 **Guest:** *Skate 3*, *Minecraft*  
 **Host/runtime:** *Call of Duty: Modern Warfare 2* via IW4L  
@@ -47,13 +80,17 @@ This list focuses on substantial cross-game work: one game's gameplay, systems, 
 
 A from-scratch Rust rewrite of MW2 that combines MW2 multiplayer, Skate 3-style skating and a real generated Minecraft world. The Minecraft mode includes blocks, mobs, inventory, mining/placing and world generation; Skate mode uses data from a user-owned Xbox 360 copy. **v0.4.0 (2 Oct 2026)** improved Minecraft-world frame pacing, made block edges grindable while skating, and fixed several gameplay/stability issues.
 
-- [Source repository](https://github.com/chasmlol/2010-rust-rewrite-mashup)
-- [Releases](https://github.com/chasmlol/2010-rust-rewrite-mashup/releases)
+- [Downloads / releases](https://github.com/chasmlol/2010-rust-rewrite-mashup/releases)
+- [Source code](https://github.com/chasmlol/2010-rust-rewrite-mashup)
 - [IW4L upstream](https://github.com/vladtrc/iw4L)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### SkyCraft — *Minecraft inside Skyrim*
+<a name="project-skycraft"></a>
+
+#### SkyCraft — *Minecraft inside Skyrim*
 
 **Guest:** *Minecraft: Java Edition* mechanics/runtime  
 **Host:** *The Elder Scrolls V: Skyrim Special Edition*  
@@ -63,12 +100,16 @@ A from-scratch Rust rewrite of MW2 that combines MW2 multiplayer, Skate 3-style 
 
 Minecraft remains running as the game-logic side while Skyrim renders the world. Movement, inventory, HUD, blocks, digging, fluids, lighting, combat and parts of Minecraft progression are integrated into Skyrim's world.
 
-- [Source repository](https://github.com/chasmlol/SkyCraft)
-- [Releases](https://github.com/chasmlol/SkyCraft/releases)
+- [Downloads / releases](https://github.com/chasmlol/SkyCraft/releases)
+- [Source code](https://github.com/chasmlol/SkyCraft)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### HytaleDoom — *DOOM inside Hytale*
+<a name="project-hytale-doom"></a>
+
+#### HytaleDoom — *DOOM inside Hytale*
 
 **Guest:** *DOOM*  
 **Host:** *Hytale*  
@@ -78,13 +119,17 @@ Minecraft remains running as the game-logic side while Skyrim renders the world.
 
 A deliberately rough proof-of-concept built in a few nights. DOOM is rendered as raw pixel data inside Hytale and is controlled from the game.
 
-- [Source repository](https://github.com/tr7zw/HytaleDoom)
-- [Creator video](https://www.youtube.com/watch?v=RxVj6_NKRDY)
+- [Source code](https://github.com/tr7zw/HytaleDoom)
+- [Watch demo — creator video](https://www.youtube.com/watch?v=RxVj6_NKRDY)
 - [vanilla-mocha-doom dependency](https://github.com/gaborbata/vanilla-mocha-doom/)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### Minecraft Crossover Bridge — *Minecraft inside Monster Hunter: World / Elden Ring*
+<a name="project-minecraft-crossover-bridge"></a>
+
+#### Minecraft Crossover Bridge — *Minecraft inside Monster Hunter: World / Elden Ring*
 
 **Guest:** *Minecraft: Java Edition 1.21.1*  
 **Host:** *Monster Hunter: World* / *Elden Ring* via CrossOver on Apple Silicon macOS  
@@ -94,11 +139,15 @@ A deliberately rough proof-of-concept built in a few nights. DOOM is rendered as
 
 Minecraft runs natively on macOS while the host game runs under CrossOver. The bridge composites Minecraft blocks, mobs and the player's hand into the host frame with depth/lighting, maps host collision into Minecraft, and bridges combat damage in both directions.
 
-- [Source repository](https://github.com/justbustin/minecraft-crossover-bridge)
+- [Source code](https://github.com/justbustin/minecraft-crossover-bridge)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### DoomMaps — *DOOM inside Hytale's world map*
+<a name="project-doom-maps"></a>
+
+#### DoomMaps — *DOOM inside Hytale's world map*
 
 **Guest:** *DOOM*  
 **Host:** *Hytale*  
@@ -108,11 +157,15 @@ Minecraft runs natively on macOS while the host game runs under CrossOver. The b
 
 Runs DOOM through Hytale's in-game world-map display at a targeted 35 FPS, with movement/action controls mapped from Hytale input. It requires the user to supply the DOOM shareware WAD.
 
-- [Source repository](https://github.com/ssquadteam/DoomMaps)
+- [Source code](https://github.com/ssquadteam/DoomMaps)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### HyCraft — *Minecraft clients inside Hytale servers*
+<a name="project-hycraft"></a>
+
+#### HyCraft — *Minecraft clients inside Hytale servers*
 
 **Guest/client:** *Minecraft: Java Edition 1.21.11*  
 **Host:** *Hytale server*  
@@ -122,12 +175,16 @@ Runs DOOM through Hytale's in-game world-map display at a targeted 35 FPS, with 
 
 Minecraft clients can connect to a Hytale server without a client mod. HyCraft converts chunks and biomes, synchronises entities and inventory, and translates block interaction and combat.
 
-- [Source repository](https://github.com/EdwardBelt/HyCraft)
-- [Latest release — v1.1.4](https://github.com/EdwardBelt/HyCraft/releases/tag/v1.1.4)
+- [Download — v1.1.4](https://github.com/EdwardBelt/HyCraft/releases/tag/v1.1.4)
+- [Source code](https://github.com/EdwardBelt/HyCraft)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### UltraDoom / UltrakillDoom — *DOOM on ULTRAKILL terminals*
+<a name="project-ultradoom"></a>
+
+#### UltraDoom / UltrakillDoom — *DOOM on ULTRAKILL terminals*
 
 **Guest:** *DOOM (1993)*  
 **Host:** *ULTRAKILL*  
@@ -137,11 +194,15 @@ Minecraft clients can connect to a Hytale server without a client mod. HyCraft c
 
 Turns ULTRAKILL's diegetic shop terminals into playable DOOM instances. A legitimate or shareware DOOM WAD is supplied by the user.
 
-- [Source repository / install instructions](https://github.com/Squaresweets/UltrakillDoom)
+- [Installation & source code](https://github.com/Squaresweets/UltrakillDoom)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### HellGate: Doom Portal — *DOOM II inside Minecraft*
+<a name="project-hellgate-doom-portal"></a>
+
+#### HellGate: Doom Portal — *DOOM II inside Minecraft*
 
 **Guest:** *DOOM II*  
 **Host:** *Minecraft: Java Edition 1.20.4*  
@@ -153,9 +214,13 @@ An in-world portal and altar launch a playable DOOM II experience from Minecraft
 
 - [Download / project page](https://www.curseforge.com/minecraft/mc-mods/hellgate-doom-portal)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### NucleDoom — *DOOM inside Minecraft*
+<a name="project-nucledoom"></a>
+
+#### NucleDoom — *DOOM inside Minecraft*
 
 **Guest:** *DOOM (1993)* / *Freedoom*  
 **Host:** *Minecraft: Java Edition*  
@@ -165,12 +230,16 @@ An in-world portal and altar launch a playable DOOM II experience from Minecraft
 
 Runs classic DOOM inside Minecraft with controls and sound support. The project supports the shareware DOOM data and Freedoom.
 
-- [Source repository](https://github.com/Patbox/nucledoom)
-- [Modrinth release](https://modrinth.com/mod/nucledoom)
+- [Download — Modrinth](https://modrinth.com/mod/nucledoom)
+- [Source code](https://github.com/Patbox/nucledoom)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### Wasmcraft game demos — *DOOM, Celeste, Mario and more inside Minecraft*
+<a name="project-wasmcraft"></a>
+
+#### Wasmcraft game demos — *DOOM, Celeste, Mario and more inside Minecraft*
 
 **Guest:** *DOOM (1993)*, *Celeste Classic*, *Minecraft 4k*, *Super Mario Bros.*, *Pong*  
 **Host:** *Minecraft: Java Edition*  
@@ -180,12 +249,16 @@ Runs classic DOOM inside Minecraft with controls and sound support. The project 
 
 A historically important technical precursor: Wasmcraft compiles WebAssembly programs into Minecraft datapacks and has public demonstrations of multiple games, including DOOM, Celeste Classic and an NES emulator running Super Mario Bros.
 
-- [Source repository](https://github.com/SuperTails/wasmcraft2)
-- [Demo overview](https://www.youtube.com/watch?v=wCHB1UgwM9o)
+- [Source code](https://github.com/SuperTails/wasmcraft2)
+- [Watch demo overview](https://www.youtube.com/watch?v=wCHB1UgwM9o)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### Dead by Daylight Add-On — *Dead by Daylight systems inside Minecraft Bedrock*
+<a name="project-dead-by-daylight"></a>
+
+#### Dead by Daylight Add-On — *Dead by Daylight systems inside Minecraft Bedrock*
 
 **Guest:** *Dead by Daylight*  
 **Host:** *Minecraft: Bedrock Edition*  
@@ -197,9 +270,13 @@ Recreates generator objectives and skill checks, pallets/vaulting, health states
 
 - [Download / project page](https://www.curseforge.com/minecraft-bedrock/addons/dead-by-daylight)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### Arcade Mod Reloaded — *Arcade games inside Minecraft*
+<a name="project-arcade-mod-reloaded"></a>
+
+#### Arcade Mod Reloaded — *Arcade games inside Minecraft*
 
 **Guest:** *Tetris*, *Pac-Man*, *Pong*, *Snake*, *Space Invaders*, *Donkey Kong*  
 **Host:** *Minecraft: Java Edition 1.20.1*  
@@ -209,12 +286,16 @@ Recreates generator objectives and skill checks, pallets/vaulting, health states
 
 A modern port/continuation of the older Arcade Mod with six playable arcade recreations inside Minecraft.
 
-- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/arcade-mod-reloaded)
-- [Modrinth](https://modrinth.com/mod/arcade-mod-reloaded)
+- [Download — CurseForge](https://www.curseforge.com/minecraft/mc-mods/arcade-mod-reloaded)
+- [Download — Modrinth](https://modrinth.com/mod/arcade-mod-reloaded)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### Pokémon Red in Minecraft — *Pokémon Red rebuilt in vanilla Minecraft*
+<a name="project-pokemon-red"></a>
+
+#### Pokémon Red in Minecraft — *Pokémon Red rebuilt in vanilla Minecraft*
 
 **Guest:** *Pokémon Red*  
 **Host:** *Minecraft: Java Edition 1.11.2*  
@@ -226,9 +307,13 @@ A complete playable recreation of Pokémon Red built in vanilla Minecraft, repro
 
 - [Download / project page](https://www.curseforge.com/minecraft/worlds/pokemon-red)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### Halocraft — *Minecraft-style destruction inside Halo 3*
+<a name="project-halocraft"></a>
+
+#### Halocraft — *Minecraft-style destruction inside Halo 3*
 
 **Guest:** *Minecraft* mechanics  
 **Host:** *Halo 3* / *Halo: The Master Chief Collection*  
@@ -238,13 +323,17 @@ A complete playable recreation of Pokémon Red built in vanilla Minecraft, repro
 
 Four destructible Minecraft maps built inside Halo 3. This is more than a texture swap: the key technical feature is destructible block geometry in a host engine not designed for Minecraft-style terrain destruction.
 
-- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2899362333)
+- [Download — Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2899362333)
 - [Original release post](https://www.patreon.com/infernoplus/posts/halocraft-73930239)
 - [Official Halo spotlight](https://www.halowaypoint.com/news/halo-mcc-modtacular-2)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### Dark Souls: Remastest / Remastester — *Halo inside Dark Souls*
+<a name="project-remastest"></a>
+
+#### Dark Souls: Remastest / Remastester — *Halo inside Dark Souls*
 
 **Guest:** *Halo* maps, weapons and multiplayer ideas  
 **Host:** *Dark Souls: Prepare to Die Edition*  
@@ -254,14 +343,18 @@ Four destructible Minecraft maps built inside Halo 3. This is more than a textur
 
 A large multiplayer-focused Dark Souls overhaul that evolved into a Halo/Dark Souls mashup, including Halo maps and weapons alongside major multiplayer and combat changes.
 
+- [Download — current Remastest release](https://www.patreon.com/infernoplus/posts/dark-souls-90413873)
 - [Creator video — “Dark Souls Except It's Incredibly Cursed”](https://www.youtube.com/watch?v=qRBTMhG2_00)
-- [Current Remastest release post](https://www.patreon.com/infernoplus/posts/dark-souls-90413873)
 - [Original release post](https://www.patreon.com/infernoplus/posts/dark-souls-46865100)
 - [Community tooling: DS Gadget for Remastest](https://github.com/Nordgaren/DS-Gadget-for-Remastest)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### Ocarina of Time in Minecraft — *The full Zelda adventure rebuilt in Minecraft*
+<a name="project-ocarina-of-time"></a>
+
+#### Ocarina of Time in Minecraft — *The full Zelda adventure rebuilt in Minecraft*
 
 **Guest:** *The Legend of Zelda: Ocarina of Time*  
 **Host:** *Minecraft*  
@@ -272,11 +365,17 @@ A large multiplayer-focused Dark Souls overhaul that evolved into a Halo/Dark So
 A seven-year solo recreation designed to be playable from beginning to end, covering the world, bosses, sidequests, story and items rather than only reproducing the map geometry.
 
 - [Download / project page](https://rivero7462.itch.io/ocarina-of-time-in-minecraft)
-- [Release trailer](https://www.youtube.com/watch?v=HSGioTZ_rf4)
+- [Watch release trailer](https://www.youtube.com/watch?v=HSGioTZ_rf4)
 
-## Verified demos and works in progress
+[Back to project list](#browse-projects)
 
-### Minecraft voxel engine inside Super Mario 64
+---
+
+### Verified demos and works in progress
+
+<a name="project-minecraft-sm64"></a>
+
+#### Minecraft voxel engine inside Super Mario 64
 
 **Guest:** Minecraft-style voxel/world systems  
 **Host:** *Super Mario 64* / Nintendo 64  
@@ -286,13 +385,17 @@ A seven-year solo recreation designed to be playable from beginning to end, cove
 
 Runs on emulator and, with reduced render distance, on original Nintendo 64 hardware. The demonstrated build has infinite terrain generation, multiple block types and biomes, early fluid support and lighting features.
 
-- [Creator video](https://www.youtube.com/watch?v=Fo1_-UalrmY)
+- [Watch demo — creator video](https://www.youtube.com/watch?v=Fo1_-UalrmY)
 - [Original creator post](https://x.com/arthurtilly413/status/1924566904498487662)
 - [Creator GitHub](https://github.com/arthurtilly)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### Morrowind in Elden Ring
+<a name="project-morrowind-elden-ring"></a>
+
+#### Morrowind in Elden Ring
 
 **Guest:** *The Elder Scrolls III: Morrowind*  
 **Host:** *Elden Ring*  
@@ -302,10 +405,16 @@ Runs on emulator and, with reduced render distance, on original Nintendo 64 hard
 
 An ongoing recreation of Morrowind in Elden Ring. A May 2026 update showed major progress beyond the original world conversion, including functional combat, spells and gear, but it remains unfinished and no public build has been located.
 
-- [Original creator showcase](https://www.youtube.com/watch?v=n89NFtIUWDI)
+- [Watch original creator showcase](https://www.youtube.com/watch?v=n89NFtIUWDI)
 - [May 2026 progress coverage](https://www.pcgamer.com/games/rpg/morrowind-in-elden-ring-mod-makes-mindblowing-progress-in-video-dedicated-to-that-one-guy-that-commented-this-project-was-not-going-to-come-out/)
 
-### Minecraft Classic 0.30 inside Hytale
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-minecraft-classic-hytale"></a>
+
+#### Minecraft Classic 0.30 inside Hytale
 
 **Guest:** *Minecraft Classic 0.30*  
 **Host:** *Hytale*  
@@ -318,23 +427,31 @@ Primary creator footage demonstrates Minecraft Classic rendered inside Hytale's 
 - [Original creator post](https://x.com/iamcxv711/status/2012610249174536397)
 - [Technical/reporting context](https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-itself-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/)
 
+[Back to project list](#browse-projects)
+
 ---
 
-## Unverified viral watchlist
+### Unverified viral watchlist
 
 These are intentionally separated from the verified list. **A real video is not the same thing as a reproducible public project.** Entries stay here until there is a primary source, release, repository, or enough technical evidence to verify what is actually running.
 
-### “Minecraft in Elden Ring” — TobynJacobs
+<a name="project-minecraft-elden-ring-tobynjacobs"></a>
+
+#### “Minecraft in Elden Ring” — TobynJacobs
 
 **Claim:** Minecraft systems/items/redstone/creative-mode style functionality running in Elden Ring.  
 **Status:** 🔴 Primary creator footage exists; no public repository or download located as of 2 Oct 2026. Broader implementation claims remain externally unreproducible.
 
-- [Original X post](https://x.com/TobynJacobs/status/2104884843297599594)
+- [Watch creator footage — X](https://x.com/TobynJacobs/status/2104884843297599594)
 - [Independent status check](https://heldgames.com/guides/is-that-viral-mod-video-real)
+
+[Back to project list](#browse-projects)
 
 ---
 
-### “Minecraft in GTA V”
+<a name="project-minecraft-gta-v"></a>
+
+#### “Minecraft in GTA V”
 
 **Claim:** Minecraft-like systems/gameplay combined with GTA V.  
 **Status:** 🔴 Viral footage/discussion; no matching public source or release verified as of 2 Oct 2026.
@@ -342,29 +459,43 @@ These are intentionally separated from the verified list. **A real video is not 
 - [Example discussion](https://www.reddit.com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/)
 - [Independent status check](https://heldgames.com/guides/is-that-viral-mod-video-real)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### “Minecraft in Cyberpunk 2077”
+<a name="project-minecraft-cyberpunk"></a>
+
+#### “Minecraft in Cyberpunk 2077”
 
 **Claim:** Minecraft gameplay/systems inside Cyberpunk 2077.  
 **Status:** 🔴 No matching public source/release verified as of 2 Oct 2026.
 
 - [Independent status check](https://heldgames.com/guides/is-that-viral-mod-video-real)
 
+[Back to project list](#browse-projects)
+
 ---
 
-### Earlier viral “Minecraft in Skyrim” footage
+<a name="project-minecraft-skyrim-earlier-footage"></a>
+
+#### Earlier viral “Minecraft in Skyrim” footage
 
 **Claim:** viral Minecraft-in-Skyrim footage circulating before SkyCraft's public release.  
 **Status:** 🔴 The earlier clip itself was not independently sourced. **Do not conflate it with [SkyCraft](https://github.com/chasmlol/SkyCraft), which is a separate, now-verifiable public project.**
 
 - [Independent status check](https://heldgames.com/guides/is-that-viral-mod-video-real)
 
-## Adjacent / borderline
+[Back to project list](#browse-projects)
+
+---
+
+### Adjacent / borderline
 
 These are worth tracking, but are not treated as core cross-game/system mashups.
 
-### Portal Zombies — *Portal-themed Black Ops III Zombies map*
+<a name="project-portal-zombies"></a>
+
+#### Portal Zombies — *Portal-themed Black Ops III Zombies map*
 
 **Guest/theme:** *Portal*  
 **Host:** *Call of Duty: Black Ops III Zombies*  
@@ -372,7 +503,11 @@ These are worth tracking, but are not treated as core cross-game/system mashups.
 **Status:** ⚪ 🟢 Released  
 **Why adjacent:** uses Portal textures, models and teleporters in a custom Zombies map, but does not attempt to recreate Portal's full game systems.
 
-- [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=856630622)
+- [Download — Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=856630622)
+
+[Back to project list](#browse-projects)
+
+---
 
 ## Creator clusters
 
@@ -401,6 +536,8 @@ A Hytale experimentation cluster focused on rendering other runtimes through the
 - Minecraft Classic 0.30 inside Hytale — verified creator demo
 
 ## What belongs here?
+
+This list focuses on substantial cross-game work: one game's gameplay, systems, world, runtime, or mechanics being recreated or embedded in another. A themed skin pack or asset swap alone does not qualify.
 
 A project is a good fit when it does at least one of these:
 
@@ -432,3 +569,21 @@ Structured project metadata also lives in [`data/projects.json`](data/projects.j
 Game names and trademarks belong to their respective owners. This repository is an independent community index and is not affiliated with the developers or publishers of the listed games.
 
 The curation/metadata in this repository is dedicated to the public domain under CC0-1.0 where legally possible. Linked projects keep their own licenses and terms.
+
+## Legend
+
+| Marker | Meaning |
+|---|---|
+| 🟢 | Publicly playable/downloadable |
+| 🟣 | Public source available |
+| 🟡 | Verified demo/WIP, but no public playable release |
+| 🔴 | Viral claim or footage not independently verifiable yet |
+| ⚪ | Adjacent/borderline — interesting, but not a full systems mashup |
+
+![Curated](https://img.shields.io/badge/status-curated-success)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Links](https://github.com/bailo167/awesome-game-mashups/actions/workflows/links.yml/badge.svg)
+![Last verified](https://img.shields.io/badge/verified-2026--10--02-blue)
+![License: CC0](https://img.shields.io/badge/list%20license-CC0--1.0-lightgrey)
+
+[Back to project list](#browse-projects)
