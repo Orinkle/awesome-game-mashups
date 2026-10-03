@@ -635,5 +635,226 @@
     "notes": "Two Crash Bandicoot levels recreated as a vanilla Minecraft world with custom gameplay mechanics and resource packs. Kept adjacent because it is a limited custom-world recreation rather than a full game/runtime port.",
     "latest_release": "v1.6 (2026-07-22)",
     "last_activity": "2026-07-22"
+  },
+  {
+    "name": "ValCraft",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "Valheim",
+    "creator": "LoAlCo",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-09-30",
+    "source": "https://github.com/LoAlCo/ValCraft",
+    "release": "https://github.com/LoAlCo/ValCraft/releases/tag/v0.5.8",
+    "license": null,
+    "category": "core",
+    "notes": "SkyCraft-derived passthrough: Minecraft runs hidden and drives movement, inventory, blocks and combat while a Valheim BepInEx plugin streams collision, renders Minecraft content in Valheim and bridges combat/loot between both games.",
+    "latest_release": "v0.5.8 (2026-10-03)",
+    "last_activity": "2026-10-03"
+  },
+  {
+    "name": "GTA San AnSkateas",
+    "guest": [
+      "Skate 3"
+    ],
+    "host": "Grand Theft Auto: San Andreas (classic PC 1.0 US)",
+    "creator": "ryglizzy",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/ryglizzy/GTA-San-AnSkateas",
+    "release": "https://github.com/ryglizzy/GTA-San-AnSkateas/releases/tag/v1.0",
+    "license": null,
+    "category": "core",
+    "notes": "Runs Skate 3 skating inside GTA San Andreas using a C++ ASI plugin plus a Rust FFI bridge to the Skate 3 engine; GTA streets/collision become the skating environment. Requires user-owned copies of both games.",
+    "latest_release": "v1.0 (2026-10-02)",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "Wither Storm × GTA V Passthrough",
+    "guest": [
+      "Minecraft: Java Edition 1.20.1",
+      "Cracker's Wither Storm Mod"
+    ],
+    "host": "Grand Theft Auto V Legacy",
+    "creator": "VortexisTV",
+    "status": [
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/VortexisTV/wither-storm-gta5-passthrough",
+    "media": "https://www.youtube.com/watch?v=spm-u_cZvl8",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Minecraft simulates the Wither Storm while a GTA V bridge composites it into Los Santos and maps storm interactions to GTA pedestrians, vehicles, explosions, weather and camera effects. Based on rehan-remade's universal-modder passthrough example.",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "FalloutCraft",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "Fallout 4",
+    "creator": "zeyvu",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-01",
+    "source": "https://github.com/zeyvu/FalloutCraft",
+    "release": "https://github.com/zeyvu/FalloutCraft/releases/tag/v.0.1.2",
+    "license": "MIT",
+    "category": "core",
+    "notes": "SkyCraft-derived shared-memory passthrough using an F4SE plugin and Fabric mod. Minecraft supplies movement, blocks, HUD, inventory and combat while Fallout 4 supplies the Commonwealth, NPCs, quests, Pip-Boy and saves.",
+    "latest_release": "v.0.1.2 (2026-10-02)",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "GTA Skate 3 Trilogy",
+    "guest": [
+      "Skate 3"
+    ],
+    "host": "Grand Theft Auto: Vice City",
+    "creator": "irregularnetwork",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-09-30",
+    "source": "https://github.com/irregularnetwork/GTA-Skate-3-Trilogy",
+    "release": "https://github.com/irregularnetwork/GTA-Skate-3-Trilogy/releases/tag/1.1",
+    "license": null,
+    "category": "core",
+    "notes": "Combines the reVC/re3 Vice City rewrite lineage with the Skate 3 Rust rewrite so Skate 3-style skating runs in Vice City's world. The repository was originally published as Vice-City-Skate-1.0 and later renamed.",
+    "latest_release": "1.1 (2026-10-02)",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "Minecraft X Half-Life",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "Half-Life",
+    "creator": "SawyerTheNerd",
+    "status": [
+      "source-available",
+      "verified-wip",
+      "experimental"
+    ],
+    "first_seen": "2026-10-03",
+    "source": "https://github.com/SawyerTheNerd/Minecraft-X-HalfLife",
+    "license": null,
+    "category": "core",
+    "notes": "Ports SkyCraft's shared-memory model to Half-Life: Minecraft runs hidden and supplies player physics, blocks, inventory, mobs and combat while Half-Life provides maps, monsters and rendering. The creator describes it as very buggy and there is no tagged release.",
+    "last_activity": "2026-10-03"
+  },
+  {
+    "name": "CS-Craft",
+    "guest": [
+      "Minecraft 26.3"
+    ],
+    "host": "Counter-Strike: Global Offensive rewrite runtime",
+    "creator": "FrosttysBots / Frostty",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/FrosttysBots/CS-Craft",
+    "release": "https://github.com/FrosttysBots/CS-Craft/releases/tag/v0.1.0",
+    "license": null,
+    "category": "core",
+    "notes": "A Rust/Bevy CS:GO runtime with an Overworld special mode combining CS:GO movement, weapons and HUD with streamed Minecraft terrain, creatures, inventory, crafting, Nether progression, strongholds and an Ender Dragon encounter.",
+    "latest_release": "v0.1.0 (2026-10-02)",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "World of Skatecraft",
+    "guest": [
+      "Skate 3"
+    ],
+    "host": "World of Warcraft 1.12.1 via benilla",
+    "creator": "Kimmo3223",
+    "status": [
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/Kimmo3223/world-of-skatecraft",
+    "license": "Apache-2.0",
+    "category": "core",
+    "notes": "Adds Skate 3's physics, tricks, grinds, powerslides and bails to Azeroth using the open-source benilla WoW client and Skate 3 Rust Engine. Setup uses user-owned WoW and Skate 3 files.",
+    "last_activity": "2026-10-03"
+  },
+  {
+    "name": "PipeLink Launcher — GTA SA × Skate 3 × MW2",
+    "guest": [
+      "Skate 3",
+      "Call of Duty: Modern Warfare 2"
+    ],
+    "host": "Grand Theft Auto: San Andreas",
+    "creator": "Sm1jjj",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/Sm1jjj/PipeLinkLauncher",
+    "release": "https://github.com/Sm1jjj/PipeLinkLauncher/releases/tag/v1.0.1",
+    "media": "https://streamable.com/19fo55",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Installer/launcher for a three-game mashup: Skate 3 mode and MW2 mode run inside GTA San Andreas. It builds from user-owned game files and integrates a Skate bridge plus IW4L-derived MW2 runtime support.",
+    "latest_release": "v1.0.1 (2026-10-02)",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "WowCraft — Minecraft inside World of Warcraft",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "World of Warcraft 1.12.1 via benilla",
+    "creator": "over",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-10-02",
+    "media": "https://www.youtube.com/watch?v=sX3lsLiPS2s",
+    "license": null,
+    "category": "core",
+    "notes": "Creator demo shows Minecraft running hidden to drive movement, combat, building and items while WoW renders Azeroth and runs quests, mobs, XP and loot. Built on benilla and a SkyCraft-derived Fabric bridge; creator said the GitHub repository was not public yet.",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "CS:GO systems inside Project Zomboid",
+    "guest": [
+      "Counter-Strike: Global Offensive"
+    ],
+    "host": "Project Zomboid",
+    "creator": "denis.salami",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-10-03",
+    "media": "https://www.youtube.com/watch?v=n2fEHpLJUNk",
+    "license": null,
+    "category": "core",
+    "notes": "Creator footage shows CS:GO weapons, shooting and movement added to Project Zomboid, built on Project Viewpoint with optional Project A-Life support. The creator states the download is not public yet.",
+    "last_activity": "2026-10-03"
   }
 ]
