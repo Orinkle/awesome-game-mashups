@@ -35,6 +35,12 @@ Public playable versions exist. Some are experimental, and installation, platfor
 | [CrossplayProject — Minecraft ↔ Roblox](#project-crossplayproject) | Links Minecraft and Roblox so players, blocks and chat synchronize between both games. | Released · Archived |
 | [Retro Handheld Emulator 1x1 scale](#project-retro-handheld-emulator) | Runs playable Game Boy games on a giant in-world display inside Hytale. | Released · Paid |
 | [talemonpokemon](#project-talemonpokemon) | Recreates Pokémon catching, battles, evolution and trainer progression inside Hytale. | Released |
+| [ValCraft](#project-valcraft) | Runs Minecraft movement, blocks, inventory and combat inside Valheim while both games stay active. | Released · Code available · Experimental |
+| [GTA San AnSkateas](#project-gta-san-anskateas) | Runs Skate 3 skating, tricks and physics on GTA San Andreas streets and collision. | Released · Code available · Experimental |
+| [FalloutCraft](#project-falloutcraft) | Runs Minecraft movement, building, HUD and combat inside Fallout 4's Commonwealth. | Released · Code available · Experimental |
+| [GTA Skate 3 Trilogy](#project-gta-skate-3-trilogy) | Combines a Vice City rewrite with Skate 3's skating runtime. | Released · Code available · Experimental |
+| [CS-Craft](#project-cs-craft) | Adds a Minecraft Overworld/progression mode to a CS:GO Rust/Bevy rewrite. | Released · Code available · Experimental |
+| [PipeLink Launcher](#project-pipelink-launcher) | Runs Skate 3 and MW2 gameplay modes inside GTA San Andreas. | Released · Code available · Experimental |
 
 ### Code, demos and projects in development
 
@@ -52,6 +58,11 @@ Public playable versions exist. Some are experimental, and installation, platfor
 
 | [Minecraft ↔ Hytale crossplay (SSquadTeam)](#project-minecraft-hytale-crossplay-ssquadteam) | Lets Minecraft and Hytale players share a synchronized Hytale-hosted world. | In development · Video only |
 | [PokeWorlds Online](#project-pokeworlds-online) | Rebuilds classic top-down Pokémon as a multiplayer game inside Hytale. | In development · Video only |
+| [Wither Storm × GTA V Passthrough](#project-wither-storm-gta-v) | Runs Minecraft's Wither Storm simulation inside GTA V and bridges its effects into Los Santos. | Code available · Experimental |
+| [Minecraft X Half-Life](#project-minecraft-x-half-life) | Ports SkyCraft's Minecraft passthrough model to Half-Life. | Code available · Experimental WIP |
+| [World of Skatecraft](#project-world-of-skatecraft) | Runs Skate 3 physics and tricks inside World of Warcraft 1.12.1. | Code available · Experimental |
+| [WowCraft](#project-wowcraft) | Runs Minecraft movement, combat, building and items through World of Warcraft 1.12.1. | In development · Video only |
+| [CS:GO systems inside Project Zomboid](#project-csgo-project-zomboid) | Adds CS:GO weapons, shooting and movement to Project Zomboid. | In development · Video only |
 
 ## Unconfirmed sightings
 
@@ -497,6 +508,122 @@ Recreates a substantial Pokémon adventure loop inside Hytale: starter selection
 
 ---
 
+
+<a name="project-valcraft"></a>
+
+#### ValCraft — *Minecraft inside Valheim*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *Valheim*  
+**Creator:** [LoAlCo](https://github.com/LoAlCo)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** Minecraft Fabric mod + Valheim BepInEx plugin communicating through shared memory
+
+Minecraft runs hidden and supplies movement, inventory, HUD, blocks and combat while Valheim supplies terrain, weather, creatures and dungeons. The bridge streams Valheim collision into Minecraft, renders Minecraft content in Valheim and carries combat and loot between both games.
+
+- [Download — v0.5.8](https://github.com/LoAlCo/ValCraft/releases/tag/v0.5.8)
+- [Source code](https://github.com/LoAlCo/ValCraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-gta-san-anskateas"></a>
+
+#### GTA San AnSkateas — *Skate 3 inside GTA San Andreas*
+
+**Guest:** *Skate 3*  
+**Host:** *Grand Theft Auto: San Andreas* classic PC 1.0 US  
+**Creator:** [ryglizzy](https://github.com/ryglizzy)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** C++ ASI plugin + Rust FFI bridge to the Skate 3 engine
+
+CJ can switch into Skate 3-style skating on San Andreas streets, using Skate 3 controls, tricks, grinds, bails and camera behaviour against GTA's collision. Setup requires user-owned copies of GTA San Andreas and Skate 3.
+
+- [Download — v1.0](https://github.com/ryglizzy/GTA-San-AnSkateas/releases/tag/v1.0)
+- [Source code](https://github.com/ryglizzy/GTA-San-AnSkateas)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-falloutcraft"></a>
+
+#### FalloutCraft — *Minecraft inside Fallout 4*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *Fallout 4*  
+**Creator:** [zeyvu](https://github.com/zeyvu)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** F4SE plugin + Minecraft Fabric mod using shared memory
+
+Minecraft supplies movement, blocks, hearts, inventory and combat while Fallout 4 keeps the Commonwealth, NPCs, quests, Pip-Boy and saves. The project is explicitly built on the SkyCraft passthrough approach.
+
+- [Download — v.0.1.2](https://github.com/zeyvu/FalloutCraft/releases/tag/v.0.1.2)
+- [Source code](https://github.com/zeyvu/FalloutCraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-gta-skate-3-trilogy"></a>
+
+#### GTA Skate 3 Trilogy — *Skate 3 inside GTA Vice City*
+
+**Guest:** *Skate 3*  
+**Host:** *Grand Theft Auto: Vice City*  
+**Creator:** [irregularnetwork](https://github.com/irregularnetwork)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** reVC/re3 rewrite lineage + Skate 3 Rust rewrite integration
+
+A playable Vice City / Skate 3 mashup built from the open reVC/re3 lineage and the Skate 3 Rust rewrite. The repository was originally published as Vice-City-Skate-1.0 before being renamed.
+
+- [Download — 1.1](https://github.com/irregularnetwork/GTA-Skate-3-Trilogy/releases/tag/1.1)
+- [Source code](https://github.com/irregularnetwork/GTA-Skate-3-Trilogy)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-cs-craft"></a>
+
+#### CS-Craft — *Minecraft inside a CS:GO rewrite*
+
+**Guest:** *Minecraft 26.3*  
+**Host/runtime:** *Counter-Strike: Global Offensive* Rust/Bevy rewrite  
+**Creator:** [FrosttysBots](https://github.com/FrosttysBots) / Frostty  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** from-scratch CS:GO runtime + Minecraft Overworld special mode
+
+The public v0.1.0 build includes an Overworld mode that keeps CS:GO-style movement, weapons and HUD while adding streamed Minecraft terrain, creatures, survival inventory, crafting, furnaces, Nether progression, strongholds and an Ender Dragon encounter.
+
+- [Download — v0.1.0](https://github.com/FrosttysBots/CS-Craft/releases/tag/v0.1.0)
+- [Source code](https://github.com/FrosttysBots/CS-Craft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-pipelink-launcher"></a>
+
+#### PipeLink Launcher — *GTA San Andreas × Skate 3 × MW2*
+
+**Guest:** *Skate 3*, *Call of Duty: Modern Warfare 2*  
+**Host:** *Grand Theft Auto: San Andreas*  
+**Creator:** [Sm1jjj](https://github.com/Sm1jjj)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** GTA ASI integration + Skate bridge + IW4L-derived MW2 runtime support
+
+An installer/launcher for a three-game mashup. Inside GTA San Andreas, F6 switches to Skate 3 mode and F5 switches to an MW2 mode with weapons, points, scoreboard and partially implemented killstreaks. It builds the required integration from user-owned game files.
+
+- [Download — v1.0.1](https://github.com/Sm1jjj/PipeLinkLauncher/releases/tag/v1.0.1)
+- [Source / launcher](https://github.com/Sm1jjj/PipeLinkLauncher)
+- [Gameplay clip](https://streamable.com/19fo55)
+
+[Back to project list](#browse-projects)
+
+---
+
 ### Verified demos and works in progress
 
 <a name="project-minecraft-sm64"></a>
@@ -590,6 +717,99 @@ A work-in-progress multiplayer Pokémon-style project inside Hytale. Creator foo
 
 - [Creator announcement / footage — X](https://x.com/pokeworldonlin/status/2099499679314542720)
 - [Detailed verification / reporting](https://www.dexerto.com/pokemon/hytale-modder-is-turning-classic-pokemon-into-an-mmo-you-can-play-with-friends-3409404/)
+
+[Back to project list](#browse-projects)
+
+---
+
+
+<a name="project-wither-storm-gta-v"></a>
+
+#### Wither Storm × GTA V Passthrough — *Minecraft's Wither Storm inside GTA V*
+
+**Guest:** *Minecraft: Java Edition 1.20.1* + *Cracker's Wither Storm Mod*  
+**Host:** *Grand Theft Auto V Legacy*  
+**Creator:** [VortexisTV](https://github.com/VortexisTV)  
+**Status:** 🟣 Source available / experimental  
+**Approach:** Forge bridge + GTA plugin + ReShade depth compositing
+
+Minecraft remains responsible for simulating the Wither Storm while the bridge draws it into Los Santos. GTA pedestrians and vehicles are represented by Minecraft-side proxies so tractor beams, consumption, projectiles, explosions, weather and other storm effects can feed back into GTA.
+
+- [Source code](https://github.com/VortexisTV/wither-storm-gta5-passthrough)
+- [Creator demo](https://www.youtube.com/watch?v=spm-u_cZvl8)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-minecraft-x-half-life"></a>
+
+#### Minecraft X Half-Life — *Minecraft inside Half-Life*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *Half-Life*  
+**Creator:** [SawyerTheNerd](https://github.com/SawyerTheNerd)  
+**Status:** 🟣 🟡 Source available / experimental WIP  
+**Approach:** Half-Life SDK hooks + SkyCraft shared-memory protocol
+
+Minecraft runs hidden and supplies player physics, blocks, items, mobs, inventory and combat while Half-Life supplies maps, monsters and rendering. The project streams Half-Life map collision into Minecraft and bridges damage and interactions in both directions. The creator describes the current build as very buggy.
+
+- [Source code](https://github.com/SawyerTheNerd/Minecraft-X-HalfLife)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-world-of-skatecraft"></a>
+
+#### World of Skatecraft — *Skate 3 inside World of Warcraft*
+
+**Guest:** *Skate 3*  
+**Host:** *World of Warcraft 1.12.1* via benilla  
+**Creator:** [Kimmo3223](https://github.com/Kimmo3223)  
+**Status:** 🟣 Source available / experimental  
+**Approach:** benilla WoW client + Skate 3 Rust Engine
+
+Pressing J drops the WoW character onto a skateboard using Skate 3's physics, with flick-it tricks, grinds, powerslides and bails anywhere in Azeroth. Setup reads user-owned WoW and Skate 3 files and runs against a local WoW server.
+
+- [Source code](https://github.com/Kimmo3223/world-of-skatecraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-wowcraft"></a>
+
+#### WowCraft — *Minecraft inside World of Warcraft*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *World of Warcraft 1.12.1* via benilla  
+**Creator:** over  
+**Status:** 🟡 Verified WIP / video only  
+**Approach:** Minecraft runs hidden and drives a SkyCraft-derived bridge into the benilla WoW client
+
+Creator footage shows Minecraft movement, combat, building and items operating through Azeroth while WoW continues to run quests, mobs, XP and loot. At the time of verification the creator said the GitHub repository was not public yet.
+
+- [Creator demo — “I put Minecraft inside WoW (and it actually works)”](https://www.youtube.com/watch?v=sX3lsLiPS2s)
+- [benilla upstream](https://github.com/samwhosung/benilla)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-csgo-project-zomboid"></a>
+
+#### CS:GO systems inside Project Zomboid
+
+**Guest:** *Counter-Strike: Global Offensive*  
+**Host:** *Project Zomboid*  
+**Creator:** denis.salami  
+**Status:** 🟡 Verified WIP / video only  
+**Approach:** Project Zomboid mod built on Project Viewpoint; creator also demonstrates optional Project A-Life support
+
+Creator footage shows CS:GO-style weapons, shooting and movement inside Project Zomboid. The creator says the download is not public yet and has discussed a future installer that would extract required assets from a user's own CS:GO installation.
+
+- [Creator demo](https://www.youtube.com/watch?v=n2fEHpLJUNk)
 
 [Back to project list](#browse-projects)
 
