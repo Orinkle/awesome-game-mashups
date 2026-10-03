@@ -32,26 +32,11 @@ jobs:
             --verbose
             --no-progress
             --accept 200,206,429
-            --exclude '^https://www[.]patreon[.]com/infernoplus/posts/halocraft-73930239            "./**/*.md"
-            "./data/projects.json"
-          fail: true
-
-            --exclude '^https://www[.]patreon[.]com/infernoplus/posts/dark-souls-90413873            "./**/*.md"
-            "./data/projects.json"
-          fail: true
-
-            --exclude '^https://www[.]patreon[.]com/infernoplus/posts/dark-souls-46865100            "./**/*.md"
-            "./data/projects.json"
-          fail: true
-
-            --exclude '^https://www[.]reddit[.]com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/            "./**/*.md"
-            "./data/projects.json"
-          fail: true
-
-            --exclude '^https://heldgames[.]com/guides/is-that-viral-mod-video-real            "./**/*.md"
-            "./data/projects.json"
-          fail: true
-
+            --exclude '^https://www[.]patreon[.]com/infernoplus/posts/halocraft-73930239'
+            --exclude '^https://www[.]patreon[.]com/infernoplus/posts/dark-souls-90413873'
+            --exclude '^https://www[.]patreon[.]com/infernoplus/posts/dark-souls-46865100'
+            --exclude '^https://www[.]reddit[.]com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/'
+            --exclude '^https://heldgames[.]com/guides/is-that-viral-mod-video-real'
             "./**/*.md"
             "./data/projects.json"
           fail: true
