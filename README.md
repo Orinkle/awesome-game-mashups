@@ -6,7 +6,7 @@ Click a project name for the full details, videos and download links where avail
 
 [**Suggest a project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Unconfirmed sightings](#unconfirmed-sightings) · [Related projects](#related-projects) · [About this list](#what-belongs-here)
 
-**Last verified:** 2 October 2026.
+**Last verified:** 3 October 2026.
 
 ## Browse projects
 
@@ -29,6 +29,13 @@ Public playable versions exist. Some are experimental, and installation, platfor
 | [Dark Souls: Remastest / Remastester](#project-remastest) | Mixes Halo maps and weapons with a major Dark Souls multiplayer and combat overhaul. | Released |
 | [Ocarina of Time in Minecraft](#project-ocarina-of-time) | Recreates Zelda: Ocarina of Time in Minecraft, with its story, bosses, quests and items. | Released |
 
+| [Project Inception](#project-project-inception) | Runs a playable second Minecraft game on a screen inside Minecraft. | Released · Code available |
+| [Latte Doom](#project-latte-doom) | Runs DOOM inside Minecraft using the Mocha Doom engine. | Released alpha |
+| [hytale2mc](#project-hytale2mc) | Lets Minecraft and Hytale players join the same synchronized cross-game minigames. | Playable · Code available |
+| [CrossplayProject — Minecraft ↔ Roblox](#project-crossplayproject) | Links Minecraft and Roblox so players, blocks and chat synchronize between both games. | Released · Archived |
+| [Retro Handheld Emulator 1x1 scale](#project-retro-handheld-emulator) | Runs playable Game Boy games on a giant in-world display inside Hytale. | Released · Paid |
+| [talemonpokemon](#project-talemonpokemon) | Recreates Pokémon catching, battles, evolution and trainer progression inside Hytale. | Released |
+
 ### Code, demos and projects in development
 
 **Code available** means the source is public, not necessarily a ready-to-play download. **Demo only** and **Video only** mean there is footage, but no public playable build is listed.
@@ -42,6 +49,9 @@ Public playable versions exist. Some are experimental, and installation, platfor
 | [Minecraft voxel engine inside Super Mario 64](#project-minecraft-sm64) | Adds Minecraft-style terrain, blocks and lighting to Super Mario 64. | Demo only |
 | [Morrowind in Elden Ring](#project-morrowind-elden-ring) | Recreates Morrowind’s world and gameplay inside Elden Ring. | In development · Video only |
 | [Minecraft Classic 0.30 inside Hytale](#project-minecraft-classic-hytale) | Shows Minecraft Classic running on Hytale’s in-game world-map screen. | Demo only |
+
+| [Minecraft ↔ Hytale crossplay (SSquadTeam)](#project-minecraft-hytale-crossplay-ssquadteam) | Lets Minecraft and Hytale players share a synchronized Hytale-hosted world. | In development · Video only |
+| [PokeWorlds Online](#project-pokeworlds-online) | Rebuilds classic top-down Pokémon as a multiplayer game inside Hytale. | In development · Video only |
 
 ## Unconfirmed sightings
 
@@ -61,6 +71,10 @@ Interesting crossovers that do not recreate enough of another game's gameplay or
 | Project | What it is | Status |
 |---|---|---|
 | [Portal Zombies](#project-portal-zombies) | Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. | Released · Related |
+
+| [ccboy — Game Boy in Minecraft](#project-ccboy) | Streams Game Boy gameplay from an external emulator to ComputerCraft monitors in Minecraft. | Code available · Related |
+| [GeometryTale](#project-geometrytale) | Recreates Geometry Dash-style 2D levels as a playable Hytale world. | Released · Related |
+| [Minecraft, but It's Crash Bandicoot (Remake)](#project-crash-bandicoot-remake) | Recreates two Crash Bandicoot levels with custom gameplay in Minecraft. | Released · Related |
 
 ## Project details
 
@@ -258,7 +272,7 @@ A historically important technical precursor: Wasmcraft compiles WebAssembly pro
 
 <a name="project-dead-by-daylight"></a>
 
-#### Dead by Daylight Add-On — *Dead by Daylight systems inside Minecraft Bedrock*
+#### Dead by Daylight Add-On (Zero Squad) — *Dead by Daylight systems inside Minecraft Bedrock*
 
 **Guest:** *Dead by Daylight*  
 **Host:** *Minecraft: Bedrock Edition*  
@@ -371,6 +385,118 @@ A seven-year solo recreation designed to be playable from beginning to end, cove
 
 ---
 
+<a name="project-project-inception"></a>
+
+#### Project Inception — *Minecraft inside Minecraft*
+
+**Guest:** *Minecraft*  
+**Host:** *Minecraft: Java Edition 1.16.x*  
+**Creator:** [Arc-blroth](https://github.com/Arc-blroth)  
+**Status:** 🟢 🟣 Released, source available  
+**Approach:** Fabric mod + second Minecraft process + memory-mapped interprocess communication
+
+Runs a fully featured second Minecraft instance on an in-world display and forwards keyboard/mouse input to the inner game. It is a useful historical precursor to the current wave of game-inside-game projects.
+
+- [Download — v1.3.2+beta.1](https://github.com/Arc-blroth/ProjectInception/releases/tag/v1.3.2%2Bbeta.1)
+- [CurseForge project page](https://www.curseforge.com/minecraft/mc-mods/project-inception)
+- [Source code](https://github.com/Arc-blroth/ProjectInception)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-latte-doom"></a>
+
+#### Latte Doom — *DOOM inside Minecraft*
+
+**Guest:** *DOOM*  
+**Host:** *Minecraft: Java Edition 26.2*  
+**Creator:** blackwithersteve  
+**Status:** 🟢 Released alpha  
+**Approach:** vendored Mocha Doom engine running inside Minecraft's JVM
+
+A DOOM source port for Minecraft. Mocha Doom owns the game simulation while Minecraft renders it. The project requires the user's own copy of DOOM. Its linked source repository was unavailable during this verification, so it is not labelled source-available.
+
+- [Download / project page](https://www.curseforge.com/minecraft/mc-mods/latte-doom)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-hytale2mc"></a>
+
+#### hytale2mc — *Minecraft ↔ Hytale cross-platform minigames*
+
+**Guest/platforms:** *Minecraft: Java Edition 1.21.11*, *Hytale*  
+**Host:** synchronized Minecraft (Minestom) and Hytale servers  
+**Creator:** [alskea](https://github.com/alskea)  
+**Status:** 🟢 🟣 Playable experimental project, source available  
+**Approach:** custom ECS + Minestom + Hytale server plugin + NATS state synchronization
+
+A framework for writing one minigame that runs across Minecraft and Hytale with synchronized game state. The project site currently advertises a live public server at `play.hytale2mc.com`.
+
+- [Play / project site](https://hytale2mc.com/)
+- [Source code](https://github.com/alskea/hytale2mc)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-crossplayproject"></a>
+
+#### CrossplayProject — *Minecraft ↔ Roblox*
+
+**Guest/platforms:** *Minecraft*, *Roblox*  
+**Host:** linked Minecraft server and Roblox experience  
+**Creator:** Atmerek and contributors  
+**Status:** 🟢 🟣 Released, source available, archived  
+**Approach:** Minecraft plugin HTTP API + Roblox scripts/models
+
+Synchronizes blocks, players, mobs, time/weather, chat, skins and build/break interactions between Minecraft and Roblox. The source repository is archived, but the v1.3 release remains available.
+
+- [Download — v1.3](https://github.com/Atmerek/CrossplayProject/releases/tag/v1.3)
+- [Source code — archived](https://github.com/Atmerek/CrossplayProject)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-retro-handheld-emulator"></a>
+
+#### Retro Handheld Emulator 1x1 scale — *Game Boy inside Hytale*
+
+**Guest:** *Game Boy software*  
+**Host:** *Hytale*  
+**Creator:** JuanNasc  
+**Status:** 🟢 Released paid resource  
+**Approach:** in-Hytale emulator rendering each frame as 23,040 blocks
+
+A fully functional Game Boy emulator running inside Hytale at true 1:1 scale. The creator says frames are computed and rendered live, controls are mapped to in-game blocks, and no external tools are used. Tetris and Batman titles are shown as tested examples.
+
+- [Buy / download — BuiltByBit](https://builtbybit.com/resources/retro-handheld-emulator-1x1-scale.101265/)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-talemonpokemon"></a>
+
+#### talemonpokemon — *Pokémon systems inside Hytale*
+
+**Guest:** *Pokémon* gameplay systems  
+**Host:** *Hytale*  
+**Creator:** talemon  
+**Status:** 🟢 Released  
+**Approach:** Hytale gameplay mod recreating Pokémon progression and turn-based battles
+
+Recreates a substantial Pokémon adventure loop inside Hytale: starter selection, biome-based spawning, levels, stats, types, abilities, moves, turn-based battles, capture, party/PC management, experience, evolution and Apricorn/Poké Ball progression.
+
+- [Download / project page](https://www.curseforge.com/hytale/mods/talemonpokemon)
+
+[Back to project list](#browse-projects)
+
+---
+
 ### Verified demos and works in progress
 
 <a name="project-minecraft-sm64"></a>
@@ -426,6 +552,44 @@ Primary creator footage demonstrates Minecraft Classic rendered inside Hytale's 
 
 - [Original creator post](https://x.com/iamcxv711/status/2012610249174536397)
 - [Technical/reporting context](https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-itself-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-minecraft-hytale-crossplay-ssquadteam"></a>
+
+#### Minecraft ↔ Hytale crossplay — *SSquadTeam / iamcxv7*
+
+**Guest/platforms:** *Minecraft: Java Edition*, *Hytale*  
+**Host:** Hytale server with an embedded Minecraft server  
+**Creator:** Sadat Sahib / iamcxv7 / SSquadTeam  
+**Status:** 🟡 Verified WIP; video only  
+**Approach:** Minecraft server inside Hytale's JVM + packet translation + shared world coordinates
+
+Creator footage shows Minecraft and Hytale clients sharing one Hytale-hosted world, including synchronized players, block placement, time of day and cross-game chat. No public source repository or playable build has been located.
+
+- [Watch creator footage — X](https://x.com/iamcxv711/status/2013352132129222906)
+- [Technical/reporting context](https://www.gamesradar.com/games/rpg/hytale-gets-crossplay-with-minecraft-thanks-to-15-year-old-modder-presumably-channeling-some-form-of-black-magic/)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-pokeworlds-online"></a>
+
+#### PokeWorlds Online — *classic Pokémon-style MMO inside Hytale*
+
+**Guest:** *Pokémon*  
+**Host:** *Hytale*  
+**Creator:** PokeWorlds Online  
+**Status:** 🟡 Verified WIP; video only  
+**Approach:** Hytale mod/server using a 2D top-down world; creator says it partially uses RPG Maker XP Pokémon Essentials
+
+A work-in-progress multiplayer Pokémon-style project inside Hytale. Creator footage shows a 2D world, party and inventory UI, trainer battles and turn-based combat. No public playable release has been located.
+
+- [Creator announcement / footage — X](https://x.com/pokeworldonlin/status/2099499679314542720)
+- [Detailed verification / reporting](https://www.dexerto.com/pokemon/hytale-modder-is-turning-classic-pokemon-into-an-mmo-you-can-play-with-friends-3409404/)
 
 [Back to project list](#browse-projects)
 
@@ -509,6 +673,60 @@ These are worth tracking, but are not treated as core cross-game/system mashups.
 
 ---
 
+<a name="project-ccboy"></a>
+
+#### ccboy — *Game Boy displayed and controlled through Minecraft*
+
+**Guest:** *Game Boy / Game Boy Color software*  
+**Host:** *Minecraft: Java Edition* with ComputerCraft / CC:Tweaked  
+**Creator:** amatheo  
+**Status:** ⚪ 🟣 Source available / adjacent  
+**Why adjacent:** the Game Boy emulator runs as an external headless PyBoy process; Minecraft provides the display and controls.
+
+Frames are streamed over WebSocket to ComputerCraft monitors and player inputs are relayed back to the external emulator.
+
+- [Source code](https://github.com/amatheo/ccboy)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-geometrytale"></a>
+
+#### GeometryTale — *Geometry Dash-style levels inside Hytale*
+
+**Guest:** *Geometry Dash*  
+**Host:** *Hytale*  
+**Creator:** risp  
+**Status:** ⚪ 🟢 Released / adjacent  
+**Why adjacent:** a contained custom-world/minigame recreation rather than a broad runtime or systems port.
+
+Recreates Geometry Dash-style 2D side-scrolling levels as a downloadable Hytale world, including cube/ship play and side-scroller camera setup.
+
+- [Download / project page](https://www.curseforge.com/hytale/worlds/geometrytale)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-crash-bandicoot-remake"></a>
+
+#### Minecraft, but It's Crash Bandicoot (Remake)
+
+**Guest:** *Crash Bandicoot (1996)*  
+**Host:** *Minecraft: Java Edition*  
+**Creator:** OfficialTCK  
+**Status:** ⚪ 🟢 Released / adjacent  
+**Why adjacent:** a limited two-level custom-world recreation rather than a full game/runtime port.
+
+Recreates two Crash Bandicoot levels in Minecraft with custom gameplay mechanics and resource packs.
+
+- [Download / project page](https://www.curseforge.com/minecraft/worlds/minecraft-but-its-crash-bandicoot)
+
+[Back to project list](#browse-projects)
+
+---
+
 ## Creator clusters
 
 ### chasmlol
@@ -534,6 +752,7 @@ A Hytale experimentation cluster focused on rendering other runtimes through the
 
 - [DoomMaps](https://github.com/ssquadteam/DoomMaps) — public source
 - Minecraft Classic 0.30 inside Hytale — verified creator demo
+- Minecraft ↔ Hytale crossplay — verified creator demo / WIP
 
 ## What belongs here?
 
@@ -582,7 +801,7 @@ The curation/metadata in this repository is dedicated to the public domain under
 
 ![Curated](https://img.shields.io/badge/status-curated-success)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Last verified](https://img.shields.io/badge/verified-2026--10--02-blue)
+![Last verified](https://img.shields.io/badge/verified-2026--10--03-blue)
 ![License: CC0](https://img.shields.io/badge/list%20license-CC0--1.0-lightgrey)
 
 [Back to project list](#browse-projects)

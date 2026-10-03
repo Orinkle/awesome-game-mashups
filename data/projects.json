@@ -181,7 +181,7 @@
     ],
     "first_seen": "2022-03-09",
     "source": "https://github.com/SuperTails/wasmcraft2",
-    "license": "Apache-2.0",
+    "license": "MIT OR Apache-2.0",
     "category": "core",
     "notes": "WebAssembly-to-Minecraft datapack compiler demonstrated running multiple games and emulators inside vanilla Minecraft, including DOOM, Celeste Classic and an NES emulator running Super Mario Bros."
   },
@@ -427,5 +427,213 @@
     "license": null,
     "category": "adjacent",
     "notes": "Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation."
+  },
+  {
+    "name": "Project Inception",
+    "guest": [
+      "Minecraft"
+    ],
+    "host": "Minecraft: Java Edition 1.16.x",
+    "creator": "Arc-blroth",
+    "status": [
+      "released",
+      "source-available"
+    ],
+    "first_seen": "2020-08-08",
+    "source": "https://github.com/Arc-blroth/ProjectInception",
+    "release": "https://github.com/Arc-blroth/ProjectInception/releases/tag/v1.3.2%2Bbeta.1",
+    "project_page": "https://www.curseforge.com/minecraft/mc-mods/project-inception",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Fabric mod that runs a fully featured second Minecraft instance on an in-world display and forwards player input to the inner game using a second process and memory-mapped IPC.",
+    "latest_release": "v1.3.2+beta.1 (2020-10-14)",
+    "last_activity": "2020-10-24"
+  },
+  {
+    "name": "Latte Doom",
+    "guest": [
+      "DOOM"
+    ],
+    "host": "Minecraft: Java Edition 26.2",
+    "creator": "blackwithersteve",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2026-08-07",
+    "release": "https://www.curseforge.com/minecraft/mc-mods/latte-doom",
+    "license": "GPL-3.0",
+    "category": "core",
+    "notes": "DOOM source port for Minecraft. The vendored Mocha Doom engine runs inside Minecraft's JVM and owns the simulation while Minecraft renders it. Requires the user's own copy of DOOM. The linked source repository was unavailable during verification, so this entry is not marked source-available.",
+    "latest_release": "0.75.0-alpha (2026-08-17)",
+    "last_activity": "2026-08-17"
+  },
+  {
+    "name": "hytale2mc",
+    "guest": [
+      "Minecraft: Java Edition 1.21.11",
+      "Hytale"
+    ],
+    "host": "Synchronized Minecraft (Minestom) and Hytale servers",
+    "creator": "alskea",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-02-03",
+    "source": "https://github.com/alskea/hytale2mc",
+    "project_page": "https://hytale2mc.com/",
+    "license": "GPL-3.0",
+    "category": "core",
+    "notes": "Framework for cross-platform minigames shared between Minecraft and Hytale. It uses a custom ECS, Minestom, Hytale server plugins and NATS to synchronize game state. The project site advertises a live public server at play.hytale2mc.com."
+  },
+  {
+    "name": "CrossplayProject — Minecraft ↔ Roblox",
+    "guest": [
+      "Minecraft",
+      "Roblox"
+    ],
+    "host": "Linked Minecraft server and Roblox experience",
+    "creator": "Atmerek and contributors",
+    "status": [
+      "released",
+      "source-available",
+      "archived"
+    ],
+    "first_seen": "2024-06-29",
+    "source": "https://github.com/Atmerek/CrossplayProject",
+    "release": "https://github.com/Atmerek/CrossplayProject/releases/tag/v1.3",
+    "license": "GPL-3.0",
+    "category": "core",
+    "notes": "Archived but downloadable crossplay project that synchronizes blocks, players, mobs, time/weather, chat, skins and build/break interactions between Minecraft and Roblox via a Minecraft plugin HTTP API and Roblox scripts/models.",
+    "latest_release": "v1.3 (2024-07-13)",
+    "last_activity": "2024-11-30"
+  },
+  {
+    "name": "Minecraft ↔ Hytale crossplay (SSquadTeam)",
+    "guest": [
+      "Minecraft: Java Edition",
+      "Hytale"
+    ],
+    "host": "Hytale server with an embedded Minecraft server",
+    "creator": "Sadat Sahib / iamcxv7 / SSquadTeam",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-01-19",
+    "creator_post": "https://x.com/iamcxv711/status/2013352132129222906",
+    "verification": "https://www.gamesradar.com/games/rpg/hytale-gets-crossplay-with-minecraft-thanks-to-15-year-old-modder-presumably-channeling-some-form-of-black-magic/",
+    "license": null,
+    "category": "core",
+    "notes": "Creator footage demonstrates Minecraft and Hytale clients sharing a Hytale-hosted world with synchronized players, block placement, time and chat. The creator describes a Minecraft server running inside Hytale's JVM with packet translation and shared world coordinates. No public source repository or build located.",
+    "last_activity": "2026-01-21"
+  },
+  {
+    "name": "Retro Handheld Emulator 1x1 scale",
+    "guest": [
+      "Game Boy software"
+    ],
+    "host": "Hytale",
+    "creator": "JuanNasc",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2026-04-03",
+    "release": "https://builtbybit.com/resources/retro-handheld-emulator-1x1-scale.101265/",
+    "license": "BuiltByBit Standard EULA",
+    "category": "core",
+    "notes": "Paid Hytale resource implementing a fully functional Game Boy emulator in-world at true 1:1 scale. Frames are computed and rendered live as 23,040 blocks, controls are mapped to in-game blocks, and the creator says no external tools are used."
+  },
+  {
+    "name": "talemonpokemon",
+    "guest": [
+      "Pokémon systems"
+    ],
+    "host": "Hytale",
+    "creator": "talemon",
+    "status": [
+      "released"
+    ],
+    "first_seen": "2026-07-24",
+    "release": "https://www.curseforge.com/hytale/mods/talemonpokemon",
+    "license": null,
+    "category": "core",
+    "notes": "Hytale mod recreating a substantial Pokémon adventure loop: starter selection, biome-based Pokémon spawning, levels/stats/types/abilities/moves, turn-based battles, capture, party/PC management, experience, evolution and Apricorn/Poké Ball progression.",
+    "latest_release": "0.5 (2026-07-24)",
+    "last_activity": "2026-07-24"
+  },
+  {
+    "name": "PokeWorlds Online",
+    "guest": [
+      "Pokémon"
+    ],
+    "host": "Hytale",
+    "creator": "PokeWorlds Online",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-09-14",
+    "creator_post": "https://x.com/pokeworldonlin/status/2099499679314542720",
+    "verification": "https://www.dexerto.com/pokemon/hytale-modder-is-turning-classic-pokemon-into-an-mmo-you-can-play-with-friends-3409404/",
+    "license": null,
+    "category": "core",
+    "notes": "Work-in-progress Hytale mod/server recreating classic top-down Pokémon. Creator footage shows a 2D world, party and inventory UI, trainer battles and turn-based combat. The creator says it partially uses RPG Maker XP Pokémon Essentials. No public playable release located.",
+    "last_activity": "2026-09-15"
+  },
+  {
+    "name": "ccboy — Game Boy in Minecraft",
+    "guest": [
+      "Game Boy / Game Boy Color software"
+    ],
+    "host": "Minecraft: Java Edition with ComputerCraft / CC:Tweaked",
+    "creator": "amatheo",
+    "status": [
+      "source-available",
+      "adjacent"
+    ],
+    "first_seen": "2025-09-15",
+    "source": "https://github.com/amatheo/ccboy",
+    "license": "AGPL-3.0",
+    "category": "adjacent",
+    "notes": "Streams Game Boy frames from an external headless PyBoy emulator over WebSocket to a ComputerCraft monitor and sends Minecraft-side controls back. Tracked as adjacent because the emulator itself runs outside Minecraft."
+  },
+  {
+    "name": "GeometryTale",
+    "guest": [
+      "Geometry Dash"
+    ],
+    "host": "Hytale",
+    "creator": "risp",
+    "status": [
+      "released",
+      "adjacent"
+    ],
+    "first_seen": "2026-02-06",
+    "release": "https://www.curseforge.com/hytale/worlds/geometrytale",
+    "license": "All Rights Reserved",
+    "category": "adjacent",
+    "notes": "Downloadable Hytale world recreating Geometry Dash-style 2D side-scrolling levels. Kept adjacent because it is a contained custom-world/minigame recreation rather than a broad runtime or systems port.",
+    "last_activity": "2026-02-06"
+  },
+  {
+    "name": "Minecraft, but It's Crash Bandicoot (Remake)",
+    "guest": [
+      "Crash Bandicoot (1996)"
+    ],
+    "host": "Minecraft: Java Edition",
+    "creator": "OfficialTCK",
+    "status": [
+      "released",
+      "adjacent"
+    ],
+    "first_seen": "2025-06-20",
+    "release": "https://www.curseforge.com/minecraft/worlds/minecraft-but-its-crash-bandicoot",
+    "license": "CC-BY-NC-3.0",
+    "category": "adjacent",
+    "notes": "Two Crash Bandicoot levels recreated as a vanilla Minecraft world with custom gameplay mechanics and resource packs. Kept adjacent because it is a limited custom-world recreation rather than a full game/runtime port.",
+    "latest_release": "v1.6 (2026-07-22)",
+    "last_activity": "2026-07-22"
   }
 ]
