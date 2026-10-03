@@ -37,6 +37,7 @@ jobs:
             --exclude '^https://www[.]patreon[.]com/infernoplus/posts/dark-souls-46865100'
             --exclude '^https://www[.]reddit[.]com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/'
             --exclude '^https://heldgames[.]com/guides/is-that-viral-mod-video-real'
+            --exclude '^https://builtbybit[.]com/resources/retro-handheld-emulator-1x1-scale[.]101265/'
             "./**/*.md"
             "./data/projects.json"
           fail: true
