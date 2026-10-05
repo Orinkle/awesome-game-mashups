@@ -12,6 +12,8 @@ Research, local files, an unmerged branch, or one successful commit while justif
 
 Read live README, `data/projects.json`, `data/site.json`, `data/projects.schema.json`, CONTRIBUTING, this contract, `.github/catalogue-state.json`, templates, workflows and LICENSE. Read metadata, recent commits, open issues/PRs and Actions. Confirm legitimate write access; no dummy files or bootstrap workflows just to test permissions. The checkpoint never overrides contradictory live data.
 
+Repository permission flags are not a successful publication test. Before extended discovery, independently verify and publish the smallest genuine outstanding correction when one exists, then read it back. If there is no justified change yet, do not manufacture one. Discover the current tool schemas rather than copying tool names or arguments from old chats.
+
 ## Research
 
 Search new and historical cross-game work across primary repositories/forges, creator sites, Steam Workshop, Nexus Mods, ModDB, itch.io, YouTube, Reddit, X, Bluesky, relevant forums, technical blogs and recomp/decomp communities. Follow creator/upstream credits; do not limit discovery to Minecraft. Search game-inside-game, cross-game mod, runtime rewrite, source port, emulation and substantial systems recreation variants.
@@ -70,3 +72,22 @@ Make bounded retries for ordinary technical errors after refreshing state. Use a
 Never disable the scheduled research task because publication failed. Leave it enabled for the next cycle. Only advance the completed research-cycle checkpoint after its stated scope truly completes. Structural upgrades and partial reviews need separate explicit checkpoints, not rewritten historical full-audit dates.
 
 Before finishing, confirm final remote head, intended files, JSON validity, duplicate absence, stable navigation, generated-view agreement, issue/PR outcomes, Actions results, hosting status and remaining evidence gaps. Include the repository/commit links and an honest scope summary.
+
+## Publication incident handling
+
+Scheduled execution maintains the catalogue, not its scheduler. Do not call automation create, update, pause, disable or delete operations during a scheduled catalogue run. A separate explicit maintainer request is required to change the task. Failure is not such a request. This is an execution rule, not a claim that the scheduler has a technical permission lock.
+
+Classify a failure using the actual tool result:
+
+- **Transient transport/service error:** bounded retries, respecting rate limits; refresh remote state before retrying writes.
+- **GitHub conflict:** re-read and reconcile; never overwrite concurrent work or force-push.
+- **GitHub authorization/protection rejection:** record the HTTP status and relevant permission boundary; do not change permissions to get past it.
+- **Approval required:** report the pending approval accurately. Do not call it a GitHub outage or a safety denial.
+- **Platform safety denial:** preserve the exact message and any provided request identifier privately. Stop that denied operation and do not retry it through a different tool, credential, encoded payload, issue-to-commit proxy or workflow. Continue independent read-only work where useful.
+- **Unknown cause:** say unknown. Do not invent a safety-layer explanation, a GitHub response, a request ID, or a diagnosis about payload size.
+
+App permission settings and provider permissions are separate from platform safety review. A successful interactive write does not establish that a later unattended write will be accepted. Prompt changes, smaller batches and a healthy generator are not proof that an external denial is permanently fixed.
+
+For repeated unexplained platform denials, retain a private support record with the task identifier, times/timezone, exact messages, affected public paths, baseline/readback SHAs and observed app/provider permissions. Never publish private support identifiers, credentials, cookies, HAR captures or account diagnostics in this public repository. The maintainer can submit the sanitized record to the platform provider; do not claim a support case has been submitted without an actual submission result.
+
+Preserve the last completed research checkpoint during an incident. An independent stale-checkpoint alert must not be silenced by advancing dates, counting a structural build as research, or disabling the alert. No-op and partial runs remain explicitly distinct from completed full cycles.
