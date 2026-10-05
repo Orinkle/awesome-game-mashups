@@ -18,7 +18,25 @@
     "category": "core",
     "notes": "From-scratch Rust MW2 runtime with Skate 3 mode and a generated Minecraft world with blocks, mobs, inventory, mining and placement. v0.4.0 improved Minecraft-world frame pacing, made block edges grindable while skating, and fixed several gameplay/stability issues.",
     "latest_release": "v0.4.0 (2026-10-02)",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "rust-rewrite-mashup",
+    "summary": "Combines Modern Warfare 2 multiplayer, Skate-style skating and a Minecraft world.",
+    "description": "A from-scratch Rust rewrite of MW2 that combines MW2 multiplayer, Skate 3-style skating and a real generated Minecraft world. The Minecraft mode includes blocks, mobs, inventory, mining/placing and world generation; Skate mode uses data from a user-owned Xbox 360 copy. **v0.4.0 (2 Oct 2026)** improved Minecraft-world frame pacing, made block edges grindable while skating, and fixed several gameplay/stability issues.",
+    "approach": "from-scratch Rust MW2 runtime + Skate 3 mode + Minecraft world/runtime integration",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/chasmlol",
+    "extra_links": [
+      {
+        "label": "IW4L upstream",
+        "url": "https://github.com/vladtrc/iw4L"
+      }
+    ],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "SkyCraft",
@@ -39,7 +57,20 @@
     "category": "core",
     "notes": "SKSE plugin and Fabric mod communicate through shared memory; Minecraft runs game logic while Skyrim renders the world.",
     "latest_release": "v0.1.2 (2026-10-01)",
-    "last_activity": "2026-10-01"
+    "last_activity": "2026-10-01",
+    "id": "skycraft",
+    "summary": "Brings Minecraft building, exploration and gameplay into Skyrim.",
+    "description": "Minecraft remains running as the game-logic side while Skyrim renders the world. Movement, inventory, HUD, blocks, digging, fluids, lighting, combat and parts of Minecraft progression are integrated into Skyrim's world.",
+    "approach": "Skyrim SKSE plugin + Minecraft Fabric mod communicating via shared memory",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/chasmlol",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft Crossover Bridge",
@@ -56,7 +87,20 @@
     "source": "https://github.com/justbustin/minecraft-crossover-bridge",
     "license": "MIT",
     "category": "core",
-    "notes": "Bridges native macOS Minecraft into Windows games running under CrossOver via shared memory. Minecraft blocks, mobs and the player hand are composited into the host frame with depth/lighting; host terrain becomes Minecraft collision and damage is bridged both ways."
+    "notes": "Bridges native macOS Minecraft into Windows games running under CrossOver via shared memory. Minecraft blocks, mobs and the player hand are composited into the host frame with depth/lighting; host terrain becomes Minecraft collision and damage is bridged both ways.",
+    "id": "minecraft-crossover-bridge",
+    "summary": "Brings Minecraft blocks, mobs and combat into Monster Hunter: World or Elden Ring on Apple Silicon Macs.",
+    "description": "Minecraft runs natively on macOS while the host game runs under CrossOver. The bridge composites Minecraft blocks, mobs and the player's hand into the host frame with depth/lighting, maps host collision into Minecraft, and bridges combat damage in both directions.",
+    "approach": "Fabric + native Windows bridge DLLs + shared memory + frame/depth compositing",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/justbustin",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "HytaleDoom",
@@ -74,7 +118,25 @@
     "media": "https://www.youtube.com/watch?v=RxVj6_NKRDY",
     "license": null,
     "category": "core",
-    "notes": "Java DOOM implementation rendered as raw pixel data inside a Hytale mod."
+    "notes": "Java DOOM implementation rendered as raw pixel data inside a Hytale mod.",
+    "id": "hytale-doom",
+    "summary": "Lets you control DOOM from inside Hytale.",
+    "description": "A deliberately rough proof-of-concept built in a few nights. DOOM is rendered as raw pixel data inside Hytale and is controlled from the game.",
+    "approach": "Java Doom implementation rendered and controlled through a Hytale mod",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/tr7zw",
+    "extra_links": [
+      {
+        "label": "vanilla-mocha-doom dependency",
+        "url": "https://github.com/gaborbata/vanilla-mocha-doom/"
+      }
+    ],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "DoomMaps",
@@ -91,7 +153,20 @@
     "source": "https://github.com/ssquadteam/DoomMaps",
     "license": "GPL-3.0",
     "category": "core",
-    "notes": "Hytale plugin that renders DOOM frames to an in-game world-map display and maps player position/input into DOOM. Requires a user-supplied DOOM shareware WAD."
+    "notes": "Hytale plugin that renders DOOM frames to an in-game world-map display and maps player position/input into DOOM. Requires a user-supplied DOOM shareware WAD.",
+    "id": "doom-maps",
+    "summary": "Runs DOOM on Hytale’s in-game world-map screen.",
+    "description": "Runs DOOM through Hytale's in-game world-map display at a targeted 35 FPS, with movement/action controls mapped from Hytale input. It requires the user to supply the DOOM shareware WAD.",
+    "approach": "Hytale plugin + world-map framebuffer rendering",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/ssquadteam",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "HyCraft",
@@ -110,7 +185,20 @@
     "release": "https://github.com/EdwardBelt/HyCraft/releases/tag/v1.1.4",
     "license": "MIT",
     "category": "core",
-    "notes": "Protocol bridge that lets unmodified Minecraft Java clients join Hytale servers, translating packets and synchronising chunks, entities, interactions/combat and inventory."
+    "notes": "Protocol bridge that lets unmodified Minecraft Java clients join Hytale servers, translating packets and synchronising chunks, entities, interactions/combat and inventory.",
+    "id": "hycraft",
+    "summary": "Lets Minecraft players join Hytale servers and interact with their worlds.",
+    "description": "Minecraft clients can connect to a Hytale server without a client mod. HyCraft converts chunks and biomes, synchronises entities and inventory, and translates block interaction and combat.",
+    "approach": "protocol bridge translating Minecraft packets into Hytale's server protocol",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/EdwardBelt",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "UltraDoom / UltrakillDoom",
@@ -127,7 +215,20 @@
     "source": "https://github.com/Squaresweets/UltrakillDoom",
     "license": null,
     "category": "core",
-    "notes": "BepInEx plugin that runs playable DOOM on ULTRAKILL shop terminals. Uses a user-supplied legitimate/shareware DOOM WAD and builds on DoomInUnityInspector/Managed Doom lineage."
+    "notes": "BepInEx plugin that runs playable DOOM on ULTRAKILL shop terminals. Uses a user-supplied legitimate/shareware DOOM WAD and builds on DoomInUnityInspector/Managed Doom lineage.",
+    "id": "ultradoom",
+    "summary": "Lets you play DOOM on the shop terminals inside ULTRAKILL.",
+    "description": "Turns ULTRAKILL's diegetic shop terminals into playable DOOM instances. A legitimate or shareware DOOM WAD is supplied by the user.",
+    "approach": "BepInEx plugin built on DoomInUnityInspector / Managed Doom lineage",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Squaresweets",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "HellGate: Doom Portal",
@@ -143,7 +244,19 @@
     "release": "https://www.curseforge.com/minecraft/mc-mods/hellgate-doom-portal",
     "license": "All Rights Reserved",
     "category": "core",
-    "notes": "Fabric mod that opens a playable DOOM II experience through an in-world portal/altar, with DOOM progress persisted between sessions."
+    "notes": "Fabric mod that opens a playable DOOM II experience through an in-world portal/altar, with DOOM progress persisted between sessions.",
+    "id": "hellgate-doom-portal",
+    "summary": "Opens a portal from Minecraft into a playable DOOM II experience.",
+    "description": "An in-world portal and altar launch a playable DOOM II experience from Minecraft; DOOM saves and progress persist between sessions.",
+    "approach": "Fabric mod / OpenGL integration",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "NucleDoom",
@@ -162,7 +275,20 @@
     "release": "https://modrinth.com/mod/nucledoom",
     "license": null,
     "category": "core",
-    "notes": "Server-side Fabric mod that runs DOOM inside Minecraft with sound support; shareware DOOM and Freedoom are supported by the project."
+    "notes": "Server-side Fabric mod that runs DOOM inside Minecraft with sound support; shareware DOOM and Freedoom are supported by the project.",
+    "id": "nucledoom",
+    "summary": "Runs DOOM inside Minecraft with controls and sound.",
+    "description": "Runs classic DOOM inside Minecraft with controls and sound support. The project supports the shareware DOOM data and Freedoom.",
+    "approach": "server-side Fabric mod",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Patbox",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Wasmcraft game demos",
@@ -183,7 +309,21 @@
     "source": "https://github.com/SuperTails/wasmcraft2",
     "license": "MIT OR Apache-2.0",
     "category": "core",
-    "notes": "WebAssembly-to-Minecraft datapack compiler demonstrated running multiple games and emulators inside vanilla Minecraft, including DOOM, Celeste Classic and an NES emulator running Super Mario Bros."
+    "notes": "WebAssembly-to-Minecraft datapack compiler demonstrated running multiple games and emulators inside vanilla Minecraft, including DOOM, Celeste Classic and an NES emulator running Super Mario Bros.",
+    "id": "wasmcraft",
+    "summary": "Runs games including DOOM, Celeste Classic and Super Mario Bros. inside vanilla Minecraft.",
+    "description": "A historically important technical precursor: Wasmcraft compiles WebAssembly programs into Minecraft datapacks and has public demonstrations of multiple games, including DOOM, Celeste Classic and an NES emulator running Super Mario Bros.",
+    "approach": "WebAssembly compiled to vanilla Minecraft datapacks",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/SuperTails",
+    "media": "https://www.youtube.com/watch?v=wCHB1UgwM9o",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Dead by Daylight Add-On (Zero Squad)",
@@ -199,7 +339,19 @@
     "release": "https://www.curseforge.com/minecraft-bedrock/addons/dead-by-daylight",
     "license": "All Rights Reserved",
     "category": "core",
-    "notes": "Bedrock add-on recreating Dead by Daylight systems including generators and skill checks, pallets/vaulting, health states, hooks, lockers, Trapper bear traps, terror radius, carrying/wiggle mechanics and custom UI using Minecraft Script API."
+    "notes": "Bedrock add-on recreating Dead by Daylight systems including generators and skill checks, pallets/vaulting, health states, hooks, lockers, Trapper bear traps, terror radius, carrying/wiggle mechanics and custom UI using Minecraft Script API.",
+    "id": "dead-by-daylight",
+    "summary": "Recreates Dead by Daylight’s generators, chases, traps and survivor systems in Minecraft Bedrock.",
+    "description": "Recreates generator objectives and skill checks, pallets/vaulting, health states, hooks, lockers, Trapper bear traps, terror radius, carrying/wiggle mechanics and custom UI.",
+    "approach": "Minecraft Script API / JavaScript gameplay systems",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Arcade Mod Reloaded",
@@ -221,7 +373,19 @@
     "project_page": "https://modrinth.com/mod/arcade-mod-reloaded",
     "license": "GPL-3.0",
     "category": "core",
-    "notes": "Forge port/continuation of the older Arcade Mod with six playable arcade-game recreations inside Minecraft."
+    "notes": "Forge port/continuation of the older Arcade Mod with six playable arcade-game recreations inside Minecraft.",
+    "id": "arcade-mod-reloaded",
+    "summary": "Adds six playable arcade games, including Tetris, Pac-Man and Donkey Kong, to Minecraft.",
+    "description": "A modern port/continuation of the older Arcade Mod with six playable arcade recreations inside Minecraft.",
+    "approach": "Forge arcade-machine recreations",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Halocraft",
@@ -238,7 +402,24 @@
     "project_page": "https://www.patreon.com/infernoplus/posts/halocraft-73930239",
     "license": null,
     "category": "core",
-    "notes": "Four destructible Minecraft-style multiplayer maps implemented in Halo 3."
+    "notes": "Four destructible Minecraft-style multiplayer maps implemented in Halo 3.",
+    "id": "halocraft",
+    "summary": "Adds destructible Minecraft-style blocks and maps to Halo 3 multiplayer.",
+    "description": "Four destructible Minecraft maps built inside Halo 3. This is more than a texture swap: the key technical feature is destructible block geometry in a host engine not designed for Minecraft-style terrain destruction.",
+    "approach": "Halo 3 multiplayer maps with destructible Minecraft-style voxel structures using Halo's physics",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [
+      {
+        "label": "Official Halo spotlight",
+        "url": "https://www.halowaypoint.com/news/halo-mcc-modtacular-2"
+      }
+    ],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Dark Souls: Remastest / Remastester",
@@ -255,7 +436,28 @@
     "media": "https://www.youtube.com/watch?v=qRBTMhG2_00",
     "license": null,
     "category": "core",
-    "notes": "Large multiplayer overhaul with Halo maps, weapons and other cross-game systems."
+    "notes": "Large multiplayer overhaul with Halo maps, weapons and other cross-game systems.",
+    "id": "remastest",
+    "summary": "Mixes Halo maps and weapons with a major Dark Souls multiplayer and combat overhaul.",
+    "description": "A large multiplayer-focused Dark Souls overhaul that evolved into a Halo/Dark Souls mashup, including Halo maps and weapons alongside major multiplayer and combat changes.",
+    "approach": "extensive Dark Souls modding; Halo maps/weapons plus multiplayer overhaul",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [
+      {
+        "label": "Original release post",
+        "url": "https://www.patreon.com/infernoplus/posts/dark-souls-46865100"
+      },
+      {
+        "label": "Community tooling: DS Gadget for Remastest",
+        "url": "https://github.com/Nordgaren/DS-Gadget-for-Remastest"
+      }
+    ],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Ocarina of Time in Minecraft",
@@ -272,7 +474,19 @@
     "media": "https://www.youtube.com/watch?v=HSGioTZ_rf4",
     "license": null,
     "category": "core",
-    "notes": "Seven-year solo recreation intended to be playable from start to finish, including bosses, quests, items and story."
+    "notes": "Seven-year solo recreation intended to be playable from start to finish, including bosses, quests, items and story.",
+    "id": "ocarina-of-time",
+    "summary": "Recreates Zelda: Ocarina of Time in Minecraft, with its story, bosses, quests and items.",
+    "description": "A seven-year solo recreation designed to be playable from beginning to end, covering the world, bosses, sidequests, story and items rather than only reproducing the map geometry.",
+    "approach": "long-form Minecraft adventure-map recreation with custom systems, bosses, quests and progression",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Pokémon Red in Minecraft",
@@ -288,7 +502,19 @@
     "release": "https://www.curseforge.com/minecraft/worlds/pokemon-red",
     "license": "All Rights Reserved",
     "category": "core",
-    "notes": "Complete playable recreation of Pokémon Red in vanilla Minecraft using command blocks and a resource pack, including the original progression and many game systems."
+    "notes": "Complete playable recreation of Pokémon Red in vanilla Minecraft using command blocks and a resource pack, including the original progression and many game systems.",
+    "id": "pokemon-red",
+    "summary": "Rebuilds the Pokémon Red adventure as a playable game inside vanilla Minecraft.",
+    "description": "A complete playable recreation of Pokémon Red built in vanilla Minecraft, reproducing the original progression and game systems rather than only the Kanto map.",
+    "approach": "vanilla command blocks + resource pack",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft voxel engine inside Super Mario 64",
@@ -306,7 +532,24 @@
     "creator_post": "https://x.com/arthurtilly413/status/1924566904498487662",
     "license": null,
     "category": "core",
-    "notes": "Custom voxel engine developed inside the SM64 engine; demonstrated running on original N64 hardware."
+    "notes": "Custom voxel engine developed inside the SM64 engine; demonstrated running on original N64 hardware.",
+    "id": "minecraft-sm64",
+    "summary": "Adds Minecraft-style terrain, blocks and lighting to Super Mario 64.",
+    "description": "Runs on emulator and, with reduced render distance, on original Nintendo 64 hardware. The demonstrated build has infinite terrain generation, multiple block types and biomes, early fluid support and lighting features.",
+    "approach": "custom voxel engine written inside the SM64 engine",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [
+      {
+        "label": "Creator GitHub",
+        "url": "https://github.com/arthurtilly"
+      }
+    ],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Morrowind in Elden Ring",
@@ -325,7 +568,19 @@
     "category": "core",
     "notes": "Large-scale WIP recreation of Morrowind in Elden Ring. A May 2026 creator update showed functional combat, spells and gear and described the project as fairly playable, but no public build has been located.",
     "last_activity": "2026-05-07",
-    "latest_update": "https://www.pcgamer.com/games/rpg/morrowind-in-elden-ring-mod-makes-mindblowing-progress-in-video-dedicated-to-that-one-guy-that-commented-this-project-was-not-going-to-come-out/"
+    "latest_update": "https://www.pcgamer.com/games/rpg/morrowind-in-elden-ring-mod-makes-mindblowing-progress-in-video-dedicated-to-that-one-guy-that-commented-this-project-was-not-going-to-come-out/",
+    "id": "morrowind-elden-ring",
+    "summary": "Recreates Morrowind’s world and gameplay inside Elden Ring.",
+    "description": "An ongoing recreation of Morrowind in Elden Ring. A May 2026 update showed major progress beyond the original world conversion, including functional combat, spells and gear, but it remains unfinished and no public build has been located.",
+    "approach": "large-scale world/asset conversion and recreation in Elden Ring's engine",
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft Classic 0.30 inside Hytale",
@@ -343,7 +598,19 @@
     "verification": "https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-itself-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/",
     "license": null,
     "category": "core",
-    "notes": "Primary creator footage shows Minecraft Classic rendered through Hytale's world-map display using pixel-data manipulation/software rendering. No public build located."
+    "notes": "Primary creator footage shows Minecraft Classic rendered through Hytale's world-map display using pixel-data manipulation/software rendering. No public build located.",
+    "id": "minecraft-classic-hytale",
+    "summary": "Shows Minecraft Classic running on Hytale’s in-game world-map screen.",
+    "description": "Primary creator footage demonstrates Minecraft Classic rendered inside Hytale's map display using pixel-data manipulation. This is kept separate from DoomMaps because it is a different guest game and no public Minecraft build has been located.",
+    "approach": "software-rendered Minecraft framebuffer streamed through Hytale's world-map system",
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft in Elden Ring",
@@ -360,7 +627,19 @@
     "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
     "license": null,
     "category": "watchlist",
-    "notes": "Primary creator footage exists, but no public repository/download was located; broader implementation claims remain externally unreproducible."
+    "notes": "Primary creator footage exists, but no public repository/download was located; broader implementation claims remain externally unreproducible.",
+    "id": "minecraft-elden-ring-tobynjacobs",
+    "summary": "TobynJacobs’ footage shows Minecraft-style gameplay in Elden Ring; wider claims remain unconfirmed.",
+    "description": "Primary creator footage exists, but no public repository/download was located; broader implementation claims remain externally unreproducible.",
+    "approach": null,
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft in GTA V",
@@ -377,7 +656,19 @@
     "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
     "license": null,
     "category": "watchlist",
-    "notes": "Viral footage/discussion; no matching public source or release verified."
+    "notes": "Viral footage/discussion; no matching public source or release verified.",
+    "id": "minecraft-gta-v",
+    "summary": "Viral footage claims to combine Minecraft gameplay with GTA V.",
+    "description": "Viral footage/discussion; no matching public source or release verified.",
+    "approach": null,
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft in Cyberpunk 2077",
@@ -393,7 +684,19 @@
     "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
     "license": null,
     "category": "watchlist",
-    "notes": "No matching public source/release verified as of 2026-10-01."
+    "notes": "No matching public source/release verified as of 2026-10-01.",
+    "id": "minecraft-cyberpunk",
+    "summary": "A viral claim puts Minecraft gameplay inside Cyberpunk 2077.",
+    "description": "No matching public source/release verified as of 2026-10-01.",
+    "approach": null,
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Earlier viral Minecraft in Skyrim footage",
@@ -409,7 +712,19 @@
     "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
     "license": null,
     "category": "watchlist",
-    "notes": "Earlier viral Minecraft-in-Skyrim footage was not independently sourced. Do not conflate it with SkyCraft, which is a separate public project."
+    "notes": "Earlier viral Minecraft-in-Skyrim footage was not independently sourced. Do not conflate it with SkyCraft, which is a separate public project.",
+    "id": "minecraft-skyrim-earlier-footage",
+    "summary": "Earlier Minecraft-in-Skyrim footage remains unsourced; it is not the verified SkyCraft project.",
+    "description": "Earlier viral Minecraft-in-Skyrim footage was not independently sourced. Do not conflate it with SkyCraft, which is a separate public project.",
+    "approach": null,
+    "added_at": "2026-10-02",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Portal Zombies",
@@ -426,7 +741,20 @@
     "release": "https://steamcommunity.com/sharedfiles/filedetails/?id=856630622",
     "license": null,
     "category": "adjacent",
-    "notes": "Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation."
+    "notes": "Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation.",
+    "id": "portal-zombies",
+    "summary": "Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map.",
+    "description": "Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation.",
+    "approach": null,
+    "added_at": "2026-10-01",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "scope_note": "uses Portal textures, models and teleporters in a custom Zombies map, but does not attempt to recreate Portal's full game systems.",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Project Inception",
@@ -447,7 +775,20 @@
     "category": "core",
     "notes": "Fabric mod that runs a fully featured second Minecraft instance on an in-world display and forwards player input to the inner game using a second process and memory-mapped IPC.",
     "latest_release": "v1.3.2+beta.1 (2020-10-14)",
-    "last_activity": "2020-10-24"
+    "last_activity": "2020-10-24",
+    "id": "project-inception",
+    "summary": "Runs a playable second Minecraft game on a screen inside Minecraft.",
+    "description": "Runs a fully featured second Minecraft instance on an in-world display and forwards keyboard/mouse input to the inner game. It is a useful historical precursor to the current wave of game-inside-game projects.",
+    "approach": "Fabric mod + second Minecraft process + memory-mapped interprocess communication",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Arc-blroth",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Latte Doom",
@@ -465,7 +806,19 @@
     "category": "core",
     "notes": "DOOM source port for Minecraft. The vendored Mocha Doom engine runs inside Minecraft's JVM and owns the simulation while Minecraft renders it. Requires the user's own copy of DOOM. The linked source repository was unavailable during verification, so this entry is not marked source-available.",
     "latest_release": "0.75.0-alpha (2026-08-17)",
-    "last_activity": "2026-08-17"
+    "last_activity": "2026-08-17",
+    "id": "latte-doom",
+    "summary": "Runs DOOM inside Minecraft using the Mocha Doom engine.",
+    "description": "A DOOM source port for Minecraft. Mocha Doom owns the game simulation while Minecraft renders it. The project requires the user's own copy of DOOM. Its linked source repository was unavailable during this verification, so it is not labelled source-available.",
+    "approach": "vendored Mocha Doom engine running inside Minecraft's JVM",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "hytale2mc",
@@ -485,7 +838,20 @@
     "project_page": "https://hytale2mc.com/",
     "license": "GPL-3.0",
     "category": "core",
-    "notes": "Framework for cross-platform minigames shared between Minecraft and Hytale. It uses a custom ECS, Minestom, Hytale server plugins and NATS to synchronize game state. The project site advertises a live public server at play.hytale2mc.com."
+    "notes": "Framework for cross-platform minigames shared between Minecraft and Hytale. It uses a custom ECS, Minestom, Hytale server plugins and NATS to synchronize game state. The project site advertises a live public server at play.hytale2mc.com.",
+    "id": "hytale2mc",
+    "summary": "Lets Minecraft and Hytale players join the same synchronized cross-game minigames.",
+    "description": "A framework for writing one minigame that runs across Minecraft and Hytale with synchronized game state. The project site currently advertises a live public server at `play.hytale2mc.com`.",
+    "approach": "custom ECS + Minestom + Hytale server plugin + NATS state synchronization",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/alskea",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "CrossplayProject — Minecraft ↔ Roblox",
@@ -507,7 +873,19 @@
     "category": "core",
     "notes": "Archived but downloadable crossplay project that synchronizes blocks, players, mobs, time/weather, chat, skins and build/break interactions between Minecraft and Roblox via a Minecraft plugin HTTP API and Roblox scripts/models.",
     "latest_release": "v1.3 (2024-07-13)",
-    "last_activity": "2024-11-30"
+    "last_activity": "2024-11-30",
+    "id": "crossplayproject",
+    "summary": "Links Minecraft and Roblox so players, blocks and chat synchronize between both games.",
+    "description": "Synchronizes blocks, players, mobs, time/weather, chat, skins and build/break interactions between Minecraft and Roblox. The source repository is archived, but the v1.3 release remains available.",
+    "approach": "Minecraft plugin HTTP API + Roblox scripts/models",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft ↔ Hytale crossplay (SSquadTeam)",
@@ -527,7 +905,19 @@
     "license": null,
     "category": "core",
     "notes": "Creator footage demonstrates Minecraft and Hytale clients sharing a Hytale-hosted world with synchronized players, block placement, time and chat. The creator describes a Minecraft server running inside Hytale's JVM with packet translation and shared world coordinates. No public source repository or build located.",
-    "last_activity": "2026-01-21"
+    "last_activity": "2026-01-21",
+    "id": "minecraft-hytale-crossplay-ssquadteam",
+    "summary": "Lets Minecraft and Hytale players share a synchronized Hytale-hosted world.",
+    "description": "Creator footage shows Minecraft and Hytale clients sharing one Hytale-hosted world, including synchronized players, block placement, time of day and cross-game chat. No public source repository or playable build has been located.",
+    "approach": "Minecraft server inside Hytale's JVM + packet translation + shared world coordinates",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Retro Handheld Emulator 1x1 scale",
@@ -543,7 +933,19 @@
     "release": "https://builtbybit.com/resources/retro-handheld-emulator-1x1-scale.101265/",
     "license": "BuiltByBit Standard EULA",
     "category": "core",
-    "notes": "Paid Hytale resource implementing a fully functional Game Boy emulator in-world at true 1:1 scale. Frames are computed and rendered live as 23,040 blocks, controls are mapped to in-game blocks, and the creator says no external tools are used."
+    "notes": "Paid Hytale resource implementing a fully functional Game Boy emulator in-world at true 1:1 scale. Frames are computed and rendered live as 23,040 blocks, controls are mapped to in-game blocks, and the creator says no external tools are used.",
+    "id": "retro-handheld-emulator",
+    "summary": "Runs playable Game Boy games on a giant in-world display inside Hytale.",
+    "description": "A fully functional Game Boy emulator running inside Hytale at true 1:1 scale. The creator says frames are computed and rendered live, controls are mapped to in-game blocks, and no external tools are used. Tetris and Batman titles are shown as tested examples.",
+    "approach": "in-Hytale emulator rendering each frame as 23,040 blocks",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "talemonpokemon",
@@ -561,7 +963,19 @@
     "category": "core",
     "notes": "Hytale mod recreating a substantial Pokémon adventure loop: starter selection, biome-based Pokémon spawning, levels/stats/types/abilities/moves, turn-based battles, capture, party/PC management, experience, evolution and Apricorn/Poké Ball progression.",
     "latest_release": "0.5 (2026-07-24)",
-    "last_activity": "2026-07-24"
+    "last_activity": "2026-07-24",
+    "id": "talemonpokemon",
+    "summary": "Recreates Pokémon catching, battles, evolution and trainer progression inside Hytale.",
+    "description": "Recreates a substantial Pokémon adventure loop inside Hytale: starter selection, biome-based spawning, levels, stats, types, abilities, moves, turn-based battles, capture, party/PC management, experience, evolution and Apricorn/Poké Ball progression.",
+    "approach": "Hytale gameplay mod recreating Pokémon progression and turn-based battles",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "PokeWorlds Online",
@@ -580,7 +994,19 @@
     "license": null,
     "category": "core",
     "notes": "Work-in-progress Hytale mod/server recreating classic top-down Pokémon. Creator footage shows a 2D world, party and inventory UI, trainer battles and turn-based combat. The creator says it partially uses RPG Maker XP Pokémon Essentials. No public playable release located.",
-    "last_activity": "2026-09-15"
+    "last_activity": "2026-09-15",
+    "id": "pokeworlds-online",
+    "summary": "Rebuilds classic top-down Pokémon as a multiplayer game inside Hytale.",
+    "description": "A work-in-progress multiplayer Pokémon-style project inside Hytale. Creator footage shows a 2D world, party and inventory UI, trainer battles and turn-based combat. No public playable release has been located.",
+    "approach": "Hytale mod/server using a 2D top-down world; creator says it partially uses RPG Maker XP Pokémon Essentials",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "ccboy — Game Boy in Minecraft",
@@ -597,7 +1023,20 @@
     "source": "https://github.com/amatheo/ccboy",
     "license": "AGPL-3.0",
     "category": "adjacent",
-    "notes": "Streams Game Boy frames from an external headless PyBoy emulator over WebSocket to a ComputerCraft monitor and sends Minecraft-side controls back. Tracked as adjacent because the emulator itself runs outside Minecraft."
+    "notes": "Streams Game Boy frames from an external headless PyBoy emulator over WebSocket to a ComputerCraft monitor and sends Minecraft-side controls back. Tracked as adjacent because the emulator itself runs outside Minecraft.",
+    "id": "ccboy",
+    "summary": "Streams Game Boy gameplay from an external emulator to ComputerCraft monitors in Minecraft.",
+    "description": "Frames are streamed over WebSocket to ComputerCraft monitors and player inputs are relayed back to the external emulator.",
+    "approach": null,
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "scope_note": "the Game Boy emulator runs as an external headless PyBoy process; Minecraft provides the display and controls.",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "GeometryTale",
@@ -615,7 +1054,20 @@
     "license": "All Rights Reserved",
     "category": "adjacent",
     "notes": "Downloadable Hytale world recreating Geometry Dash-style 2D side-scrolling levels. Kept adjacent because it is a contained custom-world/minigame recreation rather than a broad runtime or systems port.",
-    "last_activity": "2026-02-06"
+    "last_activity": "2026-02-06",
+    "id": "geometrytale",
+    "summary": "Recreates Geometry Dash-style 2D levels as a playable Hytale world.",
+    "description": "Recreates Geometry Dash-style 2D side-scrolling levels as a downloadable Hytale world, including cube/ship play and side-scroller camera setup.",
+    "approach": null,
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "scope_note": "a contained custom-world/minigame recreation rather than a broad runtime or systems port.",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft, but It's Crash Bandicoot (Remake)",
@@ -634,7 +1086,20 @@
     "category": "adjacent",
     "notes": "Two Crash Bandicoot levels recreated as a vanilla Minecraft world with custom gameplay mechanics and resource packs. Kept adjacent because it is a limited custom-world recreation rather than a full game/runtime port.",
     "latest_release": "v1.6 (2026-07-22)",
-    "last_activity": "2026-07-22"
+    "last_activity": "2026-07-22",
+    "id": "crash-bandicoot-remake",
+    "summary": "Recreates two Crash Bandicoot levels with custom gameplay in Minecraft.",
+    "description": "Recreates two Crash Bandicoot levels in Minecraft with custom gameplay mechanics and resource packs.",
+    "approach": null,
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "scope_note": "a limited two-level custom-world recreation rather than a full game/runtime port.",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "ValCraft",
@@ -655,7 +1120,20 @@
     "category": "core",
     "notes": "SkyCraft-derived passthrough: Minecraft runs hidden and drives movement, inventory, blocks and combat while a Valheim BepInEx plugin streams collision, renders Minecraft content in Valheim and bridges combat/loot between both games.",
     "latest_release": "v0.5.8 (2026-10-03)",
-    "last_activity": "2026-10-03"
+    "last_activity": "2026-10-03",
+    "id": "valcraft",
+    "summary": "Runs Minecraft movement, blocks, inventory and combat inside Valheim while both games stay active.",
+    "description": "Minecraft runs hidden and supplies movement, inventory, HUD, blocks and combat while Valheim supplies terrain, weather, creatures and dungeons. The bridge streams Valheim collision into Minecraft, renders Minecraft content in Valheim and carries combat and loot between both games.",
+    "approach": "Minecraft Fabric mod + Valheim BepInEx plugin communicating through shared memory",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/LoAlCo",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "GTA San AnSkateas",
@@ -676,7 +1154,20 @@
     "category": "core",
     "notes": "Runs Skate 3 skating inside GTA San Andreas using a C++ ASI plugin plus a Rust FFI bridge to the Skate 3 engine; GTA streets/collision become the skating environment. Requires user-owned copies of both games.",
     "latest_release": "v1.0 (2026-10-02)",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "gta-san-anskateas",
+    "summary": "Runs Skate 3 skating, tricks and physics on GTA San Andreas streets and collision.",
+    "description": "CJ can switch into Skate 3-style skating on San Andreas streets, using Skate 3 controls, tricks, grinds, bails and camera behaviour against GTA's collision. Setup requires user-owned copies of GTA San Andreas and Skate 3.",
+    "approach": "C++ ASI plugin + Rust FFI bridge to the Skate 3 engine",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/ryglizzy",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Wither Storm × GTA V Passthrough",
@@ -696,7 +1187,20 @@
     "license": "MIT",
     "category": "core",
     "notes": "Minecraft simulates the Wither Storm while a GTA V bridge composites it into Los Santos and maps storm interactions to GTA pedestrians, vehicles, explosions, weather and camera effects. Based on rehan-remade's universal-modder passthrough example.",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "wither-storm-gta-v",
+    "summary": "Runs Minecraft's Wither Storm simulation inside GTA V and bridges its effects into Los Santos.",
+    "description": "Minecraft remains responsible for simulating the Wither Storm while the bridge draws it into Los Santos. GTA pedestrians and vehicles are represented by Minecraft-side proxies so tractor beams, consumption, projectiles, explosions, weather and other storm effects can feed back into GTA.",
+    "approach": "Forge bridge + GTA plugin + ReShade depth compositing",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/VortexisTV",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "FalloutCraft",
@@ -717,7 +1221,20 @@
     "category": "core",
     "notes": "SkyCraft-derived shared-memory passthrough using an F4SE plugin and Fabric mod. Minecraft supplies movement, blocks, HUD, inventory and combat while Fallout 4 supplies the Commonwealth, NPCs, quests, Pip-Boy and saves.",
     "latest_release": "v.0.1.2 (2026-10-02)",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "falloutcraft",
+    "summary": "Runs Minecraft movement, building, HUD and combat inside Fallout 4's Commonwealth.",
+    "description": "Minecraft supplies movement, blocks, hearts, inventory and combat while Fallout 4 keeps the Commonwealth, NPCs, quests, Pip-Boy and saves. The project is explicitly built on the SkyCraft passthrough approach.",
+    "approach": "F4SE plugin + Minecraft Fabric mod using shared memory",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/zeyvu",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "GTA Skate 3 Trilogy",
@@ -738,7 +1255,20 @@
     "category": "core",
     "notes": "Combines the reVC/re3 Vice City rewrite lineage with the Skate 3 Rust rewrite so Skate 3-style skating runs in Vice City's world. The repository was originally published as Vice-City-Skate-1.0 and later renamed.",
     "latest_release": "1.1 (2026-10-02)",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "gta-skate-3-trilogy",
+    "summary": "Combines a Vice City rewrite with Skate 3's skating runtime.",
+    "description": "A playable Vice City / Skate 3 mashup built from the open reVC/re3 lineage and the Skate 3 Rust rewrite. The repository was originally published as Vice-City-Skate-1.0 before being renamed.",
+    "approach": "reVC/re3 rewrite lineage + Skate 3 Rust rewrite integration",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/irregularnetwork",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minecraft X Half-Life",
@@ -757,7 +1287,20 @@
     "license": null,
     "category": "core",
     "notes": "Ports SkyCraft's shared-memory model to Half-Life: Minecraft runs hidden and supplies player physics, blocks, inventory, mobs and combat while Half-Life provides maps, monsters and rendering. The creator describes it as very buggy and there is no tagged release.",
-    "last_activity": "2026-10-03"
+    "last_activity": "2026-10-03",
+    "id": "minecraft-x-half-life",
+    "summary": "Ports SkyCraft's Minecraft passthrough model to Half-Life.",
+    "description": "Minecraft runs hidden and supplies player physics, blocks, items, mobs, inventory and combat while Half-Life supplies maps, monsters and rendering. The project streams Half-Life map collision into Minecraft and bridges damage and interactions in both directions. The creator describes the current build as very buggy.",
+    "approach": "Half-Life SDK hooks + SkyCraft shared-memory protocol",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/SawyerTheNerd",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "CS-Craft",
@@ -778,7 +1321,20 @@
     "category": "core",
     "notes": "A Rust/Bevy CS:GO runtime with an Overworld special mode combining CS:GO movement, weapons and HUD with streamed Minecraft terrain, creatures, inventory, crafting, Nether progression, strongholds and an Ender Dragon encounter.",
     "latest_release": "v0.1.0 (2026-10-02)",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "cs-craft",
+    "summary": "Adds a Minecraft Overworld/progression mode to a CS:GO Rust/Bevy rewrite.",
+    "description": "The public v0.1.0 build includes an Overworld mode that keeps CS:GO-style movement, weapons and HUD while adding streamed Minecraft terrain, creatures, survival inventory, crafting, furnaces, Nether progression, strongholds and an Ender Dragon encounter.",
+    "approach": "from-scratch CS:GO runtime + Minecraft Overworld special mode",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/FrosttysBots",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "World of Skatecraft",
@@ -796,7 +1352,20 @@
     "license": "Apache-2.0",
     "category": "core",
     "notes": "Adds Skate 3's physics, tricks, grinds, powerslides and bails to Azeroth using the open-source benilla WoW client and Skate 3 Rust Engine. Setup uses user-owned WoW and Skate 3 files.",
-    "last_activity": "2026-10-03"
+    "last_activity": "2026-10-03",
+    "id": "world-of-skatecraft",
+    "summary": "Runs Skate 3 physics and tricks inside World of Warcraft 1.12.1.",
+    "description": "Pressing J drops the WoW character onto a skateboard using Skate 3's physics, with flick-it tricks, grinds, powerslides and bails anywhere in Azeroth. Setup reads user-owned WoW and Skate 3 files and runs against a local WoW server.",
+    "approach": "benilla WoW client + Skate 3 Rust Engine",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Kimmo3223",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "PipeLink Launcher — GTA SA × Skate 3 × MW2",
@@ -819,7 +1388,20 @@
     "category": "core",
     "notes": "Installer/launcher for a three-game mashup: Skate 3 mode and MW2 mode run inside GTA San Andreas. It builds from user-owned game files and integrates a Skate bridge plus IW4L-derived MW2 runtime support.",
     "latest_release": "v1.0.1 (2026-10-02)",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "pipelink-launcher",
+    "summary": "Runs Skate 3 and MW2 gameplay modes inside GTA San Andreas.",
+    "description": "An installer/launcher for a three-game mashup. Inside GTA San Andreas, F6 switches to Skate 3 mode and F5 switches to an MW2 mode with weapons, points, scoreboard and partially implemented killstreaks. It builds the required integration from user-owned game files.",
+    "approach": "GTA ASI integration + Skate bridge + IW4L-derived MW2 runtime support",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Sm1jjj",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "WowCraft — Minecraft inside World of Warcraft",
@@ -837,7 +1419,24 @@
     "license": null,
     "category": "core",
     "notes": "Creator demo shows Minecraft running hidden to drive movement, combat, building and items while WoW renders Azeroth and runs quests, mobs, XP and loot. Built on benilla and a SkyCraft-derived Fabric bridge; creator said the GitHub repository was not public yet.",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "wowcraft",
+    "summary": "Runs Minecraft movement, combat, building and items through World of Warcraft 1.12.1.",
+    "description": "Creator footage shows Minecraft movement, combat, building and items operating through Azeroth while WoW continues to run quests, mobs, XP and loot. At the time of verification the creator said the GitHub repository was not public yet.",
+    "approach": "Minecraft runs hidden and drives a SkyCraft-derived bridge into the benilla WoW client",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [
+      {
+        "label": "benilla upstream",
+        "url": "https://github.com/samwhosung/benilla"
+      }
+    ],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "CS:GO systems inside Project Zomboid",
@@ -855,7 +1454,19 @@
     "license": null,
     "category": "core",
     "notes": "Creator footage shows CS:GO weapons, shooting and movement added to Project Zomboid, built on Project Viewpoint with optional Project A-Life support. The creator states the download is not public yet.",
-    "last_activity": "2026-10-03"
+    "last_activity": "2026-10-03",
+    "id": "csgo-project-zomboid",
+    "summary": "Adds CS:GO weapons, shooting and movement to Project Zomboid.",
+    "description": "Creator footage shows CS:GO-style weapons, shooting and movement inside Project Zomboid. The creator says the download is not public yet and has discussed a future installer that would extract required assets from a user's own CS:GO installation.",
+    "approach": "Project Zomboid mod built on Project Viewpoint; creator also demonstrates optional Project A-Life support",
+    "added_at": "2026-10-03",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "OWCraft",
@@ -877,7 +1488,22 @@
     "notes": "SkyCraft-derived passthrough: Minecraft runs alongside Outer Wilds and owns player physics, blocks and inventory while Outer Wilds renders the planet, lighting and Minecraft content. Builds persist across Outer Wilds time loops.",
     "latest_release": "v0.1.1 (2026-10-02)",
     "last_activity": "2026-10-02",
-    "ai_assistance": "Creator states the mod was written by Claude, directed and play-tested by Yaekai."
+    "ai_assistance": "Creator states the mod was written by Claude, directed and play-tested by Yaekai.",
+    "id": "owcraft",
+    "summary": "Runs real Minecraft movement, blocks and inventory on Outer Wilds planets.",
+    "description": "Minecraft supplies the player physics, blocks, inventory and interactions while Outer Wilds renders the planets, lighting and Minecraft content. Builds persist across Outer Wilds time loops and restarts.",
+    "approach": "Outer Wilds Mod Loader host + SkyCraft-derived Fabric guest over shared memory",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "Outer Wilds on Steam with its Mod Manager, an owned Minecraft Java Edition copy, Minecraft 26.3, Fabric Loader 0.19.5 or newer and the corresponding Fabric API. The creator describes testing on one Windows PC; broader compatibility is not established.",
+    "playtest": null,
+    "creator_url": "https://github.com/Yaekai",
+    "extra_links": [],
+    "review_note": "README introduction and installation documentation reviewed on 2026-10-05 (blob b77929a99cb984ce1291b69960e71637deb739da). Creator testing is attributed to the creator, not recorded as a catalogue play-test."
   },
   {
     "name": "SkateGM",
@@ -898,7 +1524,22 @@
     "notes": "Runs Skate 3 board physics, tricks, scoring and skater gameplay inside Garry's Mod on arbitrary maps, with multiplayer, minigames and a park editor. Users supply their own Skate 3 files.",
     "latest_release": "6.0 (2026-10-04)",
     "last_activity": "2026-10-04",
-    "ai_assistance": "Creator documents use of AI coding tools while explicitly stating game logic and creative assets were not delegated wholesale to generative AI."
+    "ai_assistance": "Creator documents use of AI coding tools while explicitly stating game logic and creative assets were not delegated wholesale to generative AI.",
+    "id": "skategm",
+    "summary": "Runs Skate 3 physics, tricks and scoring inside Garry's Mod, including multiplayer.",
+    "description": "Runs Skate 3's board physics, tricks and scoring on Garry's Mod maps, with multiplayer, minigames, a park editor and a dedicated skating gamemode. Users supply their own Skate 3 files.",
+    "approach": "native Rust engine module + Garry's Mod Lua add-on",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "Garry’s Mod on the x86-64 branch, a controller, and the user’s own Xbox 360 Skate 3 dump are required. The creator recommends disabling Steam Input if the controller does not respond. Each player who skates installs the mod locally.",
+    "playtest": null,
+    "creator_url": "https://github.com/the-schwilliam",
+    "extra_links": [],
+    "review_note": "Requirements and implementation description reviewed in the creator README on 2026-10-05 (blob abafdc9c5132f6f380c803144908d497a0eedc5a). No independent play-test or binary safety check was performed."
   },
   {
     "name": "BullySkate",
@@ -918,7 +1559,20 @@
     "category": "core",
     "notes": "Adds Skate 3 physics and controller-driven skating to Bullworth using the Skate 3 Rust rewrite, while keeping Bully's world and character. Requires user-owned Bully and Skate 3 files.",
     "latest_release": "v0.1.2 (2026-10-04)",
-    "last_activity": "2026-10-04"
+    "last_activity": "2026-10-04",
+    "id": "bullyskate",
+    "summary": "Lets Jimmy skate through Bullworth using Skate 3 physics.",
+    "description": "Lets Jimmy skate through Bullworth using Skate 3 physics and controller input, with rigging, skater editing, markers and skitching. Users supply their own copies of both games.",
+    "approach": "Skate 3 Rust rewrite + Bully script/ASI integration",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Faiqie",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "LibertyCraft",
@@ -937,7 +1591,20 @@
     "license": "MIT",
     "category": "core",
     "notes": "SkyCraft-derived passthrough in which Minecraft owns movement, inventory, hotbar and placed/broken blocks while GTA IV owns Liberty City, camera, traffic and rendering. Early development but the creator describes the current source as playable.",
-    "last_activity": "2026-10-04"
+    "last_activity": "2026-10-04",
+    "id": "libertycraft",
+    "summary": "Runs Minecraft movement, inventory and building inside GTA IV's Liberty City.",
+    "description": "Minecraft owns movement, inventory, hotbar and blocks while GTA IV owns Liberty City, its camera, traffic and rendering. The creator describes the current source as early development but playable.",
+    "approach": "GTA IV ASI plugin + SkyCraft-derived Fabric mod over shared memory",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/mrborghini",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "SubCraft",
@@ -956,7 +1623,20 @@
     "license": "MIT",
     "category": "core",
     "notes": "SkyCraft-derived passthrough: hidden Minecraft owns player physics, inventory, combat, blocks and mobs while Subnautica owns terrain, creatures, lighting, sound and saves. Early development; shared-memory link and initial rendering/physics stages are implemented.",
-    "last_activity": "2026-10-03"
+    "last_activity": "2026-10-03",
+    "id": "subcraft",
+    "summary": "Connects Minecraft physics, blocks and mobs to Subnautica's world and rendering.",
+    "description": "Minecraft owns player physics, inventory, combat, blocks and mobs while Subnautica owns terrain, creatures, lighting, sound and saves. The shared-memory link and initial physics/rendering stages are implemented; exact collision and broader integration remain in development.",
+    "approach": "NeoForge Minecraft guest + Subnautica BepInEx host over shared memory",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/FumperForrest",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "New VegasCraft",
@@ -975,7 +1655,20 @@
     "license": null,
     "category": "core",
     "notes": "Linux passthrough project that composites Minecraft colour/depth into Fallout: New Vegas, synchronises the FNV camera and collision into Minecraft and allows Minecraft building in the Mojave. No published binaries; build from source.",
-    "last_activity": "2026-10-04"
+    "last_activity": "2026-10-04",
+    "id": "new-vegascraft",
+    "summary": "Composites Minecraft into Fallout: New Vegas and lets you build in the Mojave.",
+    "description": "Minecraft's colour and depth are composited into Fallout: New Vegas while FNV camera and collision data are sent back to Minecraft, enabling Minecraft building in the Mojave. The project currently targets Linux/Proton and must be built from source.",
+    "approach": "xNVSE + ReShade + Fabric passthrough",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/Davozh",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Minebonk",
@@ -993,7 +1686,20 @@
     "license": "MIT",
     "category": "core",
     "notes": "Native BepInEx/Harmony mod that rebuilds Minecraft-style first-person movement, hotbar/inventory, 1.21 combat, items, mobs, bosses and loot inside Megabonk rather than running a second Minecraft process.",
-    "last_activity": "2026-10-02"
+    "last_activity": "2026-10-02",
+    "id": "minebonk",
+    "summary": "Rebuilds Minecraft-style combat, inventory, mobs and bosses natively inside Megabonk.",
+    "description": "Unlike the passthrough projects, Minebonk uses one Megabonk process and rebuilds Minecraft-style first-person play, hotbar/inventory, 1.21 combat rules, items, mobs, bosses and loot directly inside the host game.",
+    "approach": "native BepInEx + Harmony recreation inside Megabonk",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/MGuibas",
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "DOOM on Hytale — PapiSpielt",
@@ -1016,7 +1722,19 @@
     "notes": "Reads DOOM WAD map data and recreates classic DOOM levels as Hytale worlds, mapping enemies, weapons, armour and items into Hytale. The creator calls it a showcase and warns that later maps are not tuned for full playability.",
     "latest_release": "hytale-doom-0.0.7 (2026-09-26)",
     "last_activity": "2026-09-26",
-    "ai_assistance": "Creator explicitly says most code was generated with Claude Code."
+    "ai_assistance": "Creator explicitly says most code was generated with Claude Code.",
+    "id": "doom-hytale-papispielt",
+    "summary": "Reconstructs classic DOOM WAD levels as Hytale worlds with enemies and items mapped into Hytale.",
+    "description": "Reads DOOM WAD map data and creates the level block-by-block in Hytale, mapping enemies, weapons, armour and other items into Hytale equivalents. The creator explicitly presents it as a showcase rather than a balanced full-game port.",
+    "approach": "WAD parsing + Hytale world reconstruction",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "GTA Trilogy Multiverse Portals",
@@ -1036,7 +1754,19 @@
     "license": null,
     "category": "core",
     "notes": "Creator demo runs GTA III, Vice City and San Andreas simultaneously in one process with a shared Direct3D device and live portals between persistent worlds. Bullets and interactions cross portal boundaries. No public build was located.",
-    "last_activity": "2026-07-21"
+    "last_activity": "2026-07-21",
+    "id": "gta-trilogy-multiverse",
+    "summary": "Runs GTA III, Vice City and San Andreas simultaneously with live portals between them.",
+    "description": "DryxioGTA's creator demo shows GTA III, Vice City and San Andreas running simultaneously inside one process. Live portals connect the persistent worlds, with engine control switching when the player crosses and bullets/interactions visible across portal boundaries. No public build has been located.",
+    "approach": "modified re3/reVC + plugin-sdk + librw + shared Direct3D device",
+    "added_at": "2026-10-05",
+    "reviewed_at": null,
+    "review_basis": "legacy-record",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "extra_links": [],
+    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
   },
   {
     "name": "Killcraft",
@@ -1057,6 +1787,21 @@
     "category": "core",
     "notes": "SkyCraft-derived passthrough that lets Minecraft own movement, health, hunger, inventory, combat, mobs and block building while ULTRAKILL supplies its levels, enemies, damage system and rendering.",
     "latest_release": "v0.1.3 (2026-10-04)",
-    "last_activity": "2026-10-04"
+    "last_activity": "2026-10-04",
+    "id": "killcraft",
+    "summary": "Runs Minecraft movement, combat, inventory, mobs and building inside ULTRAKILL levels.",
+    "description": "A real Minecraft instance runs hidden and owns movement, health, hunger, inventory, weapons, mobs and block building while ULTRAKILL supplies the levels, enemies, checkpoints and rendering. Damage and combat are bridged both ways.",
+    "approach": "ULTRAKILL BepInEx plugin + SkyCraft Minecraft guest over shared memory",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "The creator documents ULTRAKILL on Steam, BepInEx 5 x64 and an owned Minecraft Java Edition Microsoft account. First launch uses the bundled Prism setup to obtain Minecraft and Java; Skyrim is not required. ULTRAKILL movement and guns are replaced while Minecraft mode is enabled; F9 restores native mode.",
+    "playtest": null,
+    "creator_url": "https://github.com/goonsn",
+    "extra_links": [],
+    "review_note": "README documentation reviewed on 2026-10-05 (blob c4acfb61ca9802097c95a88fa3396e17f849a478). This confirms what the creator documents, not an independent play-test or binary safety check."
   }
 ]
