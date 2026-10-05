@@ -1,23 +1,19 @@
-## Project / change
+## Change
 
-<!-- What are you adding or correcting? -->
+What project, evidence, or user-facing behaviour changes?
 
 ## Evidence
 
-- Primary source:
-- Source code:
-- Download/release:
-- Creator post/video:
-- Secondary corroboration:
+Primary project / release / creator demo links and what was actually checked:
 
-## Verification
+## Checks
 
-- [ ] I checked the primary source where one exists.
-- [ ] I used the least-strong status supported by the evidence.
-- [ ] I did not infer a licence.
-- [ ] I did not infer AI use.
-- [ ] I separated video-only/unverified claims from released or source-available projects.
+- [ ] Status, attribution, licence and AI claims are supported; unknowns stay unknown.
+- [ ] Source availability is not described as a ready-to-play download without evidence.
+- [ ] Stable IDs are preserved; no duplicate entries or game files are added.
+- [ ] `python3 scripts/catalogue.py build` and `check` pass.
+- [ ] `python3 -m unittest discover -s tests -v` passes.
+- [ ] README + weekly digest are generated from canonical data, not independently edited.
+- [ ] No footage rights, platform support or independent play-test is invented.
 
-## Notes
-
-<!-- Anything uncertain, disputed, unavailable, or worth rechecking? -->
+For site or workflow changes, describe browser/security tests and any remaining limits.

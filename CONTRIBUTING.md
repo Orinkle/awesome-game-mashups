@@ -1,80 +1,56 @@
 # Contributing
 
-Thanks for helping keep **Awesome Game Mashups** useful.
+Made a cross-game project, found a missing demo, or spotted an error? [Submit it](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) or [report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml). A GitHub issue is enough; you do not have to write code.
 
-## Before submitting
+## What belongs here
 
-A core-list entry should involve a substantial cross-game or cross-engine implementation — not just an asset swap, skin, texture pack, ordinary themed map, or Easter egg.
+Substantial cross-game gameplay, runtime integration, embedded emulation and systems recreations. Skins, ordinary asset swaps and a map import alone are not core entries. Historical projects can qualify. The implementation may run in one process or several: judge the interaction, not the process count.
 
-Please gather at least one **primary source** where possible:
+Use `core`, `watchlist` or `adjacent`. A working link is not proof of a working game. A creator video is not a release. Public source is not automatically a ready-to-install download. Preserve those distinctions.
 
-1. official source repository;
-2. official release/download page;
-3. creator's original video/post;
-4. creator's project site or technical write-up.
+## Evidence first
 
-Secondary reporting is useful for corroboration, but should not replace an available primary source.
+Prefer the original repository, release, creator project page and technical documentation. Reposts are discovery leads. Describe claimed functionality as documented, not independently tested. Record a licence or AI assistance only when an identified source states it. Unknown is `null`, not a guess. GitHub's `NOASSERTION` is not a licence.
 
-## Verification states
+Keep rights separate: source-code licensing does not automatically license screenshots, game assets, videos or music. Link to creator demos. Do not upload game files, private Discord logs, HAR captures, account data or credentials.
 
-Use the least-strong status that the evidence supports:
+## Edit once, generate everything
 
-- `released` — public playable/downloadable build exists;
-- `source-available` — public source exists;
-- `verified-wip` — creator/project is verified, but no public playable release exists;
-- `video-only` — primary creator footage exists, implementation is not reproducible externally;
-- `unverified` — only reposts/claims exist or the underlying implementation cannot be confirmed;
-- `adjacent` — interesting crossover, but does not meet the core inclusion bar.
+`data/projects.json` is the project source of truth. `data/site.json` holds editorial settings. README catalogue entries, the weekly digest, the static site and the Atom feed are generated; do not edit those independently.
 
-Never turn “I saw a clip” into “this mod exists and is downloadable.”
+With **Python 3.12 or newer**, from the repository root:
 
-## Submission checklist
+```sh
+python3 scripts/catalogue.py validate
+python3 scripts/catalogue.py build
+python3 scripts/catalogue.py check
+python3 -m unittest discover -s tests -v
+python3 -m http.server 8000 --directory _site
+```
 
-- Project name
-- Guest/source game
-- Host game/runtime
-- Creator
-- First known public date
-- Current status
-- Primary URL
-- Download/release URL, if any
-- Source-code URL, if any
-- Short description of what is actually implemented
-- Technical approach, if documented
-- License, if known
-- AI-assistance claim only when stated by the creator or a reliable source
-- Notes explaining any uncertainty
+Open the local server in a browser. There are no runtime JavaScript dependencies or accounts. JavaScript enhances filtering; the catalogue and project pages work without it.
 
-## Keeping the README easy to browse
+Submit the edited JSON and regenerated `README.md` / `docs/promote/weekly-digest.md` in the same PR. Do not commit `_site/`, build output or temporary files. The main-branch workflow can recover omitted generated files; PR checks intentionally reject drift so contributors see it early.
 
-The README has two layers: a simple project list at the top and the full project details below. Preserve both.
+## Record fields
 
-- Add each project once to the appropriate overview table and once to the detailed catalogue. Keep the overview to **Project | What it is | Status**, with one plain-language sentence explaining the experience, not the engineering.
-- Link the overview title to the detailed entry's stable `#project-...` anchor. Keep existing anchors working when renaming a project, and include a **Back to project list** link after its details.
-- Use readable statuses without strengthening the evidence. **Released**, **Early release** and **Playable** require a public playable version; **Code available** means public source, not necessarily a ready-to-play download. Keep demo-only and video-only projects clearly labelled.
-- Keep unconfirmed sightings and related/borderline projects in their separate overview sections. Do not mix them into the playable list.
-- Preserve the detailed descriptions, limitations, attribution and evidence links. Clearly label downloads, installation instructions, videos and source code; never label a source-only repository as a download.
+The editor schema is `data/projects.schema.json`; `scripts/catalogue.py` also validates cross-record rules.
 
-When adding, renaming, reclassifying or updating a project, synchronize its overview row, detailed entry and `data/projects.json` record in the same change. Check for missing/duplicate entries, conflicting statuses and broken jump/back links. Names may use a documented alias, but must identify the same project unambiguously.
+- `id`: stable lower-case hyphenated identifier. Existing IDs and `#project-ID` links must not change on a rename.
+- `name`, `summary`, `description`, `guest`, `host`, `creator`: factual description. Summary is one plain-language sentence. Preserve original attribution and upstream credits.
+- `category`, `status`: use existing values. `released` requires a real acquisition source; `source-available` requires a code link; `video-only` cannot also mean `released`.
+- `source`, `release`, `media`, `creator_post`, `project_page`, `verification`, `extra_links`: public HTTP(S) URLs. Prefer exact primary sources. `media` is a demo link, not an image or repository home page.
+- `first_seen`: earliest supported project-publication date. `added_at`: date added to this catalogue. Do not confuse a rediscovered old project with a new release.
+- `reviewed_at`, `review_basis`, `review_note`: date, type and scope of the actual check. A URL request does not refresh a source-review date. Inherited entries use `legacy-record` and a null date until reviewed.
+- `platforms`, `requirements`: only documented compatibility and ownership requirements; unknown platforms are an empty array.
+- `playtest`: null unless actual test evidence exists. A test record needs date, version, platform and evidence. Do not copy a creator's test into the catalogue's independent-play-test field.
 
-Keep badges, structured data and contributor-oriented material below the browsing experience. Do not move the full details into collapsed sections or replace them with only the summary table.
+The original historical fields remain available. Add new fields deliberately to both schema and validation; do not silently overload existing ones.
 
-## Link verification
+## Reviews and safety
 
-The README intentionally has no **Check links / Links** workflow badge. Do not restore it during maintenance.
+Keep PRs focused. Include evidence for status changes and demo links. Do not use HTML, tracking redirects or expiring Discord attachment links as lasting catalogue content. The site escapes text and does not load creator media automatically.
 
-Check primary-source and download URLs, project jump links and back links during review, regardless of whether automated checking runs. An HTTP 403 alone does not prove a link is dead; document access limitations and use other primary evidence where possible.
+CI validates structure, deterministic generation and tests. The separate reachability audit distinguishes reachable, unavailable and unresolved URLs: 403, 429 and timeouts are unresolved, not verified and not automatically dead. A successful build is not a malware scan or full compatibility test.
 
-If automated link checking has been disabled, leave it disabled unless the maintainer explicitly requests otherwise. Do not recreate a replacement workflow or treat an intentionally disabled check as a failed or passed check. Report automated results only for runs that actually occurred; a workflow file or missing run alone does not establish its current enabled/disabled setting.
-
-## Editing `data/projects.json`
-
-Keep entries factual and compact. URLs should point as close to the original project as possible.
-
-Do not infer a license. Use `null` when unknown.
-
-Do not infer AI use from code style, posting frequency, or social-media speculation.
-
-## Pull requests
-
-Keep one project or one tightly related group of corrections per PR when practical. Include the sources you checked in the PR description.
+Workflow, generator and dependency changes deserve code review. Never run submitted game binaries or privileged PR scripts as part of curation. See the [maintenance contract](.github/CATALOGUE_MAINTENANCE.md) and [deployment guide](docs/MAINTENANCE.md).
