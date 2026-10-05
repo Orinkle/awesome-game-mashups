@@ -191,14 +191,18 @@
     "description": "Minecraft clients can connect to a Hytale server without a client mod. HyCraft converts chunks and biomes, synchronises entities and inventory, and translates block interaction and combat.",
     "approach": "protocol bridge translating Minecraft packets into Hytale's server protocol",
     "added_at": "2026-10-02",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Server-side Java"
+    ],
+    "requirements": "A Hytale server and Java 25. Minecraft Java Edition 1.21.11 clients connect through the plugin's protocol bridge; optional deeper integration uses Hyxin mixins.",
     "playtest": null,
     "creator_url": "https://github.com/EdwardBelt",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The HyCraft README, repository metadata and v1.1.4 release were reviewed on 2026-10-05. This source review does not record an independent live-server play-test.",
+    "latest_release": "v1.1.4 (2026-05-28)",
+    "last_activity": "2026-05-28"
   },
   {
     "name": "UltraDoom / UltrakillDoom",
@@ -250,13 +254,16 @@
     "description": "An in-world portal and altar launch a playable DOOM II experience from Minecraft; DOOM saves and progress persist between sessions.",
     "approach": "Fabric mod / OpenGL integration",
     "added_at": "2026-10-02",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Minecraft Java Edition 1.20.4"
+    ],
+    "requirements": "Minecraft Java Edition 1.20.4 with Fabric; the project listing describes a Doom II experience launched through its in-world portal and persistent Doom progress.",
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge listing was reviewed on 2026-10-05. The listing supports the release/host-version claims; no independent catalogue play-test is recorded.",
+    "last_activity": "2026-01-14"
   },
   {
     "name": "NucleDoom",
@@ -345,13 +352,17 @@
     "description": "Recreates generator objectives and skill checks, pallets/vaulting, health states, hooks, lockers, Trapper bear traps, terror radius, carrying/wiggle mechanics and custom UI.",
     "approach": "Minecraft Script API / JavaScript gameplay systems",
     "added_at": "2026-10-02",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Minecraft Bedrock Edition"
+    ],
+    "requirements": "The creator's current CurseForge listing targets modern Minecraft Bedrock and uses Beta APIs/GameTest functionality.",
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge project/file listing was reviewed on 2026-10-05. It identifies the v1.7 addon package and its Bedrock/Beta-API requirements; no independent catalogue play-test is recorded.",
+    "latest_release": "v1.7 (2026-09-26)",
+    "last_activity": "2026-09-26"
   },
   {
     "name": "Arcade Mod Reloaded",
@@ -366,7 +377,8 @@
     "host": "Minecraft: Java Edition 1.20.1",
     "creator": "Bay4lly; original mod by SuperHB",
     "status": [
-      "released"
+      "released",
+      "source-available"
     ],
     "first_seen": "2026-05-25",
     "release": "https://www.curseforge.com/minecraft/mc-mods/arcade-mod-reloaded",
@@ -379,13 +391,18 @@
     "description": "A modern port/continuation of the older Arcade Mod with six playable arcade recreations inside Minecraft.",
     "approach": "Forge arcade-machine recreations",
     "added_at": "2026-10-02",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Minecraft Java Edition 1.20.1"
+    ],
+    "requirements": "Minecraft Java Edition 1.20.1 with Forge.",
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The CurseForge/Modrinth listings and Bay4lly's public GPL-3.0 source fork were reviewed on 2026-10-05. This confirms current source availability and packaging, not an independent play-test.",
+    "source": "https://github.com/Bay4lly/ArcadeMod",
+    "latest_release": "1.0 (2026-05-25)",
+    "last_activity": "2026-05-26"
   },
   {
     "name": "Halocraft",
@@ -395,7 +412,8 @@
     "host": "Halo 3 / Halo: The Master Chief Collection",
     "creator": "InfernoPlus",
     "status": [
-      "released"
+      "released",
+      "dead"
     ],
     "first_seen": "2022-10-29",
     "release": "https://steamcommunity.com/sharedfiles/filedetails/?id=2899362333",
@@ -408,8 +426,8 @@
     "description": "Four destructible Minecraft maps built inside Halo 3. This is more than a texture swap: the key technical feature is destructible block geometry in a host engine not designed for Minecraft-style terrain destruction.",
     "approach": "Halo 3 multiplayer maps with destructible Minecraft-style voxel structures using Halo's physics",
     "added_at": "2026-10-01",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
@@ -419,7 +437,8 @@
         "url": "https://www.halowaypoint.com/news/halo-mcc-modtacular-2"
       }
     ],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The Steam Workshop listing was checked on 2026-10-05 and now reports that the item has been removed from the community and is incompatible. Historical project information is retained, but the catalogue no longer presents that Workshop item as currently available.",
+    "last_activity": "2025-03-02"
   },
   {
     "name": "Dark Souls: Remastest / Remastester",
@@ -442,8 +461,8 @@
     "description": "A large multiplayer-focused Dark Souls overhaul that evolved into a Halo/Dark Souls mashup, including Halo maps and weapons alongside major multiplayer and combat changes.",
     "approach": "extensive Dark Souls modding; Halo maps/weapons plus multiplayer overhaul",
     "added_at": "2026-10-01",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
@@ -457,7 +476,8 @@
         "url": "https://github.com/Nordgaren/DS-Gadget-for-Remastest"
       }
     ],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "InfernoPlus's current Patreon release post was reviewed on 2026-10-05. Its prose and linked download filenames use slightly different 3.0.x version labels, so the catalogue intentionally does not invent a single latest-version field.",
+    "last_activity": "2023-10-05"
   },
   {
     "name": "Ocarina of Time in Minecraft",
@@ -480,13 +500,13 @@
     "description": "A seven-year solo recreation designed to be playable from beginning to end, covering the world, bosses, sidequests, story and items rather than only reproducing the map geometry.",
     "approach": "long-form Minecraft adventure-map recreation with custom systems, bosses, quests and progression",
     "added_at": "2026-10-01",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "Rivero's itch.io project page and its downloadable Ocarina of Time in Minecraft package were reviewed on 2026-10-05. No independent catalogue play-test is recorded."
   },
   {
     "name": "Pokémon Red in Minecraft",
@@ -508,13 +528,17 @@
     "description": "A complete playable recreation of Pokémon Red built in vanilla Minecraft, reproducing the original progression and game systems rather than only the Kanto map.",
     "approach": "vanilla command blocks + resource pack",
     "added_at": "2026-10-02",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Minecraft Java Edition 1.11.2"
+    ],
+    "requirements": "Minecraft Java Edition 1.11.2, using the downloadable world/resource-pack package from the creator's CurseForge listing.",
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The creator's current CurseForge listing and v1.0 package metadata were reviewed on 2026-10-05. No independent catalogue play-test is recorded.",
+    "latest_release": "v1.0 (2017-03-11)",
+    "last_activity": "2017-03-11"
   },
   {
     "name": "Minecraft voxel engine inside Super Mario 64",
@@ -644,31 +668,49 @@
   {
     "name": "Minecraft in GTA V",
     "guest": [
-      "Minecraft"
+      "Minecraft: Java Edition 26.3"
     ],
-    "host": "Grand Theft Auto V",
-    "creator": null,
+    "host": "Grand Theft Auto V Legacy (Story Mode)",
+    "creator": "Rehan Sheikh / rehan-remade",
     "status": [
-      "unverified"
+      "source-available",
+      "experimental"
     ],
     "first_seen": "2026-10-01",
-    "discussion": "https://www.reddit.com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/",
-    "verification": "https://heldgames.com/guides/is-that-viral-mod-video-real",
-    "license": null,
-    "category": "watchlist",
-    "notes": "Viral footage/discussion; no matching public source or release verified.",
+    "license": "MIT",
+    "category": "core",
+    "notes": "A source-backed passthrough where real Minecraft Java runs alongside GTA V Story Mode. GTA drives the camera and supplies ground/collision data; Minecraft colour/depth is composited into GTA and gameplay events such as TNT, projectiles, mobs and building feed back into GTA.",
     "id": "minecraft-gta-v",
-    "summary": "Viral footage claims to combine Minecraft gameplay with GTA V.",
-    "description": "Viral footage/discussion; no matching public source or release verified.",
-    "approach": null,
+    "summary": "Runs real Minecraft movement, building, mobs and combat inside GTA V Story Mode.",
+    "description": "Minecraft Java runs beside GTA V rather than being reimplemented. GTA drives Minecraft's camera and ground, Minecraft exports colour/depth and gameplay events, and the GTA plugin depth-composites the result while mirroring building, explosions, projectiles and mob interactions.",
+    "approach": "Fabric guest + ScriptHookV/ReShade GTA host linked by local WebSocket and shared-memory frame transport",
     "added_at": "2026-10-01",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "GTA V Legacy Story Mode, Minecraft Java 26.3 with Fabric, a compatible ScriptHookV build, ReShade 6.8.0 with add-on support, JDK 25 and Windows tooling documented by the project. The primary example is explicitly offline/story-mode only.",
     "playtest": null,
-    "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "extra_links": [
+      {
+        "label": "Primary field note",
+        "url": "https://github.com/rehan-remade/universal-modder/blob/main/knowledge/games/gta-v/minecraft-passthrough.md"
+      },
+      {
+        "label": "GTA V Enhanced derivative",
+        "url": "https://github.com/GrantMatas/minecraft-in-gta-enhanced"
+      },
+      {
+        "label": "Packaged GTA V Enhanced derivative",
+        "url": "https://github.com/utku6767/Gta-V-Enhanced-Minecraft-Steve-Passthrough"
+      }
+    ],
+    "review_note": "The universal-modder passthrough example, its primary field note, and two GTA V Enhanced derivatives were reviewed on 2026-10-05. The old viral-only watchlist framing is superseded by public primary source. No independent catalogue play-test is recorded.",
+    "source": "https://github.com/rehan-remade/universal-modder/tree/main/examples/minecraft-gta5-passthrough",
+    "last_activity": "2026-09-30",
+    "ai_assistance": "The primary field note lists Claude Code (Opus 5.5) as the coding agent and @rehan_shei as the human.",
+    "creator_url": "https://github.com/rehan-remade"
   },
   {
     "name": "Minecraft in Cyberpunk 2077",
@@ -735,6 +777,7 @@
     "creator": "xdferpc",
     "status": [
       "released",
+      "dead",
       "adjacent"
     ],
     "first_seen": "2017-02-04",
@@ -747,14 +790,15 @@
     "description": "Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation.",
     "approach": null,
     "added_at": "2026-10-01",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
     "scope_note": "uses Portal textures, models and teleporters in a custom Zombies map, but does not attempt to recreate Portal's full game systems.",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The Steam Workshop listing was checked on 2026-10-05 and now reports that the item has been removed from the community and is incompatible. The historical adjacent entry is retained without implying current availability.",
+    "last_activity": "2020-02-16"
   },
   {
     "name": "Project Inception",
@@ -812,13 +856,15 @@
     "description": "A DOOM source port for Minecraft. Mocha Doom owns the game simulation while Minecraft renders it. The project requires the user's own copy of DOOM. Its linked source repository was unavailable during this verification, so it is not labelled source-available.",
     "approach": "vendored Mocha Doom engine running inside Minecraft's JVM",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Minecraft Java Edition 26.2"
+    ],
+    "requirements": "Minecraft Java Edition 26.2 with Fabric/Fabric API and Java 25, plus the user's own compatible DOOM data. The formerly linked source repository remains unavailable, so source-available is not asserted.",
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge project/file listing was reviewed on 2026-10-05. It confirms the 0.75.0-alpha package, GPL-3.0 listing and documented runtime requirements; the linked GitHub source remains unavailable."
   },
   {
     "name": "hytale2mc",
@@ -939,13 +985,17 @@
     "description": "A fully functional Game Boy emulator running inside Hytale at true 1:1 scale. The creator says frames are computed and rendered live, controls are mapped to in-game blocks, and no external tools are used. Tetris and Batman titles are shown as tested examples.",
     "approach": "in-Hytale emulator rendering each frame as 23,040 blocks",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Hytale"
+    ],
     "requirements": null,
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The live BuiltByBit product page was reviewed on 2026-10-05. It still advertises v1.0 as a paid, closed resource and documents live 23,040-block frame rendering. The previous CI 403 is treated as bot-blocking, not as evidence that the page is dead.",
+    "latest_release": "v1.0 (2026-04-03)",
+    "last_activity": "2026-04-03"
   },
   {
     "name": "talemonpokemon",
@@ -962,20 +1012,20 @@
     "license": null,
     "category": "core",
     "notes": "Hytale mod recreating a substantial Pokémon adventure loop: starter selection, biome-based Pokémon spawning, levels/stats/types/abilities/moves, turn-based battles, capture, party/PC management, experience, evolution and Apricorn/Poké Ball progression.",
-    "latest_release": "0.5 (2026-07-24)",
+    "latest_release": "atualização 1 (2026-07-24)",
     "last_activity": "2026-07-24",
     "id": "talemonpokemon",
     "summary": "Recreates Pokémon catching, battles, evolution and trainer progression inside Hytale.",
     "description": "Recreates a substantial Pokémon adventure loop inside Hytale: starter selection, biome-based spawning, levels, stats, types, abilities, moves, turn-based battles, capture, party/PC management, experience, evolution and Apricorn/Poké Ball progression.",
     "approach": "Hytale gameplay mod recreating Pokémon progression and turn-based battles",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge project/file listing was reviewed on 2026-10-05. The previous latest-release text confused Hytale 0.5 compatibility with the file title; it is corrected to the listing's actual file name."
   },
   {
     "name": "PokeWorlds Online",
@@ -1060,14 +1110,15 @@
     "description": "Recreates Geometry Dash-style 2D side-scrolling levels as a downloadable Hytale world, including cube/ship play and side-scroller camera setup.",
     "approach": null,
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
     "scope_note": "a contained custom-world/minigame recreation rather than a broad runtime or systems port.",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge world listing was reviewed on 2026-10-05. It remains an early-access/beta custom-world recreation, so the adjacent classification is unchanged.",
+    "latest_release": "GeometryTale beta (2026-02-06)"
   },
   {
     "name": "Minecraft, but It's Crash Bandicoot (Remake)",
@@ -1092,14 +1143,14 @@
     "description": "Recreates two Crash Bandicoot levels in Minecraft with custom gameplay mechanics and resource packs.",
     "approach": null,
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
     "scope_note": "a limited two-level custom-world recreation rather than a full game/runtime port.",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge world listing and v1.6 file metadata were reviewed on 2026-10-05. The limited two-level adjacent classification is unchanged."
   },
   {
     "name": "ValCraft",
@@ -1115,25 +1166,27 @@
     ],
     "first_seen": "2026-09-30",
     "source": "https://github.com/LoAlCo/ValCraft",
-    "release": "https://github.com/LoAlCo/ValCraft/releases/tag/v0.5.8",
+    "release": "https://github.com/LoAlCo/ValCraft/releases/tag/v0.6.1",
     "license": null,
     "category": "core",
     "notes": "SkyCraft-derived passthrough: Minecraft runs hidden and drives movement, inventory, blocks and combat while a Valheim BepInEx plugin streams collision, renders Minecraft content in Valheim and bridges combat/loot between both games.",
-    "latest_release": "v0.5.8 (2026-10-03)",
-    "last_activity": "2026-10-03",
+    "latest_release": "v0.6.1 (2026-10-04)",
+    "last_activity": "2026-10-04",
     "id": "valcraft",
     "summary": "Runs Minecraft movement, blocks, inventory and combat inside Valheim while both games stay active.",
     "description": "Minecraft runs hidden and supplies movement, inventory, HUD, blocks and combat while Valheim supplies terrain, weather, creatures and dungeons. The bridge streams Valheim collision into Minecraft, renders Minecraft content in Valheim and carries combat and loot between both games.",
     "approach": "Minecraft Fabric mod + Valheim BepInEx plugin communicating through shared memory",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "Valheim on Steam, an owned Minecraft: Java Edition account, and roughly 3 GB of additional RAM for the Minecraft guest. The creator documents Gale/r2modman-style mod-manager setup and an optional guided installer.",
     "playtest": null,
     "creator_url": "https://github.com/LoAlCo",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The project README and v0.6.1 release notes were reviewed on 2026-10-05. They confirm the current installer/mod-manager path, the in-game settings panel, and the experimental state of some features. This is not an independent catalogue play-test or binary safety review."
   },
   {
     "name": "GTA San AnSkateas",
@@ -1178,6 +1231,7 @@
     "host": "Grand Theft Auto V Legacy",
     "creator": "VortexisTV",
     "status": [
+      "released",
       "source-available",
       "experimental"
     ],
@@ -1187,25 +1241,31 @@
     "license": "MIT",
     "category": "core",
     "notes": "Minecraft simulates the Wither Storm while a GTA V bridge composites it into Los Santos and maps storm interactions to GTA pedestrians, vehicles, explosions, weather and camera effects. Based on rehan-remade's universal-modder passthrough example.",
-    "last_activity": "2026-10-02",
+    "last_activity": "2026-10-04",
     "id": "wither-storm-gta-v",
     "summary": "Runs Minecraft's Wither Storm simulation inside GTA V and bridges its effects into Los Santos.",
     "description": "Minecraft remains responsible for simulating the Wither Storm while the bridge draws it into Los Santos. GTA pedestrians and vehicles are represented by Minecraft-side proxies so tractor beams, consumption, projectiles, explosions, weather and other storm effects can feed back into GTA.",
     "approach": "Forge bridge + GTA plugin + ReShade depth compositing",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "GTA V Legacy Story Mode and Minecraft Java 1.20.1 on the same Windows PC, with Forge 47.4.10, Cracker's Wither Storm Mod 4.2.1, JDK 17, a compatible ScriptHookV/ASI loader and ReShade 6.8.0 with full add-on support.",
     "playtest": null,
     "creator_url": "https://github.com/VortexisTV",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The project README and initial GitHub release were reviewed on 2026-10-05. A public release asset is now listed; the catalogue has not independently executed or safety-audited that binary.",
+    "release": "https://github.com/VortexisTV/wither-storm-gta5-passthrough/releases/tag/mc-gta5",
+    "latest_release": "v1.0.0 (2026-10-04)",
+    "ai_assistance": "The README states that the project was written with Claude Code + Codex."
   },
   {
     "name": "FalloutCraft",
     "guest": [
-      "Minecraft: Java Edition 26.3"
+      "Minecraft: Java Edition 26.3 (Fabric)",
+      "Minecraft: Java Edition 1.21.1 (NeoForge)"
     ],
     "host": "Fallout 4",
     "creator": "zeyvu",
@@ -1216,25 +1276,27 @@
     ],
     "first_seen": "2026-10-01",
     "source": "https://github.com/zeyvu/FalloutCraft",
-    "release": "https://github.com/zeyvu/FalloutCraft/releases/tag/v.0.1.2",
+    "release": "https://github.com/zeyvu/FalloutCraft/releases/tag/v0.1.3",
     "license": "MIT",
     "category": "core",
     "notes": "SkyCraft-derived shared-memory passthrough using an F4SE plugin and Fabric mod. Minecraft supplies movement, blocks, HUD, inventory and combat while Fallout 4 supplies the Commonwealth, NPCs, quests, Pip-Boy and saves.",
-    "latest_release": "v.0.1.2 (2026-10-02)",
-    "last_activity": "2026-10-02",
+    "latest_release": "v0.1.3 (2026-10-04)",
+    "last_activity": "2026-10-04",
     "id": "falloutcraft",
     "summary": "Runs Minecraft movement, building, HUD and combat inside Fallout 4's Commonwealth.",
-    "description": "Minecraft supplies movement, blocks, hearts, inventory and combat while Fallout 4 keeps the Commonwealth, NPCs, quests, Pip-Boy and saves. The project is explicitly built on the SkyCraft passthrough approach.",
+    "description": "Minecraft supplies movement, blocks, hearts, inventory and combat while Fallout 4 keeps the Commonwealth, NPCs, quests, Pip-Boy and saves. v0.1.3 adds a NeoForge 1.21.1 route intended for use alongside other Minecraft mods.",
     "approach": "F4SE plugin + Minecraft Fabric mod using shared memory",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "Fallout 4 1.11.240 on Steam with F4SE 0.7.9+ and Address Library, plus either Minecraft 26.3 with Fabric Loader 0.19.5+/Fabric API 0.161.0+26.3 on Java 25, or Minecraft 1.21.1 with NeoForge 21.1.x on Java 21.",
     "playtest": null,
     "creator_url": "https://github.com/zeyvu",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The project README and v0.1.3 release notes were reviewed on 2026-10-05. The NeoForge/modded-Minecraft path is creator-documented; no independent catalogue play-test or binary safety review is recorded."
   },
   {
     "name": "GTA Skate 3 Trilogy",
@@ -1382,26 +1444,28 @@
     ],
     "first_seen": "2026-10-02",
     "source": "https://github.com/Sm1jjj/PipeLinkLauncher",
-    "release": "https://github.com/Sm1jjj/PipeLinkLauncher/releases/tag/v1.0.1",
+    "release": "https://github.com/Sm1jjj/PipeLinkLauncher/releases/tag/v1.0.2",
     "media": "https://streamable.com/19fo55",
     "license": "MIT",
     "category": "core",
     "notes": "Installer/launcher for a three-game mashup: Skate 3 mode and MW2 mode run inside GTA San Andreas. It builds from user-owned game files and integrates a Skate bridge plus IW4L-derived MW2 runtime support.",
-    "latest_release": "v1.0.1 (2026-10-02)",
-    "last_activity": "2026-10-02",
+    "latest_release": "v1.0.2 (2026-10-03)",
+    "last_activity": "2026-10-03",
     "id": "pipelink-launcher",
     "summary": "Runs Skate 3 and MW2 gameplay modes inside GTA San Andreas.",
     "description": "An installer/launcher for a three-game mashup. Inside GTA San Andreas, F6 switches to Skate 3 mode and F5 switches to an MW2 mode with weapons, points, scoreboard and partially implemented killstreaks. It builds the required integration from user-owned game files.",
     "approach": "GTA ASI integration + Skate bridge + IW4L-derived MW2 runtime support",
     "added_at": "2026-10-03",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
-    "platforms": [],
-    "requirements": null,
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "GTA San Andreas 1.0 US is required. Skate 3 support needs the user's own Xbox 360 ISO; MW2 support needs the user's own multiplayer game folder. The launcher targets 64-bit Windows 10/11 and obtains the open tooling it needs separately.",
     "playtest": null,
     "creator_url": "https://github.com/Sm1jjj",
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The project README and v1.0.2 release notes were reviewed on 2026-10-05. v1.0.2 documents retry/resume and fallback fixes for dependency downloads. The existing Streamable demo remains an unresolved reachability item rather than being declared dead."
   },
   {
     "name": "WowCraft — Minecraft inside World of Warcraft",
@@ -1728,13 +1792,13 @@
     "description": "Reads DOOM WAD map data and creates the level block-by-block in Hytale, mapping enemies, weapons, armour and other items into Hytale equivalents. The creator explicitly presents it as a showcase rather than a balanced full-game port.",
     "approach": "WAD parsing + Hytale world reconstruction",
     "added_at": "2026-10-05",
-    "reviewed_at": null,
-    "review_basis": "legacy-record",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
     "platforms": [],
     "requirements": null,
     "playtest": null,
     "extra_links": [],
-    "review_note": "Imported from the existing catalogue; a dated source review and local play-test are not asserted."
+    "review_note": "The current CurseForge project/file listing and linked source project were reviewed on 2026-10-05. The creator still presents it as a showcase with incomplete tuning, so the experimental qualification remains."
   },
   {
     "name": "GTA Trilogy Multiverse Portals",
@@ -1803,5 +1867,233 @@
     "creator_url": "https://github.com/goonsn",
     "extra_links": [],
     "review_note": "README documentation reviewed on 2026-10-05 (blob c4acfb61ca9802097c95a88fa3396e17f849a478). This confirms what the creator documents, not an independent play-test or binary safety check."
+  },
+  {
+    "name": "ER Mario",
+    "guest": [
+      "Super Mario 64"
+    ],
+    "host": "Elden Ring",
+    "creator": "Deltaroo / deltarooo",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-09-30",
+    "source": "https://github.com/deltarooo/er-mario",
+    "release": "https://github.com/deltarooo/er-mario/releases/tag/v0.3.9",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Uses libsm64 for Mario's real movement/animation while feeding it live Elden Ring Havok collision. The user supplies a US Super Mario 64 ROM; Nintendo data is not bundled.",
+    "latest_release": "v0.3.9 (2026-10-05)",
+    "last_activity": "2026-10-05",
+    "id": "er-mario",
+    "summary": "Runs Super Mario 64's movement, health and combat inside Elden Ring.",
+    "description": "Mario's triple jumps, wall kicks, long jumps, ground pounds, attacks, health wedges, coins and Lakitu-style camera run through libsm64 while Elden Ring supplies the world, enemies, encounters and live Havok collision.",
+    "approach": "Rust me3 DLL embedding libsm64 and feeding it Elden Ring Havok collision",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows",
+      "macOS via CrossOver"
+    ],
+    "requirements": "Elden Ring on Steam, me3, and a user-owned US Super Mario 64 ROM. The creator documents offline-only use and macOS via CrossOver.",
+    "playtest": null,
+    "creator_url": "https://github.com/deltarooo",
+    "extra_links": [],
+    "review_note": "The README and v0.3.9 release notes were reviewed on 2026-10-05. This source review is not an independent catalogue play-test or binary safety review."
+  },
+  {
+    "name": "ArkWeb",
+    "guest": [
+      "Marvel's Spider-Man Remastered"
+    ],
+    "host": "Batman: Arkham Knight",
+    "creator": "luki-1",
+    "status": [
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/luki-1/ArkWeb",
+    "media": "https://www.youtube.com/watch?v=O6Mkm_NGCX8",
+    "license": null,
+    "category": "core",
+    "notes": "Runs Spider-Man Remastered beside Arkham Knight, streams Gotham collision into Spider-Man's physics, and composites Spider-Man into Arkham's view. The creator labels the end-to-end build experimental.",
+    "last_activity": "2026-10-03",
+    "id": "arkweb",
+    "summary": "Runs Spider-Man's native traversal through Batman: Arkham Knight's Gotham.",
+    "description": "Spider-Man supplies swinging, wall running, crawling, point launches and its character rendering while Arkham Knight supplies Gotham, world collision, grapple targets and combat hand-off. The two live games exchange state through shared memory.",
+    "approach": "dual-game shared-memory bridge with collision streaming and GPU frame compositing",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "Windows 10 x64, Marvel's Spider-Man Remastered v4.0630 on Steam, Batman: Arkham Knight on Steam, an Xbox-style controller, and the documented build/runtime tooling.",
+    "playtest": null,
+    "creator_url": "https://github.com/luki-1",
+    "extra_links": [],
+    "review_note": "The project's README and architecture/setup documentation were reviewed on 2026-10-05. The creator reports an end-to-end experimental build; the catalogue has not independently play-tested it."
+  },
+  {
+    "name": "Garry's Redemption",
+    "guest": [
+      "Garry's Mod"
+    ],
+    "host": "Red Dead Redemption 2",
+    "creator": "codeByAlexff",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-04",
+    "source": "https://github.com/codeByAlexff/garrys-redemption",
+    "release": "https://github.com/codeByAlexff/garrys-redemption/releases/tag/v0.1.0-beta",
+    "license": "MIT",
+    "category": "core",
+    "notes": "A two-game passthrough where Garry's Mod owns movement and sandbox systems while RDR2 supplies the world, NPCs, vehicles and rendering. It is Story Mode only and the creator calls the release beta.",
+    "latest_release": "v0.1.0-beta (2026-10-04)",
+    "last_activity": "2026-10-04",
+    "ai_assistance": "The creator documents that Claude Opus 5.5 wrote, debugged and tested the code under human direction.",
+    "id": "garrys-redemption",
+    "summary": "Runs Garry's Mod movement, physgun, toolgun, weapons and spawn menu inside RDR2.",
+    "description": "Garry's Mod runs hidden beside Red Dead Redemption 2 and supplies the player, sandbox physics, weapons, HUD, physgun, toolgun and Q menu. RDR2 keeps its world, people, horses, wagons and rendering, with interactions bridged between both games.",
+    "approach": "shared-memory bridge using an RDR2 Script Hook ASI, a Garry's Mod x86-64 module and frame compositing",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "Red Dead Redemption 2 Story Mode, Script Hook RDR2, Garry's Mod on its x86-64 branch, and 64-bit Windows.",
+    "playtest": null,
+    "creator_url": "https://github.com/codeByAlexff",
+    "extra_links": [],
+    "review_note": "The README and v0.1.0-beta release were reviewed on 2026-10-05. Creator testing is documented, but no independent catalogue play-test or binary safety review is recorded."
+  },
+  {
+    "name": "Halo / MW2 Director",
+    "guest": [
+      "Halo: Combat Evolved"
+    ],
+    "host": "Call of Duty: Modern Warfare 2 (IW4L)",
+    "creator": "0xburn",
+    "status": [
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-09-30",
+    "source": "https://github.com/0xburn/halo-mw2-director",
+    "license": "Apache-2.0",
+    "category": "core",
+    "notes": "A native macOS IW4L prototype that combines Halo CE characters, map data and effects with MW2. Source documentation currently supports 4v4 autonomous bot matches and an experimental Battle Creek import; it is not a released cross-platform game.",
+    "last_activity": "2026-09-30",
+    "id": "halo-mw2-director",
+    "summary": "Runs Halo CE characters and map data inside a native MW2/IW4L prototype.",
+    "description": "The project patches IW4L for a native Mac crossover: Halo CE Spartans, sounds/effects and converted map geometry can run with MW2 movement, weapons and bot combat. Its documented Battle Creek bridge includes geometry, textures, collision and spawns but not full Halo rules, vehicles or pickups.",
+    "approach": "IW4L native runtime patches plus local Halo CE asset conversion, imported maps/collision and scene/bot tooling",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "macOS (Apple Silicon tested)"
+    ],
+    "requirements": "A user-owned MW2 (2009) Multiplayer install and user-owned Halo CE data, plus the native macOS/Rust/Python toolchain documented by the project.",
+    "playtest": null,
+    "creator_url": "https://github.com/0xburn",
+    "extra_links": [
+      {
+        "label": "Halo map importer scope",
+        "url": "https://github.com/0xburn/halo-mw2-director/blob/main/docs/HALO_MAPS.md"
+      },
+      {
+        "label": "Autonomous bot-match scope",
+        "url": "https://github.com/0xburn/halo-mw2-director/blob/main/docs/BOT_MATCHES.md"
+      }
+    ],
+    "review_note": "The README, native setup, Halo map and bot-match documentation were reviewed on 2026-10-05. This entry records the source-backed 4v4/Battle Creek scope rather than broader social-media claims not supported by the checked repository."
+  },
+  {
+    "name": "Black Ops II Hijacked inside Minecraft",
+    "guest": [
+      "Call of Duty: Black Ops II"
+    ],
+    "host": "Minecraft: Java Edition",
+    "creator": "Luckey Faraday",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-09-17",
+    "creator_post": "https://x.com/luckeyfaraday/status/2100417441671110715",
+    "verification": "https://www.minecraft-france.fr/call-of-duty-black-ops-2-directement-dans-minecraft/",
+    "license": null,
+    "category": "core",
+    "notes": "Creator footage and corroborating coverage show a Java/Fabric port of Black Ops II's Hijacked running directly in Minecraft's OpenGL context with map geometry, collision, bots, navigation and weapons. No public source or downloadable Fabric build was located for this port.",
+    "last_activity": "2026-09-17",
+    "ai_assistance": "The creator states that GPT-6 Astra was used to rebuild the earlier browser version in Java for the Minecraft/Fabric port.",
+    "id": "black-ops-ii-hijacked-minecraft",
+    "summary": "Runs a Black Ops II Hijacked FPS port directly inside Minecraft's Java/Fabric runtime.",
+    "description": "The creator demo shows Hijacked geometry, collision, bots, navmesh, weapons and FPS rendering running directly in Minecraft rather than as a themed map alone. A public source/release for the Fabric port was not located, so it remains video-only in this catalogue.",
+    "approach": "Java/Fabric port rendered through Minecraft's OpenGL context",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "creator-confirmation",
+    "platforms": [],
+    "requirements": null,
+    "playtest": null,
+    "creator_url": "https://github.com/luckeyfaraday",
+    "extra_links": [
+      {
+        "label": "Earlier browser reconstruction source",
+        "url": "https://github.com/luckeyfaraday/claude-of-duty"
+      }
+    ],
+    "review_note": "Creator footage/post and corroborating reporting were checked on 2026-10-05. The public claude-of-duty repository is the earlier browser reconstruction, not source for the Minecraft Fabric port; no playable Fabric release or independent catalogue play-test is asserted."
+  },
+  {
+    "name": "Skate 3 Board for Garry's Mod",
+    "guest": [
+      "Skate 3"
+    ],
+    "host": "Garry's Mod",
+    "creator": "DaffyDabz",
+    "status": [
+      "source-available",
+      "verified-wip",
+      "experimental"
+    ],
+    "first_seen": "2026-10-01",
+    "source": "https://github.com/DaffyDabz/skate3-gmod",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Runs SK8-ENGINE's Skate 3 board simulation as a native Garry's Mod server module with a GMod HUD, trick controls, cameras, riding/bail presentation and tools that derive assets from the user's own Skate 3 copy. The standalone refactor has not yet been play-tested by its creator.",
+    "last_activity": "2026-10-04",
+    "ai_assistance": "The README says the project was built by DaffyDabz with help from Claude.",
+    "id": "skate3-gmod",
+    "summary": "Runs Skate 3's board physics, tricks, cameras and bails inside Garry's Mod.",
+    "description": "A Garry's Mod add-on and native Rust bridge run Skate 3's reconstructed board/skater simulation inside GMod. The project supplies the GMod-side controls, HUD, camera, bumps and bail handling while user-owned Skate 3 data feeds the simulation and generated presentation assets.",
+    "approach": "Garry's Mod server/client add-on plus native Rust bridge into the SK8-ENGINE simulation",
+    "added_at": "2026-10-05",
+    "reviewed_at": "2026-10-05",
+    "review_basis": "primary-source-review",
+    "platforms": [
+      "Windows"
+    ],
+    "requirements": "A legal Skate 3 Xbox 360 copy, the SK8-ENGINE rebuild/source, Garry's Mod on Windows using an x86-64 client or 64-bit dedicated server, plus the documented Rust/LLVM/Python asset/build tooling.",
+    "playtest": null,
+    "creator_url": "https://github.com/DaffyDabz",
+    "extra_links": [
+      {
+        "label": "Upstream Skate 3 rebuild",
+        "url": "https://github.com/SK8-ENGINE/skate-3-rust-engine"
+      }
+    ],
+    "review_note": "The standalone repository README and architecture/status notes were reviewed on 2026-10-05. The creator says the code originated in a working TTT server, but the standalone refactor itself had not yet been loaded and play-tested; the catalogue therefore does not mark it released."
   }
 ]
