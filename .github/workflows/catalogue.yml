@@ -1,0 +1,58 @@
+name: Catalogue integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: catalogue-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Audit catalogue and preserve build input
+        run: |
+          mkdir -p build
+          python3 - <<'PY'
+          import collections, json, pathlib, re, subprocess
+          root = pathlib.Path('.')
+          projects = json.loads((root/'data/projects.json').read_text())
+          readme = (root/'README.md').read_text()
+          names = [p['name'].casefold() for p in projects]
+          anchors = re.findall(r'<a (?:name|id)="([^"]+)"', readme)
+          assert len(names) == len(set(names)), 'Duplicate project names'
+          assert len(anchors) == len(set(anchors)), 'Duplicate detail anchors'
+          refs = re.findall(r'\]\(#(project-[^)]+)\)', readme)
+          assert set(refs) <= set(anchors), 'Missing detail targets'
+          report = {
+              'head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
+              'project_count': len(projects),
+              'categories': dict(collections.Counter(p['category'] for p in projects)),
+              'media_fields_present': sum(bool(p.get('media')) for p in projects),
+              'per_project_review_dates_present': sum(bool(p.get('reviewed_at')) for p in projects),
+              'broken_table_gaps': len(re.findall(r'\|\n\n\| \[', readme)),
+              'scope': 'Structural audit only; no claim of game execution or source re-verification.'
+          }
+          (root/'build/audit.json').write_text(json.dumps(report, indent=2)+'\n')
+          print(json.dumps(report, indent=2))
+          PY
+          git archive --format=tar.gz -o build/catalogue-source.tar.gz HEAD
+      - name: Upload audited source and report
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: catalogue-audit
+          path: build/
+          retention-days: 7
+          if-no-files-found: error
