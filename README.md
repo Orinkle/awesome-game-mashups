@@ -6,7 +6,7 @@ Click a project name for the full details, videos and download links where avail
 
 [**Suggest a project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Unconfirmed sightings](#unconfirmed-sightings) · [Related projects](#related-projects) · [About this list](#what-belongs-here)
 
-**Last verified:** 3 October 2026.
+**Last verified:** 5 October 2026.
 
 ## Browse projects
 
@@ -41,6 +41,11 @@ Public playable versions exist. Some are experimental, and installation, platfor
 | [GTA Skate 3 Trilogy](#project-gta-skate-3-trilogy) | Combines a Vice City rewrite with Skate 3's skating runtime. | Released · Code available · Experimental |
 | [CS-Craft](#project-cs-craft) | Adds a Minecraft Overworld/progression mode to a CS:GO Rust/Bevy rewrite. | Released · Code available · Experimental |
 | [PipeLink Launcher](#project-pipelink-launcher) | Runs Skate 3 and MW2 gameplay modes inside GTA San Andreas. | Released · Code available · Experimental |
+| [OWCraft](#project-owcraft) | Runs real Minecraft movement, blocks and inventory on Outer Wilds planets. | Released · Code available · Experimental |
+| [SkateGM](#project-skategm) | Runs Skate 3 physics, tricks and scoring inside Garry's Mod, including multiplayer. | Released · Code available |
+| [BullySkate](#project-bullyskate) | Lets Jimmy skate through Bullworth using Skate 3 physics. | Released · Code available |
+| [DOOM on Hytale — PapiSpielt](#project-doom-hytale-papispielt) | Reconstructs classic DOOM WAD levels as Hytale worlds with enemies and items mapped into Hytale. | Released · Code available · Experimental |
+| [Killcraft](#project-killcraft) | Runs Minecraft movement, combat, inventory, mobs and building inside ULTRAKILL levels. | Released · Code available · Experimental |
 
 ### Code, demos and projects in development
 
@@ -63,6 +68,11 @@ Public playable versions exist. Some are experimental, and installation, platfor
 | [World of Skatecraft](#project-world-of-skatecraft) | Runs Skate 3 physics and tricks inside World of Warcraft 1.12.1. | Code available · Experimental |
 | [WowCraft](#project-wowcraft) | Runs Minecraft movement, combat, building and items through World of Warcraft 1.12.1. | In development · Video only |
 | [CS:GO systems inside Project Zomboid](#project-csgo-project-zomboid) | Adds CS:GO weapons, shooting and movement to Project Zomboid. | In development · Video only |
+| [LibertyCraft](#project-libertycraft) | Runs Minecraft movement, inventory and building inside GTA IV's Liberty City. | Code available · Experimental WIP |
+| [SubCraft](#project-subcraft) | Connects Minecraft physics, blocks and mobs to Subnautica's world and rendering. | Code available · Experimental WIP |
+| [New VegasCraft](#project-new-vegascraft) | Composites Minecraft into Fallout: New Vegas and lets you build in the Mojave. | Code available · Experimental WIP |
+| [Minebonk](#project-minebonk) | Rebuilds Minecraft-style combat, inventory, mobs and bosses natively inside Megabonk. | Code available · In development |
+| [GTA Trilogy Multiverse Portals](#project-gta-trilogy-multiverse) | Runs GTA III, Vice City and San Andreas simultaneously with live portals between them. | In development · Video only |
 
 ## Unconfirmed sightings
 
@@ -624,6 +634,103 @@ An installer/launcher for a three-game mashup. Inside GTA San Andreas, F6 switch
 
 ---
 
+
+<a name="project-owcraft"></a>
+
+#### OWCraft — *Minecraft inside Outer Wilds*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *Outer Wilds*  
+**Creator:** [Yaekai](https://github.com/Yaekai)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** Outer Wilds Mod Loader host + SkyCraft-derived Fabric guest over shared memory
+
+Minecraft supplies the player physics, blocks, inventory and interactions while Outer Wilds renders the planets, lighting and Minecraft content. Builds persist across Outer Wilds time loops and restarts.
+
+- [Download — v0.1.1](https://github.com/Yaekai/OWCraft/releases/tag/v0.1.1)
+- [Source code](https://github.com/Yaekai/OWCraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-skategm"></a>
+
+#### SkateGM — *Skate 3 inside Garry's Mod*
+
+**Guest:** *Skate 3*  
+**Host:** *Garry's Mod*  
+**Creator:** [the-schwilliam](https://github.com/the-schwilliam)  
+**Status:** 🟢 🟣 Released, source available  
+**Approach:** native Rust engine module + Garry's Mod Lua add-on
+
+Runs Skate 3's board physics, tricks and scoring on Garry's Mod maps, with multiplayer, minigames, a park editor and a dedicated skating gamemode. Users supply their own Skate 3 files.
+
+- [Download — v6.0](https://github.com/the-schwilliam/SkateGM/releases/tag/6.0)
+- [Source code](https://github.com/the-schwilliam/SkateGM)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-bullyskate"></a>
+
+#### BullySkate — *Skate 3 inside Bully*
+
+**Guest:** *Skate 3*  
+**Host:** *Bully: Scholarship Edition*  
+**Creator:** [Faiqie](https://github.com/Faiqie)  
+**Status:** 🟢 🟣 Released, source available  
+**Approach:** Skate 3 Rust rewrite + Bully script/ASI integration
+
+Lets Jimmy skate through Bullworth using Skate 3 physics and controller input, with rigging, skater editing, markers and skitching. Users supply their own copies of both games.
+
+- [Download — v0.1.2](https://github.com/Faiqie/BullySkate/releases/tag/v0.1.2)
+- [Source code](https://github.com/Faiqie/BullySkate)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-doom-hytale-papispielt"></a>
+
+#### DOOM on Hytale — *PapiSpielt*
+
+**Guest:** *DOOM / Freedoom*  
+**Host:** *Hytale*  
+**Creator:** PapiSpielt  
+**Status:** 🟢 🟣 Released, source available, experimental showcase  
+**Approach:** WAD parsing + Hytale world reconstruction
+
+Reads DOOM WAD map data and creates the level block-by-block in Hytale, mapping enemies, weapons, armour and other items into Hytale equivalents. The creator explicitly presents it as a showcase rather than a balanced full-game port.
+
+- [Download / project page](https://www.curseforge.com/hytale/mods/doom)
+- [Latest file — hytale-doom-0.0.7](https://www.curseforge.com/hytale/mods/doom/files/8984905)
+- [Source code](https://gitlab.com/papispielt/hytale-doom)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-killcraft"></a>
+
+#### Killcraft — *Minecraft inside ULTRAKILL*
+
+**Guest:** *Minecraft: Java Edition*  
+**Host:** *ULTRAKILL*  
+**Creator:** [goonsn](https://github.com/goonsn)  
+**Status:** 🟢 🟣 Released, source available, experimental  
+**Approach:** ULTRAKILL BepInEx plugin + SkyCraft Minecraft guest over shared memory
+
+A real Minecraft instance runs hidden and owns movement, health, hunger, inventory, weapons, mobs and block building while ULTRAKILL supplies the levels, enemies, checkpoints and rendering. Damage and combat are bridged both ways.
+
+- [Download — v0.1.3](https://github.com/goonsn/Killcraft/releases/tag/v0.1.3)
+- [Source code](https://github.com/goonsn/Killcraft)
+
+[Back to project list](#browse-projects)
+
+---
+
 ### Verified demos and works in progress
 
 <a name="project-minecraft-sm64"></a>
@@ -810,6 +917,98 @@ Creator footage shows Minecraft movement, combat, building and items operating t
 Creator footage shows CS:GO-style weapons, shooting and movement inside Project Zomboid. The creator says the download is not public yet and has discussed a future installer that would extract required assets from a user's own CS:GO installation.
 
 - [Creator demo](https://www.youtube.com/watch?v=n2fEHpLJUNk)
+
+[Back to project list](#browse-projects)
+
+---
+
+
+<a name="project-libertycraft"></a>
+
+#### LibertyCraft — *Minecraft inside GTA IV*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *Grand Theft Auto IV*  
+**Creator:** [mrborghini](https://github.com/mrborghini)  
+**Status:** 🟣 🟡 Source available / experimental WIP  
+**Approach:** GTA IV ASI plugin + SkyCraft-derived Fabric mod over shared memory
+
+Minecraft owns movement, inventory, hotbar and blocks while GTA IV owns Liberty City, its camera, traffic and rendering. The creator describes the current source as early development but playable.
+
+- [Source code](https://github.com/mrborghini/libertycraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-subcraft"></a>
+
+#### SubCraft — *Minecraft inside Subnautica*
+
+**Guest:** *Minecraft: Java Edition 1.21.1*  
+**Host:** *Subnautica*  
+**Creator:** [FumperForrest](https://github.com/FumperForrest)  
+**Status:** 🟣 🟡 Source available / experimental WIP  
+**Approach:** NeoForge Minecraft guest + Subnautica BepInEx host over shared memory
+
+Minecraft owns player physics, inventory, combat, blocks and mobs while Subnautica owns terrain, creatures, lighting, sound and saves. The shared-memory link and initial physics/rendering stages are implemented; exact collision and broader integration remain in development.
+
+- [Source code](https://github.com/FumperForrest/SubCraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-new-vegascraft"></a>
+
+#### New VegasCraft — *Minecraft inside Fallout: New Vegas*
+
+**Guest:** *Minecraft: Java Edition 26.3*  
+**Host:** *Fallout: New Vegas*  
+**Creator:** [Davozh](https://github.com/Davozh)  
+**Status:** 🟣 🟡 Source available / experimental WIP  
+**Approach:** xNVSE + ReShade + Fabric passthrough
+
+Minecraft's colour and depth are composited into Fallout: New Vegas while FNV camera and collision data are sent back to Minecraft, enabling Minecraft building in the Mojave. The project currently targets Linux/Proton and must be built from source.
+
+- [Source code](https://github.com/Davozh/new-vegascraft)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-minebonk"></a>
+
+#### Minebonk — *Minecraft systems inside Megabonk*
+
+**Guest:** *Minecraft* gameplay systems  
+**Host:** *Megabonk*  
+**Creator:** [MGuibas](https://github.com/MGuibas)  
+**Status:** 🟣 🟡 Source available / in development  
+**Approach:** native BepInEx + Harmony recreation inside Megabonk
+
+Unlike the passthrough projects, Minebonk uses one Megabonk process and rebuilds Minecraft-style first-person play, hotbar/inventory, 1.21 combat rules, items, mobs, bosses and loot directly inside the host game.
+
+- [Source code](https://github.com/MGuibas/Minebonk)
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-gta-trilogy-multiverse"></a>
+
+#### GTA Trilogy Multiverse Portals — *GTA III + Vice City + San Andreas in one process*
+
+**Guest:** *Grand Theft Auto III*, *Grand Theft Auto: Vice City*  
+**Host/runtime:** *Grand Theft Auto: San Andreas* / shared GTA runtime  
+**Creator:** DryxioGTA  
+**Status:** 🟡 Verified WIP / video only  
+**Approach:** modified re3/reVC + plugin-sdk + librw + shared Direct3D device
+
+DryxioGTA's creator demo shows GTA III, Vice City and San Andreas running simultaneously inside one process. Live portals connect the persistent worlds, with engine control switching when the player crosses and bullets/interactions visible across portal boundaries. No public build has been located.
+
+- [Creator demo](https://www.youtube.com/watch?v=fpsq2MyWznc)
+- [Technical corroboration — Tom's Hardware](https://www.tomshardware.com/video-games/pc-gaming/ambitious-modder-creates-grand-theft-auto-multiverse-with-real-time-portals-san-andreas-vice-city-and-gta-iii-all-run-simultaneously-with-cross-game-interactions)
 
 [Back to project list](#browse-projects)
 
@@ -1021,7 +1220,7 @@ The curation/metadata in this repository is dedicated to the public domain under
 
 ![Curated](https://img.shields.io/badge/status-curated-success)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![Last verified](https://img.shields.io/badge/verified-2026--10--03-blue)
+![Last verified](https://img.shields.io/badge/verified-2026--10--05-blue)
 ![License: CC0](https://img.shields.io/badge/list%20license-CC0--1.0-lightgrey)
 
 [Back to project list](#browse-projects)
