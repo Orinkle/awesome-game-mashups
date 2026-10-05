@@ -856,5 +856,207 @@
     "category": "core",
     "notes": "Creator footage shows CS:GO weapons, shooting and movement added to Project Zomboid, built on Project Viewpoint with optional Project A-Life support. The creator states the download is not public yet.",
     "last_activity": "2026-10-03"
+  },
+  {
+    "name": "OWCraft",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "Outer Wilds",
+    "creator": "Yaekai",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/Yaekai/OWCraft",
+    "release": "https://github.com/Yaekai/OWCraft/releases/tag/v0.1.1",
+    "license": "MIT",
+    "category": "core",
+    "notes": "SkyCraft-derived passthrough: Minecraft runs alongside Outer Wilds and owns player physics, blocks and inventory while Outer Wilds renders the planet, lighting and Minecraft content. Builds persist across Outer Wilds time loops.",
+    "latest_release": "v0.1.1 (2026-10-02)",
+    "last_activity": "2026-10-02",
+    "ai_assistance": "Creator states the mod was written by Claude, directed and play-tested by Yaekai."
+  },
+  {
+    "name": "SkateGM",
+    "guest": [
+      "Skate 3"
+    ],
+    "host": "Garry's Mod",
+    "creator": "the-schwilliam",
+    "status": [
+      "released",
+      "source-available"
+    ],
+    "first_seen": "2026-10-03",
+    "source": "https://github.com/the-schwilliam/SkateGM",
+    "release": "https://github.com/the-schwilliam/SkateGM/releases/tag/6.0",
+    "license": null,
+    "category": "core",
+    "notes": "Runs Skate 3 board physics, tricks, scoring and skater gameplay inside Garry's Mod on arbitrary maps, with multiplayer, minigames and a park editor. Users supply their own Skate 3 files.",
+    "latest_release": "6.0 (2026-10-04)",
+    "last_activity": "2026-10-04",
+    "ai_assistance": "Creator documents use of AI coding tools while explicitly stating game logic and creative assets were not delegated wholesale to generative AI."
+  },
+  {
+    "name": "BullySkate",
+    "guest": [
+      "Skate 3"
+    ],
+    "host": "Bully: Scholarship Edition",
+    "creator": "Faiqie",
+    "status": [
+      "released",
+      "source-available"
+    ],
+    "first_seen": "2026-10-01",
+    "source": "https://github.com/Faiqie/BullySkate",
+    "release": "https://github.com/Faiqie/BullySkate/releases/tag/v0.1.2",
+    "license": null,
+    "category": "core",
+    "notes": "Adds Skate 3 physics and controller-driven skating to Bullworth using the Skate 3 Rust rewrite, while keeping Bully's world and character. Requires user-owned Bully and Skate 3 files.",
+    "latest_release": "v0.1.2 (2026-10-04)",
+    "last_activity": "2026-10-04"
+  },
+  {
+    "name": "LibertyCraft",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "Grand Theft Auto IV",
+    "creator": "mrborghini",
+    "status": [
+      "source-available",
+      "verified-wip",
+      "experimental"
+    ],
+    "first_seen": "2026-10-03",
+    "source": "https://github.com/mrborghini/libertycraft",
+    "license": "MIT",
+    "category": "core",
+    "notes": "SkyCraft-derived passthrough in which Minecraft owns movement, inventory, hotbar and placed/broken blocks while GTA IV owns Liberty City, camera, traffic and rendering. Early development but the creator describes the current source as playable.",
+    "last_activity": "2026-10-04"
+  },
+  {
+    "name": "SubCraft",
+    "guest": [
+      "Minecraft: Java Edition 1.21.1"
+    ],
+    "host": "Subnautica",
+    "creator": "FumperForrest",
+    "status": [
+      "source-available",
+      "verified-wip",
+      "experimental"
+    ],
+    "first_seen": "2026-10-01",
+    "source": "https://github.com/FumperForrest/SubCraft",
+    "license": "MIT",
+    "category": "core",
+    "notes": "SkyCraft-derived passthrough: hidden Minecraft owns player physics, inventory, combat, blocks and mobs while Subnautica owns terrain, creatures, lighting, sound and saves. Early development; shared-memory link and initial rendering/physics stages are implemented.",
+    "last_activity": "2026-10-03"
+  },
+  {
+    "name": "New VegasCraft",
+    "guest": [
+      "Minecraft: Java Edition 26.3"
+    ],
+    "host": "Fallout: New Vegas",
+    "creator": "Davozh",
+    "status": [
+      "source-available",
+      "verified-wip",
+      "experimental"
+    ],
+    "first_seen": "2026-10-03",
+    "source": "https://github.com/Davozh/new-vegascraft",
+    "license": null,
+    "category": "core",
+    "notes": "Linux passthrough project that composites Minecraft colour/depth into Fallout: New Vegas, synchronises the FNV camera and collision into Minecraft and allows Minecraft building in the Mojave. No published binaries; build from source.",
+    "last_activity": "2026-10-04"
+  },
+  {
+    "name": "Minebonk",
+    "guest": [
+      "Minecraft systems"
+    ],
+    "host": "Megabonk",
+    "creator": "MGuibas",
+    "status": [
+      "source-available",
+      "verified-wip"
+    ],
+    "first_seen": "2026-10-02",
+    "source": "https://github.com/MGuibas/Minebonk",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Native BepInEx/Harmony mod that rebuilds Minecraft-style first-person movement, hotbar/inventory, 1.21 combat, items, mobs, bosses and loot inside Megabonk rather than running a second Minecraft process.",
+    "last_activity": "2026-10-02"
+  },
+  {
+    "name": "DOOM on Hytale — PapiSpielt",
+    "guest": [
+      "DOOM / Freedoom levels and systems"
+    ],
+    "host": "Hytale",
+    "creator": "PapiSpielt",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-05-28",
+    "source": "https://gitlab.com/papispielt/hytale-doom",
+    "release": "https://www.curseforge.com/hytale/mods/doom/files/8984905",
+    "project_page": "https://www.curseforge.com/hytale/mods/doom",
+    "license": "MIT",
+    "category": "core",
+    "notes": "Reads DOOM WAD map data and recreates classic DOOM levels as Hytale worlds, mapping enemies, weapons, armour and items into Hytale. The creator calls it a showcase and warns that later maps are not tuned for full playability.",
+    "latest_release": "hytale-doom-0.0.7 (2026-09-26)",
+    "last_activity": "2026-09-26",
+    "ai_assistance": "Creator explicitly says most code was generated with Claude Code."
+  },
+  {
+    "name": "GTA Trilogy Multiverse Portals",
+    "guest": [
+      "Grand Theft Auto III",
+      "Grand Theft Auto: Vice City"
+    ],
+    "host": "Grand Theft Auto: San Andreas / shared GTA runtime",
+    "creator": "DryxioGTA",
+    "status": [
+      "verified-wip",
+      "video-only"
+    ],
+    "first_seen": "2026-07-21",
+    "media": "https://www.youtube.com/watch?v=fpsq2MyWznc",
+    "verification": "https://www.tomshardware.com/video-games/pc-gaming/ambitious-modder-creates-grand-theft-auto-multiverse-with-real-time-portals-san-andreas-vice-city-and-gta-iii-all-run-simultaneously-with-cross-game-interactions",
+    "license": null,
+    "category": "core",
+    "notes": "Creator demo runs GTA III, Vice City and San Andreas simultaneously in one process with a shared Direct3D device and live portals between persistent worlds. Bullets and interactions cross portal boundaries. No public build was located.",
+    "last_activity": "2026-07-21"
+  },
+  {
+    "name": "Killcraft",
+    "guest": [
+      "Minecraft: Java Edition"
+    ],
+    "host": "ULTRAKILL",
+    "creator": "goonsn",
+    "status": [
+      "released",
+      "source-available",
+      "experimental"
+    ],
+    "first_seen": "2026-10-04",
+    "source": "https://github.com/goonsn/Killcraft",
+    "release": "https://github.com/goonsn/Killcraft/releases/tag/v0.1.3",
+    "license": "MIT",
+    "category": "core",
+    "notes": "SkyCraft-derived passthrough that lets Minecraft own movement, health, hunger, inventory, combat, mobs and block building while ULTRAKILL supplies its levels, enemies, damage system and rendering.",
+    "latest_release": "v0.1.3 (2026-10-04)",
+    "last_activity": "2026-10-04"
   }
 ]
