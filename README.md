@@ -2,7 +2,7 @@
 
 > Games rebuilt **inside other games**.
 
-**56 entries:** 48 core projects, 4 unconfirmed sightings and 4 related projects. Not all entries are verified releases.
+**62 entries:** 55 core projects, 3 unconfirmed sightings and 4 related projects. Not all entries are verified releases.
 
 [**Made one? Submit your project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml) · [Visual site build & deployment](docs/MAINTENANCE.md#publishing-the-site)
 
@@ -37,7 +37,7 @@ Editorial picks for variety, not a ranking or a claim of play-testing.
 
 Added to this index within seven days of the editorial update; not necessarily newly released games.
 
-[SubCraft](#project-subcraft) · [SkateGM](#project-skategm) · [OWCraft](#project-owcraft) · [New VegasCraft](#project-new-vegascraft) · [Minebonk](#project-minebonk) · [LibertyCraft](#project-libertycraft) · [Killcraft](#project-killcraft) · [GTA Trilogy Multiverse Portals](#project-gta-trilogy-multiverse)
+[SubCraft](#project-subcraft) · [SkateGM](#project-skategm) · [Skate 3 Board for Garry's Mod](#project-skate3-gmod) · [OWCraft](#project-owcraft) · [New VegasCraft](#project-new-vegascraft) · [Minebonk](#project-minebonk) · [LibertyCraft](#project-libertycraft) · [Killcraft](#project-killcraft)
 
 [Full weekly digest](docs/promote/weekly-digest.md) · [Atom feed](https://bailo167.github.io/awesome-game-mashups/feed.xml)
 
@@ -48,17 +48,18 @@ Added to this index within seven days of the editorial update; not necessarily n
 | Project | What it is | Status | Demo |
 |---|---|---|---|
 | [2010 Rust Rewrite Mashup](#project-rust-rewrite-mashup) | Combines Modern Warfare 2 multiplayer, Skate-style skating and a Minecraft world. | Released · Code available | — |
-| [Arcade Mod Reloaded](#project-arcade-mod-reloaded) | Adds six playable arcade games, including Tetris, Pac-Man and Donkey Kong, to Minecraft. | Released | — |
+| [Arcade Mod Reloaded](#project-arcade-mod-reloaded) | Adds six playable arcade games, including Tetris, Pac-Man and Donkey Kong, to Minecraft. | Released · Code available | — |
 | [BullySkate](#project-bullyskate) | Lets Jimmy skate through Bullworth using Skate 3 physics. | Released · Code available | — |
 | [CrossplayProject — Minecraft ↔ Roblox](#project-crossplayproject) | Links Minecraft and Roblox so players, blocks and chat synchronize between both games. | Released · Code available · Archived | — |
 | [CS-Craft](#project-cs-craft) | Adds a Minecraft Overworld/progression mode to a CS:GO Rust/Bevy rewrite. | Released · Code available · Experimental | — |
 | [Dark Souls: Remastest / Remastester](#project-remastest) | Mixes Halo maps and weapons with a major Dark Souls multiplayer and combat overhaul. | Released | [Watch](https://www.youtube.com/watch?v=qRBTMhG2_00) |
 | [Dead by Daylight Add-On (Zero Squad)](#project-dead-by-daylight) | Recreates Dead by Daylight’s generators, chases, traps and survivor systems in Minecraft Bedrock. | Released | — |
 | [DOOM on Hytale — PapiSpielt](#project-doom-hytale-papispielt) | Reconstructs classic DOOM WAD levels as Hytale worlds with enemies and items mapped into Hytale. | Released · Code available · Experimental | — |
+| [ER Mario](#project-er-mario) | Runs Super Mario 64's movement, health and combat inside Elden Ring. | Released · Code available · Experimental | — |
 | [FalloutCraft](#project-falloutcraft) | Runs Minecraft movement, building, HUD and combat inside Fallout 4's Commonwealth. | Released · Code available · Experimental | — |
+| [Garry's Redemption](#project-garrys-redemption) | Runs Garry's Mod movement, physgun, toolgun, weapons and spawn menu inside RDR2. | Released · Code available · Experimental | — |
 | [GTA San AnSkateas](#project-gta-san-anskateas) | Runs Skate 3 skating, tricks and physics on GTA San Andreas streets and collision. | Released · Code available · Experimental | — |
 | [GTA Skate 3 Trilogy](#project-gta-skate-3-trilogy) | Combines a Vice City rewrite with Skate 3's skating runtime. | Released · Code available · Experimental | — |
-| [Halocraft](#project-halocraft) | Adds destructible Minecraft-style blocks and maps to Halo 3 multiplayer. | Released | — |
 | [HellGate: Doom Portal](#project-hellgate-doom-portal) | Opens a portal from Minecraft into a playable DOOM II experience. | Released | — |
 | [HyCraft](#project-hycraft) | Lets Minecraft players join Hytale servers and interact with their worlds. | Released · Code available · Experimental | — |
 | [hytale2mc](#project-hytale2mc) | Lets Minecraft and Hytale players join the same synchronized cross-game minigames. | Released · Code available · Experimental | — |
@@ -76,6 +77,7 @@ Added to this index within seven days of the editorial update; not necessarily n
 | [talemonpokemon](#project-talemonpokemon) | Recreates Pokémon catching, battles, evolution and trainer progression inside Hytale. | Released | — |
 | [UltraDoom / UltrakillDoom](#project-ultradoom) | Lets you play DOOM on the shop terminals inside ULTRAKILL. | Released · Code available | — |
 | [ValCraft](#project-valcraft) | Runs Minecraft movement, blocks, inventory and combat inside Valheim while both games stay active. | Released · Code available · Experimental | — |
+| [Wither Storm × GTA V Passthrough](#project-wither-storm-gta-v) | Runs Minecraft's Wither Storm simulation inside GTA V and bridges its effects into Los Santos. | Released · Code available · Experimental | [Watch](https://www.youtube.com/watch?v=spm-u_cZvl8) |
 
 ### Code, demos and projects in development
 
@@ -83,23 +85,28 @@ Public code can still require compilation. Video-only entries have no public bui
 
 | Project | What it is | Status | Demo |
 |---|---|---|---|
+| [ArkWeb](#project-arkweb) | Runs Spider-Man's native traversal through Batman: Arkham Knight's Gotham. | Code available · Experimental | [Watch](https://www.youtube.com/watch?v=O6Mkm_NGCX8) |
+| [Black Ops II Hijacked inside Minecraft](#project-black-ops-ii-hijacked-minecraft) | Runs a Black Ops II Hijacked FPS port directly inside Minecraft's Java/Fabric runtime. | In development · Video only | [Watch](https://x.com/luckeyfaraday/status/2100417441671110715) |
 | [CS:GO systems inside Project Zomboid](#project-csgo-project-zomboid) | Adds CS:GO weapons, shooting and movement to Project Zomboid. | In development · Video only | [Watch](https://www.youtube.com/watch?v=n2fEHpLJUNk) |
 | [DoomMaps](#project-doom-maps) | Runs DOOM on Hytale’s in-game world-map screen. | Code available · Demo | — |
 | [GTA Trilogy Multiverse Portals](#project-gta-trilogy-multiverse) | Runs GTA III, Vice City and San Andreas simultaneously with live portals between them. | In development · Video only | [Watch](https://www.youtube.com/watch?v=fpsq2MyWznc) |
+| [Halo / MW2 Director](#project-halo-mw2-director) | Runs Halo CE characters and map data inside a native MW2/IW4L prototype. | Code available · Experimental | — |
+| [Halocraft](#project-halocraft) | Adds destructible Minecraft-style blocks and maps to Halo 3 multiplayer. | Released · Unavailable | — |
 | [HytaleDoom](#project-hytale-doom) | Lets you control DOOM from inside Hytale. | Code available · Demo | [Watch](https://www.youtube.com/watch?v=RxVj6_NKRDY) |
 | [LibertyCraft](#project-libertycraft) | Runs Minecraft movement, inventory and building inside GTA IV's Liberty City. | Code available · In development · Experimental | — |
 | [Minebonk](#project-minebonk) | Rebuilds Minecraft-style combat, inventory, mobs and bosses natively inside Megabonk. | Code available · In development | — |
 | [Minecraft Classic 0.30 inside Hytale](#project-minecraft-classic-hytale) | Shows Minecraft Classic running on Hytale’s in-game world-map screen. | In development · Video only | [Watch](https://x.com/iamcxv711/status/2012610249174536397) |
 | [Minecraft Crossover Bridge](#project-minecraft-crossover-bridge) | Brings Minecraft blocks, mobs and combat into Monster Hunter: World or Elden Ring on Apple Silicon Macs. | Code available · In development | — |
+| [Minecraft in GTA V](#project-minecraft-gta-v) | Runs real Minecraft movement, building, mobs and combat inside GTA V Story Mode. | Code available · Experimental | — |
 | [Minecraft voxel engine inside Super Mario 64](#project-minecraft-sm64) | Adds Minecraft-style terrain, blocks and lighting to Super Mario 64. | In development · Video only | [Watch](https://www.youtube.com/watch?v=Fo1_-UalrmY) |
 | [Minecraft X Half-Life](#project-minecraft-x-half-life) | Ports SkyCraft's Minecraft passthrough model to Half-Life. | Code available · In development · Experimental | — |
 | [Minecraft ↔ Hytale crossplay (SSquadTeam)](#project-minecraft-hytale-crossplay-ssquadteam) | Lets Minecraft and Hytale players share a synchronized Hytale-hosted world. | In development · Video only | [Watch](https://x.com/iamcxv711/status/2013352132129222906) |
 | [Morrowind in Elden Ring](#project-morrowind-elden-ring) | Recreates Morrowind’s world and gameplay inside Elden Ring. | In development · Video only | [Watch](https://www.youtube.com/watch?v=n89NFtIUWDI) |
 | [New VegasCraft](#project-new-vegascraft) | Composites Minecraft into Fallout: New Vegas and lets you build in the Mojave. | Code available · In development · Experimental | — |
 | [PokeWorlds Online](#project-pokeworlds-online) | Rebuilds classic top-down Pokémon as a multiplayer game inside Hytale. | In development · Video only | [Watch](https://x.com/pokeworldonlin/status/2099499679314542720) |
+| [Skate 3 Board for Garry's Mod](#project-skate3-gmod) | Runs Skate 3's board physics, tricks, cameras and bails inside Garry's Mod. | Code available · In development · Experimental | — |
 | [SubCraft](#project-subcraft) | Connects Minecraft physics, blocks and mobs to Subnautica's world and rendering. | Code available · In development · Experimental | — |
 | [Wasmcraft game demos](#project-wasmcraft) | Runs games including DOOM, Celeste Classic and Super Mario Bros. inside vanilla Minecraft. | Code available · Demo | [Watch](https://www.youtube.com/watch?v=wCHB1UgwM9o) |
-| [Wither Storm × GTA V Passthrough](#project-wither-storm-gta-v) | Runs Minecraft's Wither Storm simulation inside GTA V and bridges its effects into Los Santos. | Code available · Experimental | [Watch](https://www.youtube.com/watch?v=spm-u_cZvl8) |
 | [World of Skatecraft](#project-world-of-skatecraft) | Runs Skate 3 physics and tricks inside World of Warcraft 1.12.1. | Code available · Experimental | — |
 | [WowCraft — Minecraft inside World of Warcraft](#project-wowcraft) | Runs Minecraft movement, combat, building and items through World of Warcraft 1.12.1. | In development · Video only | [Watch](https://www.youtube.com/watch?v=sX3lsLiPS2s) |
 
@@ -112,7 +119,6 @@ These are leads, not confirmed downloads. Footage does not prove wider implement
 | [Earlier viral Minecraft in Skyrim footage](#project-minecraft-skyrim-earlier-footage) | Earlier Minecraft-in-Skyrim footage remains unsourced; it is not the verified SkyCraft project. | Unconfirmed | — |
 | [Minecraft in Cyberpunk 2077](#project-minecraft-cyberpunk) | A viral claim puts Minecraft gameplay inside Cyberpunk 2077. | Unconfirmed | — |
 | [Minecraft in Elden Ring](#project-minecraft-elden-ring-tobynjacobs) | TobynJacobs’ footage shows Minecraft-style gameplay in Elden Ring; wider claims remain unconfirmed. | Video only · Unconfirmed | [Watch](https://x.com/TobynJacobs/status/2104884843297599594) |
-| [Minecraft in GTA V](#project-minecraft-gta-v) | Viral footage claims to combine Minecraft gameplay with GTA V. | Unconfirmed | — |
 
 ## Related projects
 
@@ -121,7 +127,7 @@ These are leads, not confirmed downloads. Footage does not prove wider implement
 | [ccboy — Game Boy in Minecraft](#project-ccboy) | Streams Game Boy gameplay from an external emulator to ComputerCraft monitors in Minecraft. | Code available · Related | — |
 | [GeometryTale](#project-geometrytale) | Recreates Geometry Dash-style 2D levels as a playable Hytale world. | Released · Related | — |
 | [Minecraft, but It's Crash Bandicoot (Remake)](#project-crash-bandicoot-remake) | Recreates two Crash Bandicoot levels with custom gameplay in Minecraft. | Released · Related | — |
-| [Portal Zombies](#project-portal-zombies) | Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. | Released · Related | — |
+| [Portal Zombies](#project-portal-zombies) | Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. | Released · Unavailable · Related | — |
 
 ## Project details
 
@@ -254,11 +260,15 @@ Runs DOOM through Hytale's in-game world-map display at a targeted 35 FPS, with 
 
 Minecraft clients can connect to a Hytale server without a client mod. HyCraft converts chunks and biomes, synchronises entities and inventory, and translates block interaction and combat.
 
+**Requirements:** A Hytale server and Java 25. Minecraft Java Edition 1.21.11 clients connect through the plugin's protocol bridge; optional deeper integration uses Hyxin mixins.
+
+**Platforms documented:** Server-side Java
+
 - [Source code](https://github.com/EdwardBelt/HyCraft)
 - [Release / download](https://github.com/EdwardBelt/HyCraft/releases/tag/v1.1.4)
 - [Creator profile](https://github.com/EdwardBelt)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -299,9 +309,13 @@ Turns ULTRAKILL's diegetic shop terminals into playable DOOM instances. A legiti
 
 An in-world portal and altar launch a playable DOOM II experience from Minecraft; DOOM saves and progress persist between sessions.
 
+**Requirements:** Minecraft Java Edition 1.20.4 with Fabric; the project listing describes a Doom II experience launched through its in-world portal and persistent Doom progress.
+
+**Platforms documented:** Minecraft Java Edition 1.20.4
+
 - [Release / download](https://www.curseforge.com/minecraft/mc-mods/hellgate-doom-portal)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -366,9 +380,13 @@ A historically important technical precursor: Wasmcraft compiles WebAssembly pro
 
 Recreates generator objectives and skill checks, pallets/vaulting, health states, hooks, lockers, Trapper bear traps, terror radius, carrying/wiggle mechanics and custom UI.
 
+**Requirements:** The creator's current CurseForge listing targets modern Minecraft Bedrock and uses Beta APIs/GameTest functionality.
+
+**Platforms documented:** Minecraft Bedrock Edition
+
 - [Release / download](https://www.curseforge.com/minecraft-bedrock/addons/dead-by-daylight)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -382,15 +400,20 @@ Recreates generator objectives and skill checks, pallets/vaulting, health states
 **Guest:** Tetris, Pac-Man, Pong, Snake, Space Invaders, Donkey Kong  
 **Host:** Minecraft: Java Edition 1.20.1  
 **Creator:** Bay4lly; original mod by SuperHB  
-**Status:** Released  
+**Status:** Released · Code available  
 **Approach:** Forge arcade-machine recreations  
 
 A modern port/continuation of the older Arcade Mod with six playable arcade recreations inside Minecraft.
 
+**Requirements:** Minecraft Java Edition 1.20.1 with Forge.
+
+**Platforms documented:** Minecraft Java Edition 1.20.1
+
+- [Source code](https://github.com/Bay4lly/ArcadeMod)
 - [Release / download](https://www.curseforge.com/minecraft/mc-mods/arcade-mod-reloaded)
 - [Project page](https://modrinth.com/mod/arcade-mod-reloaded)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -404,7 +427,7 @@ A modern port/continuation of the older Arcade Mod with six playable arcade recr
 **Guest:** Minecraft  
 **Host:** Halo 3 / Halo: The Master Chief Collection  
 **Creator:** InfernoPlus  
-**Status:** Released  
+**Status:** Released · Unavailable  
 **Approach:** Halo 3 multiplayer maps with destructible Minecraft-style voxel structures using Halo's physics  
 
 Four destructible Minecraft maps built inside Halo 3. This is more than a texture swap: the key technical feature is destructible block geometry in a host engine not designed for Minecraft-style terrain destruction.
@@ -413,7 +436,7 @@ Four destructible Minecraft maps built inside Halo 3. This is more than a textur
 - [Project page](https://www.patreon.com/infernoplus/posts/halocraft-73930239)
 - [Official Halo spotlight](https://www.halowaypoint.com/news/halo-mcc-modtacular-2)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -437,7 +460,7 @@ A large multiplayer-focused Dark Souls overhaul that evolved into a Halo/Dark So
 - [Original release post](https://www.patreon.com/infernoplus/posts/dark-souls-46865100)
 - [Community tooling: DS Gadget for Remastest](https://github.com/Nordgaren/DS-Gadget-for-Remastest)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -459,7 +482,7 @@ A seven-year solo recreation designed to be playable from beginning to end, cove
 - [Release / download](https://rivero7462.itch.io/ocarina-of-time-in-minecraft)
 - [Watch demo](https://www.youtube.com/watch?v=HSGioTZ_rf4)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -478,9 +501,13 @@ A seven-year solo recreation designed to be playable from beginning to end, cove
 
 A complete playable recreation of Pokémon Red built in vanilla Minecraft, reproducing the original progression and game systems rather than only the Kanto map.
 
+**Requirements:** Minecraft Java Edition 1.11.2, using the downloadable world/resource-pack package from the creator's CurseForge listing.
+
+**Platforms documented:** Minecraft Java Edition 1.11.2
+
 - [Release / download](https://www.curseforge.com/minecraft/worlds/pokemon-red)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -579,17 +606,25 @@ Primary creator footage exists, but no public repository/download was located; b
 
 ### Minecraft in GTA V
 
-**Guest:** Minecraft  
-**Host:** Grand Theft Auto V  
-**Creator:** Not established  
-**Status:** Unconfirmed  
+**Guest:** Minecraft: Java Edition 26.3  
+**Host:** Grand Theft Auto V Legacy (Story Mode)  
+**Creator:** Rehan Sheikh / rehan-remade  
+**Status:** Code available · Experimental  
+**Approach:** Fabric guest + ScriptHookV/ReShade GTA host linked by local WebSocket and shared-memory frame transport  
 
-Viral footage/discussion; no matching public source or release verified.
+Minecraft Java runs beside GTA V rather than being reimplemented. GTA drives Minecraft's camera and ground, Minecraft exports colour/depth and gameplay events, and the GTA plugin depth-composites the result while mirroring building, explosions, projectiles and mob interactions.
 
-- [Supporting source](https://heldgames.com/guides/is-that-viral-mod-video-real)
-- [Discussion](https://www.reddit.com/r/GTAV/comments/1wuppva/somebody_modded_minecraft_into_gta_5/)
+**Requirements:** GTA V Legacy Story Mode, Minecraft Java 26.3 with Fabric, a compatible ScriptHookV build, ReShade 6.8.0 with add-on support, JDK 25 and Windows tooling documented by the project. The primary example is explicitly offline/story-mode only.
 
-**Dated source review:** Not recorded for this inherited entry.
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/rehan-remade/universal-modder/tree/main/examples/minecraft-gta5-passthrough)
+- [Creator profile](https://github.com/rehan-remade)
+- [Primary field note](https://github.com/rehan-remade/universal-modder/blob/main/knowledge/games/gta-v/minecraft-passthrough.md)
+- [GTA V Enhanced derivative](https://github.com/GrantMatas/minecraft-in-gta-enhanced)
+- [Packaged GTA V Enhanced derivative](https://github.com/utku6767/Gta-V-Enhanced-Minecraft-Steve-Passthrough)
+
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -643,14 +678,14 @@ Earlier viral Minecraft-in-Skyrim footage was not independently sourced. Do not 
 **Guest:** Portal  
 **Host:** Call of Duty: Black Ops III Zombies  
 **Creator:** xdferpc  
-**Status:** Released · Related  
+**Status:** Released · Unavailable · Related  
 **Scope note:** uses Portal textures, models and teleporters in a custom Zombies map, but does not attempt to recreate Portal's full game systems.  
 
 Portal-themed Zombies map using Portal textures, models and teleporters; not a full Portal systems recreation.
 
 - [Release / download](https://steamcommunity.com/sharedfiles/filedetails/?id=856630622)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -693,9 +728,13 @@ Runs a fully featured second Minecraft instance on an in-world display and forwa
 
 A DOOM source port for Minecraft. Mocha Doom owns the game simulation while Minecraft renders it. The project requires the user's own copy of DOOM. Its linked source repository was unavailable during this verification, so it is not labelled source-available.
 
+**Requirements:** Minecraft Java Edition 26.2 with Fabric/Fabric API and Java 25, plus the user's own compatible DOOM data. The formerly linked source repository remains unavailable, so source-available is not asserted.
+
+**Platforms documented:** Minecraft Java Edition 26.2
+
 - [Release / download](https://www.curseforge.com/minecraft/mc-mods/latte-doom)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -781,9 +820,11 @@ Creator footage shows Minecraft and Hytale clients sharing one Hytale-hosted wor
 
 A fully functional Game Boy emulator running inside Hytale at true 1:1 scale. The creator says frames are computed and rendered live, controls are mapped to in-game blocks, and no external tools are used. Tetris and Batman titles are shown as tested examples.
 
+**Platforms documented:** Hytale
+
 - [Release / download](https://builtbybit.com/resources/retro-handheld-emulator-1x1-scale.101265/)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -804,7 +845,7 @@ Recreates a substantial Pokémon adventure loop inside Hytale: starter selection
 
 - [Release / download](https://www.curseforge.com/hytale/mods/talemonpokemon)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -868,7 +909,7 @@ Recreates Geometry Dash-style 2D side-scrolling levels as a downloadable Hytale 
 
 - [Release / download](https://www.curseforge.com/hytale/worlds/geometrytale)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -889,7 +930,7 @@ Recreates two Crash Bandicoot levels in Minecraft with custom gameplay mechanics
 
 - [Release / download](https://www.curseforge.com/minecraft/worlds/minecraft-but-its-crash-bandicoot)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -908,11 +949,15 @@ Recreates two Crash Bandicoot levels in Minecraft with custom gameplay mechanics
 
 Minecraft runs hidden and supplies movement, inventory, HUD, blocks and combat while Valheim supplies terrain, weather, creatures and dungeons. The bridge streams Valheim collision into Minecraft, renders Minecraft content in Valheim and carries combat and loot between both games.
 
+**Requirements:** Valheim on Steam, an owned Minecraft: Java Edition account, and roughly 3 GB of additional RAM for the Minecraft guest. The creator documents Gale/r2modman-style mod-manager setup and an optional guided installer.
+
+**Platforms documented:** Windows
+
 - [Source code](https://github.com/LoAlCo/ValCraft)
-- [Release / download](https://github.com/LoAlCo/ValCraft/releases/tag/v0.5.8)
+- [Release / download](https://github.com/LoAlCo/ValCraft/releases/tag/v0.6.1)
 - [Creator profile](https://github.com/LoAlCo)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -949,16 +994,21 @@ CJ can switch into Skate 3-style skating on San Andreas streets, using Skate 3 c
 **Guest:** Minecraft: Java Edition 1.20.1, Cracker's Wither Storm Mod  
 **Host:** Grand Theft Auto V Legacy  
 **Creator:** VortexisTV  
-**Status:** Code available · Experimental  
+**Status:** Released · Code available · Experimental  
 **Approach:** Forge bridge + GTA plugin + ReShade depth compositing  
 
 Minecraft remains responsible for simulating the Wither Storm while the bridge draws it into Los Santos. GTA pedestrians and vehicles are represented by Minecraft-side proxies so tractor beams, consumption, projectiles, explosions, weather and other storm effects can feed back into GTA.
 
+**Requirements:** GTA V Legacy Story Mode and Minecraft Java 1.20.1 on the same Windows PC, with Forge 47.4.10, Cracker's Wither Storm Mod 4.2.1, JDK 17, a compatible ScriptHookV/ASI loader and ReShade 6.8.0 with full add-on support.
+
+**Platforms documented:** Windows
+
 - [Source code](https://github.com/VortexisTV/wither-storm-gta5-passthrough)
+- [Release / download](https://github.com/VortexisTV/wither-storm-gta5-passthrough/releases/tag/mc-gta5)
 - [Watch demo](https://www.youtube.com/watch?v=spm-u_cZvl8)
 - [Creator profile](https://github.com/VortexisTV)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -969,19 +1019,23 @@ Minecraft remains responsible for simulating the Wither Storm while the bridge d
 
 ### FalloutCraft
 
-**Guest:** Minecraft: Java Edition 26.3  
+**Guest:** Minecraft: Java Edition 26.3 (Fabric), Minecraft: Java Edition 1.21.1 (NeoForge)  
 **Host:** Fallout 4  
 **Creator:** zeyvu  
 **Status:** Released · Code available · Experimental  
 **Approach:** F4SE plugin + Minecraft Fabric mod using shared memory  
 
-Minecraft supplies movement, blocks, hearts, inventory and combat while Fallout 4 keeps the Commonwealth, NPCs, quests, Pip-Boy and saves. The project is explicitly built on the SkyCraft passthrough approach.
+Minecraft supplies movement, blocks, hearts, inventory and combat while Fallout 4 keeps the Commonwealth, NPCs, quests, Pip-Boy and saves. v0.1.3 adds a NeoForge 1.21.1 route intended for use alongside other Minecraft mods.
+
+**Requirements:** Fallout 4 1.11.240 on Steam with F4SE 0.7.9+ and Address Library, plus either Minecraft 26.3 with Fabric Loader 0.19.5+/Fabric API 0.161.0+26.3 on Java 25, or Minecraft 1.21.1 with NeoForge 21.1.x on Java 21.
+
+**Platforms documented:** Windows
 
 - [Source code](https://github.com/zeyvu/FalloutCraft)
-- [Release / download](https://github.com/zeyvu/FalloutCraft/releases/tag/v.0.1.2)
+- [Release / download](https://github.com/zeyvu/FalloutCraft/releases/tag/v0.1.3)
 - [Creator profile](https://github.com/zeyvu)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1090,12 +1144,16 @@ Pressing J drops the WoW character onto a skateboard using Skate 3's physics, wi
 
 An installer/launcher for a three-game mashup. Inside GTA San Andreas, F6 switches to Skate 3 mode and F5 switches to an MW2 mode with weapons, points, scoreboard and partially implemented killstreaks. It builds the required integration from user-owned game files.
 
+**Requirements:** GTA San Andreas 1.0 US is required. Skate 3 support needs the user's own Xbox 360 ISO; MW2 support needs the user's own multiplayer game folder. The launcher targets 64-bit Windows 10/11 and obtains the open tooling it needs separately.
+
+**Platforms documented:** Windows
+
 - [Source code](https://github.com/Sm1jjj/PipeLinkLauncher)
-- [Release / download](https://github.com/Sm1jjj/PipeLinkLauncher/releases/tag/v1.0.1)
+- [Release / download](https://github.com/Sm1jjj/PipeLinkLauncher/releases/tag/v1.0.2)
 - [Watch demo](https://streamable.com/19fo55)
 - [Creator profile](https://github.com/Sm1jjj)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1326,7 +1384,7 @@ Reads DOOM WAD map data and creates the level block-by-block in Hytale, mapping 
 - [Release / download](https://www.curseforge.com/hytale/mods/doom/files/8984905)
 - [Project page](https://www.curseforge.com/hytale/mods/doom)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1374,6 +1432,166 @@ A real Minecraft instance runs hidden and owns movement, health, hunger, invento
 - [Source code](https://github.com/goonsn/Killcraft)
 - [Release / download](https://github.com/goonsn/Killcraft/releases/tag/v0.1.3)
 - [Creator profile](https://github.com/goonsn)
+
+**Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-er-mario"></a>
+
+### ER Mario
+
+**Guest:** Super Mario 64  
+**Host:** Elden Ring  
+**Creator:** Deltaroo / deltarooo  
+**Status:** Released · Code available · Experimental  
+**Approach:** Rust me3 DLL embedding libsm64 and feeding it Elden Ring Havok collision  
+
+Mario's triple jumps, wall kicks, long jumps, ground pounds, attacks, health wedges, coins and Lakitu-style camera run through libsm64 while Elden Ring supplies the world, enemies, encounters and live Havok collision.
+
+**Requirements:** Elden Ring on Steam, me3, and a user-owned US Super Mario 64 ROM. The creator documents offline-only use and macOS via CrossOver.
+
+**Platforms documented:** Windows, macOS via CrossOver
+
+- [Source code](https://github.com/deltarooo/er-mario)
+- [Release / download](https://github.com/deltarooo/er-mario/releases/tag/v0.3.9)
+- [Creator profile](https://github.com/deltarooo)
+
+**Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-arkweb"></a>
+
+### ArkWeb
+
+**Guest:** Marvel's Spider-Man Remastered  
+**Host:** Batman: Arkham Knight  
+**Creator:** luki-1  
+**Status:** Code available · Experimental  
+**Approach:** dual-game shared-memory bridge with collision streaming and GPU frame compositing  
+
+Spider-Man supplies swinging, wall running, crawling, point launches and its character rendering while Arkham Knight supplies Gotham, world collision, grapple targets and combat hand-off. The two live games exchange state through shared memory.
+
+**Requirements:** Windows 10 x64, Marvel's Spider-Man Remastered v4.0630 on Steam, Batman: Arkham Knight on Steam, an Xbox-style controller, and the documented build/runtime tooling.
+
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/luki-1/ArkWeb)
+- [Watch demo](https://www.youtube.com/watch?v=O6Mkm_NGCX8)
+- [Creator profile](https://github.com/luki-1)
+
+**Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-garrys-redemption"></a>
+
+### Garry's Redemption
+
+**Guest:** Garry's Mod  
+**Host:** Red Dead Redemption 2  
+**Creator:** codeByAlexff  
+**Status:** Released · Code available · Experimental  
+**Approach:** shared-memory bridge using an RDR2 Script Hook ASI, a Garry's Mod x86-64 module and frame compositing  
+
+Garry's Mod runs hidden beside Red Dead Redemption 2 and supplies the player, sandbox physics, weapons, HUD, physgun, toolgun and Q menu. RDR2 keeps its world, people, horses, wagons and rendering, with interactions bridged between both games.
+
+**Requirements:** Red Dead Redemption 2 Story Mode, Script Hook RDR2, Garry's Mod on its x86-64 branch, and 64-bit Windows.
+
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/codeByAlexff/garrys-redemption)
+- [Release / download](https://github.com/codeByAlexff/garrys-redemption/releases/tag/v0.1.0-beta)
+- [Creator profile](https://github.com/codeByAlexff)
+
+**Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-halo-mw2-director"></a>
+
+### Halo / MW2 Director
+
+**Guest:** Halo: Combat Evolved  
+**Host:** Call of Duty: Modern Warfare 2 (IW4L)  
+**Creator:** 0xburn  
+**Status:** Code available · Experimental  
+**Approach:** IW4L native runtime patches plus local Halo CE asset conversion, imported maps/collision and scene/bot tooling  
+
+The project patches IW4L for a native Mac crossover: Halo CE Spartans, sounds/effects and converted map geometry can run with MW2 movement, weapons and bot combat. Its documented Battle Creek bridge includes geometry, textures, collision and spawns but not full Halo rules, vehicles or pickups.
+
+**Requirements:** A user-owned MW2 (2009) Multiplayer install and user-owned Halo CE data, plus the native macOS/Rust/Python toolchain documented by the project.
+
+**Platforms documented:** macOS (Apple Silicon tested)
+
+- [Source code](https://github.com/0xburn/halo-mw2-director)
+- [Creator profile](https://github.com/0xburn)
+- [Halo map importer scope](https://github.com/0xburn/halo-mw2-director/blob/main/docs/HALO_MAPS.md)
+- [Autonomous bot-match scope](https://github.com/0xburn/halo-mw2-director/blob/main/docs/BOT_MATCHES.md)
+
+**Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-black-ops-ii-hijacked-minecraft"></a>
+
+### Black Ops II Hijacked inside Minecraft
+
+**Guest:** Call of Duty: Black Ops II  
+**Host:** Minecraft: Java Edition  
+**Creator:** Luckey Faraday  
+**Status:** In development · Video only  
+**Approach:** Java/Fabric port rendered through Minecraft's OpenGL context  
+
+The creator demo shows Hijacked geometry, collision, bots, navmesh, weapons and FPS rendering running directly in Minecraft rather than as a themed map alone. A public source/release for the Fabric port was not located, so it remains video-only in this catalogue.
+
+- [Creator post](https://x.com/luckeyfaraday/status/2100417441671110715)
+- [Supporting source](https://www.minecraft-france.fr/call-of-duty-black-ops-2-directement-dans-minecraft/)
+- [Creator profile](https://github.com/luckeyfaraday)
+- [Earlier browser reconstruction source](https://github.com/luckeyfaraday/claude-of-duty)
+
+**Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-skate3-gmod"></a>
+
+### Skate 3 Board for Garry's Mod
+
+**Guest:** Skate 3  
+**Host:** Garry's Mod  
+**Creator:** DaffyDabz  
+**Status:** Code available · In development · Experimental  
+**Approach:** Garry's Mod server/client add-on plus native Rust bridge into the SK8-ENGINE simulation  
+
+A Garry's Mod add-on and native Rust bridge run Skate 3's reconstructed board/skater simulation inside GMod. The project supplies the GMod-side controls, HUD, camera, bumps and bail handling while user-owned Skate 3 data feeds the simulation and generated presentation assets.
+
+**Requirements:** A legal Skate 3 Xbox 360 copy, the SK8-ENGINE rebuild/source, Garry's Mod on Windows using an x86-64 client or 64-bit dedicated server, plus the documented Rust/LLVM/Python asset/build tooling.
+
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/DaffyDabz/skate3-gmod)
+- [Creator profile](https://github.com/DaffyDabz)
+- [Upstream Skate 3 rebuild](https://github.com/SK8-ENGINE/skate-3-rust-engine)
 
 **Dated source review:** 2026-10-05
 **Catalogue play-test:** Not recorded.
