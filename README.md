@@ -2,11 +2,11 @@
 
 > Games rebuilt **inside other games**.
 
-**62 entries:** 55 core projects, 3 unconfirmed sightings and 4 related projects. Not all entries are verified releases.
+**69 entries:** 59 core projects, 3 unconfirmed sightings and 7 related projects. Not all entries are verified releases.
 
 [**Made one? Submit your project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml) · [Visual site build & deployment](docs/MAINTENANCE.md#publishing-the-site)
 
-**Catalogue updated:** 2026-10-05. This is an editorial update date, not a blanket verification date.
+**Catalogue updated:** 2026-10-06. This is an editorial update date, not a blanket verification date.
 
 Listed availability is not a play-test or safety certification. Source code is not automatically a ready-to-install download. Unconfirmed sightings and related projects are counted separately.
 
@@ -37,7 +37,7 @@ Editorial picks for variety, not a ranking or a claim of play-testing.
 
 Added to this index within seven days of the editorial update; not necessarily newly released games.
 
-[SubCraft](#project-subcraft) · [SkateGM](#project-skategm) · [Skate 3 Board for Garry's Mod](#project-skate3-gmod) · [OWCraft](#project-owcraft) · [New VegasCraft](#project-new-vegascraft) · [Minebonk](#project-minebonk) · [LibertyCraft](#project-libertycraft) · [Killcraft](#project-killcraft)
+[Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) · [Skate Fortress 2](#project-skate-fortress-2) · [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) · [Minecraft Ring](#project-minecraft-ring) · [GrandTheftMinecraft](#project-grandtheftminecraft) · [Good Enough Game Integration (GEGI)](#project-good-enough-game-integration) · [Chanyoris](#project-chanyoris) · [SubCraft](#project-subcraft)
 
 [Full weekly digest](docs/promote/weekly-digest.md) · [Atom feed](https://bailo167.github.io/awesome-game-mashups/feed.xml)
 
@@ -58,6 +58,8 @@ Added to this index within seven days of the editorial update; not necessarily n
 | [ER Mario](#project-er-mario) | Runs Super Mario 64's movement, health and combat inside Elden Ring. | Released · Code available · Experimental | — |
 | [FalloutCraft](#project-falloutcraft) | Runs Minecraft movement, building, HUD and combat inside Fallout 4's Commonwealth. | Released · Code available · Experimental | — |
 | [Garry's Redemption](#project-garrys-redemption) | Runs Garry's Mod movement, physgun, toolgun, weapons and spawn menu inside RDR2. | Released · Code available · Experimental | — |
+| [Good Enough Game Integration (GEGI)](#project-good-enough-game-integration) | Plays itch.io and Newgrounds web games interactively inside Minecraft through an embedded Chromium view. | Released · Code available | — |
+| [GrandTheftMinecraft](#project-grandtheftminecraft) | Recreates Minecraft creative-mode building, inventory, mobs and items directly inside GTA V Story Mode. | Released · Code available · Experimental | — |
 | [GTA San AnSkateas](#project-gta-san-anskateas) | Runs Skate 3 skating, tricks and physics on GTA San Andreas streets and collision. | Released · Code available · Experimental | — |
 | [GTA Skate 3 Trilogy](#project-gta-skate-3-trilogy) | Combines a Vice City rewrite with Skate 3's skating runtime. | Released · Code available · Experimental | — |
 | [HellGate: Doom Portal](#project-hellgate-doom-portal) | Opens a portal from Minecraft into a playable DOOM II experience. | Released | — |
@@ -98,6 +100,7 @@ Public code can still require compilation. Video-only entries have no public bui
 | [Minecraft Classic 0.30 inside Hytale](#project-minecraft-classic-hytale) | Shows Minecraft Classic running on Hytale’s in-game world-map screen. | In development · Video only | [Watch](https://x.com/iamcxv711/status/2012610249174536397) |
 | [Minecraft Crossover Bridge](#project-minecraft-crossover-bridge) | Brings Minecraft blocks, mobs and combat into Monster Hunter: World or Elden Ring on Apple Silicon Macs. | Code available · In development | — |
 | [Minecraft in GTA V](#project-minecraft-gta-v) | Runs real Minecraft movement, building, mobs and combat inside GTA V Story Mode. | Code available · Experimental | — |
+| [Minecraft Ring](#project-minecraft-ring) | Runs real Minecraft movement, building and combat inside Elden Ring through a Windows D3D12 bridge. | Code available · In development · Experimental | — |
 | [Minecraft voxel engine inside Super Mario 64](#project-minecraft-sm64) | Adds Minecraft-style terrain, blocks and lighting to Super Mario 64. | In development · Video only | [Watch](https://www.youtube.com/watch?v=Fo1_-UalrmY) |
 | [Minecraft X Half-Life](#project-minecraft-x-half-life) | Ports SkyCraft's Minecraft passthrough model to Half-Life. | Code available · In development · Experimental | — |
 | [Minecraft ↔ Hytale crossplay (SSquadTeam)](#project-minecraft-hytale-crossplay-ssquadteam) | Lets Minecraft and Hytale players share a synchronized Hytale-hosted world. | In development · Video only | [Watch](https://x.com/iamcxv711/status/2013352132129222906) |
@@ -105,6 +108,7 @@ Public code can still require compilation. Video-only entries have no public bui
 | [New VegasCraft](#project-new-vegascraft) | Composites Minecraft into Fallout: New Vegas and lets you build in the Mojave. | Code available · In development · Experimental | — |
 | [PokeWorlds Online](#project-pokeworlds-online) | Rebuilds classic top-down Pokémon as a multiplayer game inside Hytale. | In development · Video only | [Watch](https://x.com/pokeworldonlin/status/2099499679314542720) |
 | [Skate 3 Board for Garry's Mod](#project-skate3-gmod) | Runs Skate 3's board physics, tricks, cameras and bails inside Garry's Mod. | Code available · In development · Experimental | — |
+| [Skate Fortress 2](#project-skate-fortress-2) | Runs Skate 3's recovered skating simulation inside Team Fortress 2, including tricks, grinds, bails and multiplayer prediction. | Code available · In development · Experimental | — |
 | [SubCraft](#project-subcraft) | Connects Minecraft physics, blocks and mobs to Subnautica's world and rendering. | Code available · In development · Experimental | — |
 | [Wasmcraft game demos](#project-wasmcraft) | Runs games including DOOM, Celeste Classic and Super Mario Bros. inside vanilla Minecraft. | Code available · Demo | [Watch](https://www.youtube.com/watch?v=wCHB1UgwM9o) |
 | [World of Skatecraft](#project-world-of-skatecraft) | Runs Skate 3 physics and tricks inside World of Warcraft 1.12.1. | Code available · Experimental | — |
@@ -125,9 +129,12 @@ These are leads, not confirmed downloads. Footage does not prove wider implement
 | Project | What it is | Status | Demo |
 |---|---|---|---|
 | [ccboy — Game Boy in Minecraft](#project-ccboy) | Streams Game Boy gameplay from an external emulator to ComputerCraft monitors in Minecraft. | Code available · Related | — |
+| [Chanyoris](#project-chanyoris) | Runs a full competitive falling-block puzzle game inside a Minecraft map item. | Released · Related | — |
 | [GeometryTale](#project-geometrytale) | Recreates Geometry Dash-style 2D levels as a playable Hytale world. | Released · Related | — |
 | [Minecraft, but It's Crash Bandicoot (Remake)](#project-crash-bandicoot-remake) | Recreates two Crash Bandicoot levels with custom gameplay in Minecraft. | Released · Related | — |
 | [Portal Zombies](#project-portal-zombies) | Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. | Released · Unavailable · Related | — |
+| [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) | Adds Minecraft-style building, hotbar and survival mechanics to Resident Evil Requiem. | Released · Experimental · Related | — |
+| [Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) | Recreates Sonic-style high-speed movement and combat systems inside GTA V Story Mode. | Released · Experimental · Related | — |
 
 ## Project details
 
@@ -954,10 +961,10 @@ Minecraft runs hidden and supplies movement, inventory, HUD, blocks and combat w
 **Platforms documented:** Windows
 
 - [Source code](https://github.com/LoAlCo/ValCraft)
-- [Release / download](https://github.com/LoAlCo/ValCraft/releases/tag/v0.6.1)
+- [Release / download](https://github.com/LoAlCo/ValCraft/releases/tag/v0.6.2)
 - [Creator profile](https://github.com/LoAlCo)
 
-**Dated source review:** 2026-10-05
+**Dated source review:** 2026-10-06
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -976,11 +983,15 @@ Minecraft runs hidden and supplies movement, inventory, HUD, blocks and combat w
 
 CJ can switch into Skate 3-style skating on San Andreas streets, using Skate 3 controls, tricks, grinds, bails and camera behaviour against GTA's collision. Setup requires user-owned copies of GTA San Andreas and Skate 3.
 
+**Requirements:** GTA San Andreas classic PC 1.0 US and the user's own Skate 3 Xbox 360 disc image are required; the release setup script builds the crossover from those user-owned game files.
+
+**Platforms documented:** Windows
+
 - [Source code](https://github.com/ryglizzy/GTA-San-AnSkateas)
-- [Release / download](https://github.com/ryglizzy/GTA-San-AnSkateas/releases/tag/v1.0)
+- [Release / download](https://github.com/ryglizzy/GTA-San-AnSkateas/releases/tag/v1.1)
 - [Creator profile](https://github.com/ryglizzy)
 
-**Dated source review:** Not recorded for this inherited entry.
+**Dated source review:** 2026-10-06
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1247,10 +1258,10 @@ Runs Skate 3's board physics, tricks and scoring on Garry's Mod maps, with multi
 **Platforms documented:** Windows
 
 - [Source code](https://github.com/the-schwilliam/SkateGM)
-- [Release / download](https://github.com/the-schwilliam/SkateGM/releases/tag/6.0)
+- [Release / download](https://github.com/the-schwilliam/SkateGM/releases/tag/7.01)
 - [Creator profile](https://github.com/the-schwilliam)
 
-**Dated source review:** 2026-10-05
+**Dated source review:** 2026-10-06
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1430,10 +1441,10 @@ A real Minecraft instance runs hidden and owns movement, health, hunger, invento
 **Platforms documented:** Windows
 
 - [Source code](https://github.com/goonsn/Killcraft)
-- [Release / download](https://github.com/goonsn/Killcraft/releases/tag/v0.1.3)
+- [Release / download](https://github.com/goonsn/Killcraft/releases/tag/v0.1.6)
 - [Creator profile](https://github.com/goonsn)
 
-**Dated source review:** 2026-10-05
+**Dated source review:** 2026-10-06
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1457,10 +1468,10 @@ Mario's triple jumps, wall kicks, long jumps, ground pounds, attacks, health wed
 **Platforms documented:** Windows, macOS via CrossOver
 
 - [Source code](https://github.com/deltarooo/er-mario)
-- [Release / download](https://github.com/deltarooo/er-mario/releases/tag/v0.3.9)
+- [Release / download](https://github.com/deltarooo/er-mario/releases/tag/v0.4.0)
 - [Creator profile](https://github.com/deltarooo)
 
-**Dated source review:** 2026-10-05
+**Dated source review:** 2026-10-06
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1594,6 +1605,194 @@ A Garry's Mod add-on and native Rust bridge run Skate 3's reconstructed board/sk
 - [Upstream Skate 3 rebuild](https://github.com/SK8-ENGINE/skate-3-rust-engine)
 
 **Dated source review:** 2026-10-05
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-good-enough-game-integration"></a>
+
+### Good Enough Game Integration (GEGI)
+
+**Guest:** itch.io web games, Newgrounds web games  
+**Host:** Minecraft: Java Edition  
+**Creator:** Pr1nted  
+**Status:** Released · Code available  
+**Approach:** Minecraft mod + separate headless Chromium helper using shared-memory frames and a local input pipe  
+**Scope note:** Embeds arbitrary browser games rather than recreating one named guest title.  
+
+GEGI adds an in-game browser catalogue and embeds playable itch.io and Newgrounds web games into a Minecraft screen, with keyboard, mouse and scrolling forwarded to a separate Chromium helper process and rendered frames returned to Minecraft.
+
+**Requirements:** A supported Minecraft Java version and loader. On first in-game launch the client asks before downloading the Chromium runtime; Windows on ARM falls back to opening games in the system browser.
+
+**Platforms documented:** Windows, macOS, Linux
+
+- [Source code](https://github.com/Pr1nted/GEGI)
+- [Release / download](https://www.curseforge.com/minecraft/mc-mods/gegi)
+- [Creator profile](https://github.com/Pr1nted)
+
+**Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-skate-fortress-2"></a>
+
+### Skate Fortress 2
+
+**Guest:** Skate 3  
+**Host:** Team Fortress 2 / Source SDK Base 2013 Multiplayer  
+**Creator:** Naitrate  
+**Status:** Code available · In development · Experimental  
+**Approach:** Source SDK 2013 fork loading a recovered Skate 3 Rust simulation as libskate3.so in-process  
+
+A Source SDK 2013 / Team Fortress 2 mod links the recovered Skate 3 simulation into TF2 in-process. TF2 supplies maps and multiplayer while the Skate engine supplies board physics, tricks, grinds, bails, camera behavior and per-player simulation.
+
+**Requirements:** Team Fortress 2, Source SDK Base 2013 Multiplayer, the user's own Skate 3 Xbox 360 disc data, Steam, and the documented Linux/Podman build workflow.
+
+**Platforms documented:** Linux
+
+- [Source code](https://github.com/Naitrate/SkateFortress2)
+- [Creator profile](https://github.com/Naitrate)
+- [Upstream Skate 3 Rust Engine](https://github.com/SK8-ENGINE/skate-3-rust-engine)
+
+**Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-grandtheftminecraft"></a>
+
+### GrandTheftMinecraft
+
+**Guest:** Minecraft: Java Edition 1.21.11  
+**Host:** Grand Theft Auto V Legacy (Story Mode)  
+**Creator:** cyteon  
+**Status:** Released · Code available · Experimental  
+**Approach:** Native C++ ScriptHookV ASI mod plus generated GTA DLC block assets derived locally from official Minecraft data  
+
+A native GTA V mod adds a Minecraft hotbar and creative inventory, hundreds of blocks with GTA collision and lighting, Minecraft-style items, Steve, mobs, TNT, ender pearls, bows, the Wither, Elytra and creative flight while GTA V remains the host world.
+
+**Requirements:** GTA V Legacy in Story Mode, ScriptHookV, OpenIV with OpenIV.asi, and an internet connection on first launch unless Minecraft Java 1.21.11 is already installed. The creator warns not to use the mod in GTA Online.
+
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/cyteon/GrandTheftMinecraft)
+- [Release / download](https://github.com/cyteon/GrandTheftMinecraft/releases/tag/v1.4.0)
+- [Creator profile](https://github.com/cyteon)
+
+**Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-minecraft-ring"></a>
+
+### Minecraft Ring
+
+**Guest:** Minecraft: Java Edition 1.21.1  
+**Host:** Elden Ring  
+**Creator:** siddoff  
+**Status:** Code available · In development · Experimental  
+**Approach:** Fabric guest + native Windows bridge DLLs with collision sampling, shared GPU or memory frame transfer and D3D12 depth compositing  
+**Scope note:** A substantial Windows/Elden Ring adaptation of justbustin's Minecraft Crossover Bridge, with its own native integration and gameplay work; tracked separately from the upstream macOS/CrossOver bridge.  
+
+Minecraft Java runs alongside Elden Ring and owns the Minecraft player, blocks, inventory and combat layer. A native Windows bridge maps Elden Ring terrain and enemies into Minecraft collision/hitboxes, composites Minecraft content into Elden Ring with host depth, and carries damage and interactions between both games.
+
+**Requirements:** Windows x64, Elden Ring App Ver. 1.17.1, Minecraft Java 1.21.1, the user's own copies of both games, and the documented Fabric/native build toolchain. The supported workflow is offline single-player.
+
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/siddoff/Minecraft-Ring)
+- [Creator profile](https://github.com/siddoff)
+- [Upstream Minecraft Crossover Bridge](https://github.com/justbustin/minecraft-crossover-bridge)
+
+**Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-chanyoris"></a>
+
+### Chanyoris
+
+**Guest:** Chanyoris (original block-puzzle game)  
+**Host:** Minecraft: Java Edition servers  
+**Creator:** Hatune  
+**Status:** Released · Related  
+**Approach:** Server plugin rendering a complete puzzle game to Minecraft map pixels, with optional Fabric client rendering  
+**Scope note:** Kept adjacent because Chanyoris is an original game authored for Minecraft rather than a port or recreation of an external guest title.  
+
+An original competitive block-puzzle game is rendered pixel-by-pixel into a 128×128 Minecraft map and supports solo, versus, battle royale, boss modes, AI, replays, live spectating and cross-server play; an optional Fabric client can replace the map with a native-FPS HUD.
+
+**Requirements:** Paper 26.1.2+ (with Purpur and Spigot also documented) and Java 25+. No client mod or resource pack is required for the map-based game; the Fabric client is optional.
+
+**Platforms documented:** Paper, Purpur, Spigot
+
+- [Release / download](https://modrinth.com/plugin/chanyoris)
+
+**Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-requiem-x-minecraft"></a>
+
+### Requiem x Minecraft — Building and Survival
+
+**Guest:** Minecraft-inspired mechanics  
+**Host:** Resident Evil Requiem  
+**Creator:** Polverrati  
+**Status:** Released · Experimental · Related  
+**Approach:** REFramework plugin layering Minecraft-inspired UI, survival and placeable-building systems over the host game  
+**Scope note:** Kept adjacent because it recreates selected Minecraft-style mechanics rather than running Minecraft or reproducing its broader game systems.  
+
+A downloadable Resident Evil Requiem plugin layers placeable blocks, barricading, a Minecraft-style hotbar, hearts, hunger, armor, experience and first-person block/item visuals over the base game's environments and horror presentation.
+
+**Requirements:** Resident Evil Requiem and a working REFramework installation; the mod DLL is installed under reframework/plugins.
+
+**Platforms documented:** Windows
+
+- [Release / download](https://www.nexusmods.com/residentevilrequiem/mods/3087)
+
+**Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-sonic-ultimate-speed-combat-gta-v"></a>
+
+### Sonic the Hedgehog — Ultimate Speed & Combat Mod
+
+**Guest:** Sonic the Hedgehog-inspired gameplay  
+**Host:** Grand Theft Auto V (Story Mode)  
+**Creator:** GuileHunterX  
+**Status:** Released · Experimental · Related  
+**Approach:** .NET GTA V script mod with custom movement, combat and character systems  
+**Scope note:** Kept adjacent because it recreates a substantial set of Sonic-style mechanics inside GTA V rather than embedding a Sonic game runtime.  
+
+A GTA V script mod adds Sonic-style acceleration and momentum, Spin Dash, homing attacks, wall-running, parry/slow-motion, custom combat, rival races, animations and sound effects while GTA V remains the host world.
+
+**Requirements:** GTA V Story Mode, Script Hook V, ScriptHookVDotNet Enhanced, OpenIV, and the separate character models documented by the creator for the supported Sonic/Metal Sonic functionality. The creator says not to use it in GTA Online.
+
+**Platforms documented:** Windows
+
+- [Release / download](https://www.gta5-mods.com/scripts/sonic-the-hedgehog-ultimate-speed-combat-mod)
+
+**Dated source review:** 2026-10-06
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)

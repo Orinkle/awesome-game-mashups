@@ -1,7 +1,14 @@
 # New to Awesome Game Mashups
 
-Week ending 2026-10-05. These are additions to the index, not necessarily new releases.
+Week ending 2026-10-06. These are additions to the index, not necessarily new releases.
 
+- **[Sonic the Hedgehog — Ultimate Speed & Combat Mod](https://github.com/bailo167/awesome-game-mashups#project-sonic-ultimate-speed-combat-gta-v)** — Recreates Sonic-style high-speed movement and combat systems inside GTA V Story Mode. (Released · Experimental · Related)
+- **[Skate Fortress 2](https://github.com/bailo167/awesome-game-mashups#project-skate-fortress-2)** — Runs Skate 3's recovered skating simulation inside Team Fortress 2, including tricks, grinds, bails and multiplayer prediction. (Code available · In development · Experimental)
+- **[Requiem x Minecraft — Building and Survival](https://github.com/bailo167/awesome-game-mashups#project-requiem-x-minecraft)** — Adds Minecraft-style building, hotbar and survival mechanics to Resident Evil Requiem. (Released · Experimental · Related)
+- **[Minecraft Ring](https://github.com/bailo167/awesome-game-mashups#project-minecraft-ring)** — Runs real Minecraft movement, building and combat inside Elden Ring through a Windows D3D12 bridge. (Code available · In development · Experimental)
+- **[GrandTheftMinecraft](https://github.com/bailo167/awesome-game-mashups#project-grandtheftminecraft)** — Recreates Minecraft creative-mode building, inventory, mobs and items directly inside GTA V Story Mode. (Released · Code available · Experimental)
+- **[Good Enough Game Integration (GEGI)](https://github.com/bailo167/awesome-game-mashups#project-good-enough-game-integration)** — Plays itch.io and Newgrounds web games interactively inside Minecraft through an embedded Chromium view. (Released · Code available)
+- **[Chanyoris](https://github.com/bailo167/awesome-game-mashups#project-chanyoris)** — Runs a full competitive falling-block puzzle game inside a Minecraft map item. (Released · Related)
 - **[SubCraft](https://github.com/bailo167/awesome-game-mashups#project-subcraft)** — Connects Minecraft physics, blocks and mobs to Subnautica's world and rendering. (Code available · In development · Experimental)
 - **[SkateGM](https://github.com/bailo167/awesome-game-mashups#project-skategm)** — Runs Skate 3 physics, tricks and scoring inside Garry's Mod, including multiplayer. (Released · Code available)
 - **[Skate 3 Board for Garry's Mod](https://github.com/bailo167/awesome-game-mashups#project-skate3-gmod)** — Runs Skate 3's board physics, tricks, cameras and bails inside Garry's Mod. (Code available · In development · Experimental)
