@@ -6,7 +6,7 @@
 
 [**Made one? Submit your project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml) · [Visual site build & deployment](docs/MAINTENANCE.md#publishing-the-site)
 
-**Catalogue updated:** 2026-10-06. This is an editorial update date, not a blanket verification date.
+**Catalogue updated:** 2026-10-07. This is an editorial update date, not a blanket verification date.
 
 Listed availability is not a play-test or safety certification. Source code is not automatically a ready-to-install download. Unconfirmed sightings and related projects are counted separately.
 
@@ -37,7 +37,7 @@ Editorial picks for variety, not a ranking or a claim of play-testing.
 
 Added to this index within seven days of the editorial update; not necessarily newly released games.
 
-[Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) · [Skate Fortress 2](#project-skate-fortress-2) · [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) · [Minecraft Ring](#project-minecraft-ring) · [GrandTheftMinecraft](#project-grandtheftminecraft) · [Good Enough Game Integration (GEGI)](#project-good-enough-game-integration) · [Chanyoris](#project-chanyoris) · [SubCraft](#project-subcraft)
+[FreeDoom386i](#project-freedoom386i) · [Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) · [Skate Fortress 2](#project-skate-fortress-2) · [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) · [Minecraft Ring](#project-minecraft-ring) · [GrandTheftMinecraft](#project-grandtheftminecraft) · [Good Enough Game Integration (GEGI)](#project-good-enough-game-integration) · [Chanyoris](#project-chanyoris)
 
 [Full weekly digest](docs/promote/weekly-digest.md) · [Atom feed](https://bailo167.github.io/awesome-game-mashups/feed.xml)
 

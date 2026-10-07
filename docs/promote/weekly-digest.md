@@ -1,7 +1,8 @@
 # New to Awesome Game Mashups
 
-Week ending 2026-10-06. These are additions to the index, not necessarily new releases.
+Week ending 2026-10-07. These are additions to the index, not necessarily new releases.
 
+- **[FreeDoom386i](https://github.com/bailo167/awesome-game-mashups#project-freedoom386i)** — Runs playable Freedoom on My Winter Car's in-game 386 PC with sound and keyboard controls. (Released)
 - **[Sonic the Hedgehog — Ultimate Speed & Combat Mod](https://github.com/bailo167/awesome-game-mashups#project-sonic-ultimate-speed-combat-gta-v)** — Recreates Sonic-style high-speed movement and combat systems inside GTA V Story Mode. (Released · Experimental · Related)
 - **[Skate Fortress 2](https://github.com/bailo167/awesome-game-mashups#project-skate-fortress-2)** — Runs Skate 3's recovered skating simulation inside Team Fortress 2, including tricks, grinds, bails and multiplayer prediction. (Code available · In development · Experimental)
 - **[Requiem x Minecraft — Building and Survival](https://github.com/bailo167/awesome-game-mashups#project-requiem-x-minecraft)** — Adds Minecraft-style building, hotbar and survival mechanics to Resident Evil Requiem. (Released · Experimental · Related)
