@@ -2,7 +2,7 @@
 
 > Games rebuilt **inside other games**.
 
-**69 entries:** 59 core projects, 3 unconfirmed sightings and 7 related projects. Not all entries are verified releases.
+**70 entries:** 60 core projects, 3 unconfirmed sightings and 7 related projects. Not all entries are verified releases.
 
 [**Made one? Submit your project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml) · [Visual site build & deployment](docs/MAINTENANCE.md#publishing-the-site)
 
@@ -57,6 +57,7 @@ Added to this index within seven days of the editorial update; not necessarily n
 | [DOOM on Hytale — PapiSpielt](#project-doom-hytale-papispielt) | Reconstructs classic DOOM WAD levels as Hytale worlds with enemies and items mapped into Hytale. | Released · Code available · Experimental | — |
 | [ER Mario](#project-er-mario) | Runs Super Mario 64's movement, health and combat inside Elden Ring. | Released · Code available · Experimental | — |
 | [FalloutCraft](#project-falloutcraft) | Runs Minecraft movement, building, HUD and combat inside Fallout 4's Commonwealth. | Released · Code available · Experimental | — |
+| [FreeDoom386i](#project-freedoom386i) | Runs playable Freedoom on My Winter Car's in-game 386 PC with sound and keyboard controls. | Released | — |
 | [Garry's Redemption](#project-garrys-redemption) | Runs Garry's Mod movement, physgun, toolgun, weapons and spawn menu inside RDR2. | Released · Code available · Experimental | — |
 | [Good Enough Game Integration (GEGI)](#project-good-enough-game-integration) | Plays itch.io and Newgrounds web games interactively inside Minecraft through an embedded Chromium view. | Released · Code available | — |
 | [GrandTheftMinecraft](#project-grandtheftminecraft) | Recreates Minecraft creative-mode building, inventory, mobs and items directly inside GTA V Story Mode. | Released · Code available · Experimental | — |
@@ -1793,6 +1794,33 @@ A GTA V script mod adds Sonic-style acceleration and momentum, Spin Dash, homing
 - [Release / download](https://www.gta5-mods.com/scripts/sonic-the-hedgehog-ultimate-speed-combat-mod)
 
 **Dated source review:** 2026-10-06
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-freedoom386i"></a>
+
+### FreeDoom386i
+
+**Guest:** Freedoom / DOOM-compatible WADs  
+**Host:** My Winter Car  
+**Creator:** muli32bt  
+**Status:** Released  
+**Approach:** doomgeneric-based native engine DLL integrated with the in-game 386 PC through 386API  
+
+A downloadable My Winter Car mod that launches Freedoom on the game's programmable 386 PC. The player inserts a freedoom diskette, starts it from the DOS prompt and plays on the in-game monitor with live sound and mapped keyboard controls.
+
+**Requirements:** My Winter Car 64-bit with MSCLoader 1.4.x, the 386API mod, and a Doom-compatible IWAD such as Freedoom. The mod includes doomcore.dll.
+
+**Platforms documented:** Windows
+
+- [Release / download](https://www.nexusmods.com/mywintercar/mods/3185)
+- [Freedoom](https://freedoom.github.io/)
+- [doomgeneric upstream](https://github.com/ozkl/doomgeneric)
+
+**Dated source review:** 2026-10-07
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
