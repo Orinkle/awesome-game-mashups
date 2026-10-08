@@ -1,7 +1,8 @@
 # New to Awesome Game Mashups
 
-Week ending 2026-10-07. These are additions to the index, not necessarily new releases.
+Week ending 2026-10-08. These are additions to the index, not necessarily new releases.
 
+- **[Mario Mode — SM64 in Spider-Man 2](https://github.com/bailo167/awesome-game-mashups#project-sm64-spiderman2)** — Runs Super Mario 64's movement, health and combat directly inside Marvel's Spider-Man 2's New York. (Released · Code available · Experimental)
 - **[FreeDoom386i](https://github.com/bailo167/awesome-game-mashups#project-freedoom386i)** — Runs playable Freedoom on My Winter Car's in-game 386 PC with sound and keyboard controls. (Released)
 - **[Sonic the Hedgehog — Ultimate Speed & Combat Mod](https://github.com/bailo167/awesome-game-mashups#project-sonic-ultimate-speed-combat-gta-v)** — Recreates Sonic-style high-speed movement and combat systems inside GTA V Story Mode. (Released · Experimental · Related)
 - **[Skate Fortress 2](https://github.com/bailo167/awesome-game-mashups#project-skate-fortress-2)** — Runs Skate 3's recovered skating simulation inside Team Fortress 2, including tricks, grinds, bails and multiplayer prediction. (Code available · In development · Experimental)
@@ -60,15 +61,3 @@ Week ending 2026-10-07. These are additions to the index, not necessarily new re
 - **[DoomMaps](https://github.com/bailo167/awesome-game-mashups#project-doom-maps)** — Runs DOOM on Hytale’s in-game world-map screen. (Code available · Demo)
 - **[Dead by Daylight Add-On (Zero Squad)](https://github.com/bailo167/awesome-game-mashups#project-dead-by-daylight)** — Recreates Dead by Daylight’s generators, chases, traps and survivor systems in Minecraft Bedrock. (Released)
 - **[Arcade Mod Reloaded](https://github.com/bailo167/awesome-game-mashups#project-arcade-mod-reloaded)** — Adds six playable arcade games, including Tetris, Pac-Man and Donkey Kong, to Minecraft. (Released · Code available)
-- **[SkyCraft](https://github.com/bailo167/awesome-game-mashups#project-skycraft)** — Brings Minecraft building, exploration and gameplay into Skyrim. (Released · Code available · Experimental)
-- **[Portal Zombies](https://github.com/bailo167/awesome-game-mashups#project-portal-zombies)** — Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. (Released · Unavailable · Related)
-- **[Ocarina of Time in Minecraft](https://github.com/bailo167/awesome-game-mashups#project-ocarina-of-time)** — Recreates Zelda: Ocarina of Time in Minecraft, with its story, bosses, quests and items. (Released)
-- **[Morrowind in Elden Ring](https://github.com/bailo167/awesome-game-mashups#project-morrowind-elden-ring)** — Recreates Morrowind’s world and gameplay inside Elden Ring. (In development · Video only)
-- **[Minecraft voxel engine inside Super Mario 64](https://github.com/bailo167/awesome-game-mashups#project-minecraft-sm64)** — Adds Minecraft-style terrain, blocks and lighting to Super Mario 64. (In development · Video only)
-- **[Minecraft in GTA V](https://github.com/bailo167/awesome-game-mashups#project-minecraft-gta-v)** — Runs real Minecraft movement, building, mobs and combat inside GTA V Story Mode. (Code available · Experimental)
-- **[Minecraft in Elden Ring](https://github.com/bailo167/awesome-game-mashups#project-minecraft-elden-ring-tobynjacobs)** — TobynJacobs’ footage shows Minecraft-style gameplay in Elden Ring; wider claims remain unconfirmed. (Video only · Unconfirmed)
-- **[Minecraft in Cyberpunk 2077](https://github.com/bailo167/awesome-game-mashups#project-minecraft-cyberpunk)** — A viral claim puts Minecraft gameplay inside Cyberpunk 2077. (Unconfirmed)
-- **[HytaleDoom](https://github.com/bailo167/awesome-game-mashups#project-hytale-doom)** — Lets you control DOOM from inside Hytale. (Code available · Demo)
-- **[Halocraft](https://github.com/bailo167/awesome-game-mashups#project-halocraft)** — Adds destructible Minecraft-style blocks and maps to Halo 3 multiplayer. (Released · Unavailable)
-- **[Dark Souls: Remastest / Remastester](https://github.com/bailo167/awesome-game-mashups#project-remastest)** — Mixes Halo maps and weapons with a major Dark Souls multiplayer and combat overhaul. (Released)
-- **[2010 Rust Rewrite Mashup](https://github.com/bailo167/awesome-game-mashups#project-rust-rewrite-mashup)** — Combines Modern Warfare 2 multiplayer, Skate-style skating and a Minecraft world. (Released · Code available)
