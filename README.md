@@ -2,7 +2,7 @@
 
 > Games rebuilt **inside other games**.
 
-**70 entries:** 60 core projects, 3 unconfirmed sightings and 7 related projects. Not all entries are verified releases.
+**71 entries:** 61 core projects, 3 unconfirmed sightings and 7 related projects. Not all entries are verified releases.
 
 [**Made one? Submit your project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml) · [Visual site build & deployment](docs/MAINTENANCE.md#publishing-the-site)
 
@@ -68,6 +68,7 @@ Added to this index within seven days of the editorial update; not necessarily n
 | [hytale2mc](#project-hytale2mc) | Lets Minecraft and Hytale players join the same synchronized cross-game minigames. | Released · Code available · Experimental | — |
 | [Killcraft](#project-killcraft) | Runs Minecraft movement, combat, inventory, mobs and building inside ULTRAKILL levels. | Released · Code available · Experimental | — |
 | [Latte Doom](#project-latte-doom) | Runs DOOM inside Minecraft using the Mocha Doom engine. | Released | — |
+| [Mario Mode — SM64 in Spider-Man 2](#project-sm64-spiderman2) | Runs Super Mario 64's movement, health and combat directly inside Marvel's Spider-Man 2's New York. | Released · Code available · Experimental | — |
 | [NucleDoom](#project-nucledoom) | Runs DOOM inside Minecraft with controls and sound. | Released · Code available | — |
 | [Ocarina of Time in Minecraft](#project-ocarina-of-time) | Recreates Zelda: Ocarina of Time in Minecraft, with its story, bosses, quests and items. | Released | [Watch](https://www.youtube.com/watch?v=HSGioTZ_rf4) |
 | [OWCraft](#project-owcraft) | Runs real Minecraft movement, blocks and inventory on Outer Wilds planets. | Released · Code available · Experimental | — |
@@ -580,7 +581,7 @@ An ongoing recreation of Morrowind in Elden Ring. A May 2026 update showed major
 Primary creator footage demonstrates Minecraft Classic rendered inside Hytale's map display using pixel-data manipulation. This is kept separate from DoomMaps because it is a different guest game and no public Minecraft build has been located.
 
 - [Creator post](https://x.com/iamcxv711/status/2012610249174536397)
-- [Supporting source](https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-itself-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/)
+- [Supporting source](https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/)
 
 **Dated source review:** Not recorded for this inherited entry.
 **Catalogue play-test:** Not recorded.
@@ -1442,10 +1443,10 @@ A real Minecraft instance runs hidden and owns movement, health, hunger, invento
 **Platforms documented:** Windows
 
 - [Source code](https://github.com/goonsn/Killcraft)
-- [Release / download](https://github.com/goonsn/Killcraft/releases/tag/v0.1.6)
+- [Release / download](https://github.com/goonsn/Killcraft/releases/tag/v1.0.1)
 - [Creator profile](https://github.com/goonsn)
 
-**Dated source review:** 2026-10-06
+**Dated source review:** 2026-10-08
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1469,10 +1470,10 @@ Mario's triple jumps, wall kicks, long jumps, ground pounds, attacks, health wed
 **Platforms documented:** Windows, macOS via CrossOver
 
 - [Source code](https://github.com/deltarooo/er-mario)
-- [Release / download](https://github.com/deltarooo/er-mario/releases/tag/v0.4.0)
+- [Release / download](https://github.com/deltarooo/er-mario/releases/tag/v0.4.1)
 - [Creator profile](https://github.com/deltarooo)
 
-**Dated source review:** 2026-10-06
+**Dated source review:** 2026-10-08
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1684,10 +1685,10 @@ A native GTA V mod adds a Minecraft hotbar and creative inventory, hundreds of b
 **Platforms documented:** Windows
 
 - [Source code](https://github.com/cyteon/GrandTheftMinecraft)
-- [Release / download](https://github.com/cyteon/GrandTheftMinecraft/releases/tag/v1.4.0)
+- [Release / download](https://github.com/cyteon/GrandTheftMinecraft/releases/tag/v1.5.0)
 - [Creator profile](https://github.com/cyteon)
 
-**Dated source review:** 2026-10-06
+**Dated source review:** 2026-10-08
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
@@ -1821,6 +1822,34 @@ A downloadable My Winter Car mod that launches Freedoom on the game's programmab
 - [doomgeneric upstream](https://github.com/ozkl/doomgeneric)
 
 **Dated source review:** 2026-10-07
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-sm64-spiderman2"></a>
+
+### Mario Mode — SM64 in Spider-Man 2
+
+**Guest:** Super Mario 64  
+**Host:** Marvel's Spider-Man 2 (PC)  
+**Creator:** ExtCan  
+**Status:** Released · Code available · Experimental  
+**Approach:** Overstrike .script mod embedding libsm64, integrated with Spider-Man 2's D3D12 rendering, physics collision and damage systems  
+
+An Overstrike script mod embeds libsm64 into Marvel's Spider-Man 2. Mario uses the user's own Super Mario 64 ROM for model, animation, voice and sounds, collides with the host game's world and dynamic objects, and exchanges combat damage with Spider-Man 2 enemies while the host game supplies New York, lighting, photo mode and encounters.
+
+**Requirements:** Marvel's Spider-Man 2 on PC, Overstrike with .script support, the .NET 7 Desktop Runtime required by Overstrike, and a user-owned US Super Mario 64 ROM. The creator documents launching the mod through Overstrike rather than directly through Steam/Epic.
+
+**Platforms documented:** Windows
+
+- [Source code](https://github.com/ExtCan/SM64-SpiderMan2)
+- [Release / download](https://github.com/ExtCan/SM64-SpiderMan2/releases/tag/BETA-0.6.1)
+- [Creator profile](https://github.com/ExtCan)
+- [Submission issue](https://github.com/bailo167/awesome-game-mashups/issues/3)
+
+**Dated source review:** 2026-10-08
 **Catalogue play-test:** Not recorded.
 
 [Back to project list](#browse-projects)
