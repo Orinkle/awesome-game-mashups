@@ -2,6 +2,7 @@
 
 Week ending 2026-10-08. These are additions to the index, not necessarily new releases.
 
+- **[passthrough-mod-toolkit](https://github.com/bailo167/awesome-game-mashups#project-passthrough-mod-toolkit)** — Schema-driven scaffold for passthrough mods: fill a per-host vocabulary sheet and get a two-process game-bridge skeleton over local IPC. (Code available · Experimental · Related)
 - **[Mario Mode — SM64 in Spider-Man 2](https://github.com/bailo167/awesome-game-mashups#project-sm64-spiderman2)** — Runs Super Mario 64's movement, health and combat directly inside Marvel's Spider-Man 2's New York. (Released · Code available · Experimental)
 - **[FreeDoom386i](https://github.com/bailo167/awesome-game-mashups#project-freedoom386i)** — Runs playable Freedoom on My Winter Car's in-game 386 PC with sound and keyboard controls. (Released)
 - **[Sonic the Hedgehog — Ultimate Speed & Combat Mod](https://github.com/bailo167/awesome-game-mashups#project-sonic-ultimate-speed-combat-gta-v)** — Recreates Sonic-style high-speed movement and combat systems inside GTA V Story Mode. (Released · Experimental · Related)

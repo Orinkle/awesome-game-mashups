@@ -2,7 +2,7 @@
 
 > Games rebuilt **inside other games**.
 
-**71 entries:** 61 core projects, 3 unconfirmed sightings and 7 related projects. Not all entries are verified releases.
+**72 entries:** 61 core projects, 3 unconfirmed sightings and 8 related projects. Not all entries are verified releases.
 
 [**Made one? Submit your project**](https://github.com/bailo167/awesome-game-mashups/issues/new?template=new-project.yml) · [Report a correction](https://github.com/bailo167/awesome-game-mashups/issues/new?template=correction.yml) · [Visual site build & deployment](docs/MAINTENANCE.md#publishing-the-site)
 
@@ -37,7 +37,7 @@ Editorial picks for variety, not a ranking or a claim of play-testing.
 
 Added to this index within seven days of the editorial update; not necessarily newly released games.
 
-[Mario Mode — SM64 in Spider-Man 2](#project-sm64-spiderman2) · [FreeDoom386i](#project-freedoom386i) · [Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) · [Skate Fortress 2](#project-skate-fortress-2) · [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) · [Minecraft Ring](#project-minecraft-ring) · [GrandTheftMinecraft](#project-grandtheftminecraft) · [Good Enough Game Integration (GEGI)](#project-good-enough-game-integration)
+[passthrough-mod-toolkit](#project-passthrough-mod-toolkit) · [Mario Mode — SM64 in Spider-Man 2](#project-sm64-spiderman2) · [FreeDoom386i](#project-freedoom386i) · [Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) · [Skate Fortress 2](#project-skate-fortress-2) · [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) · [Minecraft Ring](#project-minecraft-ring) · [GrandTheftMinecraft](#project-grandtheftminecraft)
 
 [Full weekly digest](docs/promote/weekly-digest.md) · [Atom feed](https://bailo167.github.io/awesome-game-mashups/feed.xml)
 
@@ -134,6 +134,7 @@ These are leads, not confirmed downloads. Footage does not prove wider implement
 | [Chanyoris](#project-chanyoris) | Runs a full competitive falling-block puzzle game inside a Minecraft map item. | Released · Related | — |
 | [GeometryTale](#project-geometrytale) | Recreates Geometry Dash-style 2D levels as a playable Hytale world. | Released · Related | — |
 | [Minecraft, but It's Crash Bandicoot (Remake)](#project-crash-bandicoot-remake) | Recreates two Crash Bandicoot levels with custom gameplay in Minecraft. | Released · Related | — |
+| [passthrough-mod-toolkit](#project-passthrough-mod-toolkit) | Schema-driven scaffold for passthrough mods: fill a per-host vocabulary sheet and get a two-process game-bridge skeleton over local IPC. | Code available · Experimental · Related | — |
 | [Portal Zombies](#project-portal-zombies) | Adds Portal-themed scenery and teleporters to a Black Ops III Zombies map. | Released · Unavailable · Related | — |
 | [Requiem x Minecraft — Building and Survival](#project-requiem-x-minecraft) | Adds Minecraft-style building, hotbar and survival mechanics to Resident Evil Requiem. | Released · Experimental · Related | — |
 | [Sonic the Hedgehog — Ultimate Speed & Combat Mod](#project-sonic-ultimate-speed-combat-gta-v) | Recreates Sonic-style high-speed movement and combat systems inside GTA V Story Mode. | Released · Experimental · Related | — |
@@ -1848,6 +1849,35 @@ An Overstrike script mod embeds libsm64 into Marvel's Spider-Man 2. Mario uses t
 - [Release / download](https://github.com/ExtCan/SM64-SpiderMan2/releases/tag/BETA-0.6.1)
 - [Creator profile](https://github.com/ExtCan)
 - [Submission issue](https://github.com/bailo167/awesome-game-mashups/issues/3)
+
+**Dated source review:** 2026-10-08
+**Catalogue play-test:** Not recorded.
+
+[Back to project list](#browse-projects)
+
+---
+
+<a name="project-passthrough-mod-toolkit"></a>
+
+### passthrough-mod-toolkit
+
+**Guest:** None - it is a toolkit. Every sample bridge it reproduces uses Minecraft on the guest side.  
+**Host:** None - it is a toolkit, not a mashup. The sample bridges it reproduces target Skyrim (SKSE), Grand Theft Auto V (ScriptHookV), Fallout 4 (F4SE) and Valheim.  
+**Creator:** Orinkle  
+**Status:** Code available · Experimental · Related  
+**Approach:** One fixed protocol container plus a per-host vocabulary sheet, expanded by code generation into the transport, launcher, composition and guest-side bindings of a two-process bridge.  
+**Scope note:** Kept adjacent because it is a toolkit, not a mashup: it generates the fixed bones of a bridge and ships fake-host and fake-guest stubs, and it does not run, patch or crack any game. The host-side plugin is hand-written per game build, and the toolkit adds no gameplay content by itself.  
+
+Tooling, not a mashup. One schema.yaml generates shared-memory protocol bindings in C++ / C# / Java / Rust / Python and ships fake-host and fake-guest stubs, so most of a bridge can be worked out before any game is installed. It also carries a parameter library whose every entry has an evidence tier and a verified_on_hardware flag, and a dependency-free MCP server so coding agents can drive the generator. The generator reproduces the fixed protocol container of the SkyCraft / FalloutCraft / ValCraft headers with a structural diff of zero, measured by source comparison only. The host-side plugin and every hardware-calibrated constant stay hand-written per game.
+
+**Requirements:** Python 3.9+ with PyYAML for the toolkit itself, which is platform-independent. Any bridge a user builds needs the user's own game installs and host loaders (SKSE, ScriptHookV, F4SE, BepInEx). No game files, loader binaries or decompiled code are bundled or redistributed.
+
+**Platforms documented:** Windows, Linux, macOS
+
+- [Source code](https://github.com/Orinkle/passthrough-mod-toolkit)
+- [Creator profile](https://github.com/Orinkle)
+- [Honest limits (what it cannot do)](https://github.com/Orinkle/passthrough-mod-toolkit#honest-limits)
+- [30-second stub demo (no game needed)](https://github.com/Orinkle/passthrough-mod-toolkit#30-second-demo)
 
 **Dated source review:** 2026-10-08
 **Catalogue play-test:** Not recorded.
