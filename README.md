@@ -581,7 +581,7 @@ An ongoing recreation of Morrowind in Elden Ring. A May 2026 update showed major
 Primary creator footage demonstrates Minecraft Classic rendered inside Hytale's map display using pixel-data manipulation. This is kept separate from DoomMaps because it is a different guest game and no public Minecraft build has been located.
 
 - [Creator post](https://x.com/iamcxv711/status/2012610249174536397)
-- [Supporting source](https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/)
+- [Supporting source](https://www.pcgamer.com/hardware/doom-windows-95-even-hytale-itself-it-seems-like-theres-nothing-that-modders-cant-make-hytale-run/)
 
 **Dated source review:** Not recorded for this inherited entry.
 **Catalogue play-test:** Not recorded.
